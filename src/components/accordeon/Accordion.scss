@@ -1,0 +1,127 @@
+@import '../../theme/variables';
+/*Accordion*/
+
+.accordion {
+    border-bottom: 1px solid $blue;
+}
+
+.accordion .accordion-btn {
+    width: 100%;
+    text-align: left;
+}
+
+.accordion .accordion-btn:active {
+    border: none;
+}
+
+.accordion-title {
+    position: relative;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 10px;
+    margin: 0;
+}
+
+.accordion.active .accordion-title {
+    box-shadow: 3px 2px 5px $double-light-gray;
+}
+
+.accordion-title:after {
+    content: '';
+    background: url("./img/arrow-point-to-right.svg") center center no-repeat;
+    background-size: 60%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5px;
+    margin: auto 0;
+}
+
+.accordion .accordion-text {
+    position: relative;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    width: 100%;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.accordion.active h4:after {
+    /*    -ms-transform: rotate(0deg); !* IE 9 *!
+        -webkit-transform: rotate(0deg); !* Chrome, Safari, Opera *!
+        transform: rotate(0deg);*/
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+.accordion.active .accordion-text {
+    opacity: 1;
+    height: auto;
+}
+
+.accordion-text .row {
+    display: flex;
+    border-bottom: 1px solid $middle-gray;
+}
+
+.accordion-text .row:last-child {
+    border-bottom: none;
+}
+
+.accordion-text .description {
+    border-left: 1px solid $middle-gray;
+}
+
+.accordion-text .description,
+.accordion-text .value {
+    margin: 8px 0;
+    padding: 0 10px;
+}
+
+.accordion-text .value {
+    flex: 0.3;
+}
+
+.accordion-text .description {
+    flex: 0.7;
+}
+
+.accordion-text .description {
+    font-weight: bold;
+}
+
+.accordion.disabled .accordion-title {
+    cursor: no-drop;
+}
+
+.accordion.disabled .accordion-btn {
+    background: $light-gray;
+}
+
+.tabs {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.single-tab {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid $gray;
+}
+
+.single-tab.active,
+.single-tab:hover {
+    background: $blue;
+    color: white;
+}
+
+.knowledge-description {
+    margin: 20px;
+}

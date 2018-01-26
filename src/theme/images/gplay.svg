@@ -1,0 +1,1365 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1923 4504.782 95.144 28.42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a7a6a6;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #5bc9f4;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-6 {
+        fill: #fee000;
+      }
+
+      .cls-7 {
+        fill: #fedf00;
+      }
+
+      .cls-8 {
+        fill: #fede00;
+      }
+
+      .cls-9 {
+        fill: #fedd00;
+      }
+
+      .cls-10 {
+        fill: #fedc00;
+      }
+
+      .cls-11 {
+        fill: #fddb00;
+      }
+
+      .cls-12 {
+        fill: #fdda01;
+      }
+
+      .cls-13 {
+        fill: #fdd902;
+      }
+
+      .cls-14 {
+        fill: #fdd803;
+      }
+
+      .cls-15 {
+        fill: #fdd704;
+      }
+
+      .cls-16 {
+        fill: #fdd604;
+      }
+
+      .cls-17 {
+        fill: #fdd605;
+      }
+
+      .cls-18 {
+        fill: #fdd506;
+      }
+
+      .cls-19 {
+        fill: #fdd407;
+      }
+
+      .cls-20 {
+        fill: #fdd308;
+      }
+
+      .cls-21 {
+        fill: #fdd208;
+      }
+
+      .cls-22 {
+        fill: #fdd109;
+      }
+
+      .cls-23 {
+        fill: #fcd00a;
+      }
+
+      .cls-24 {
+        fill: #fccf0b;
+      }
+
+      .cls-25 {
+        fill: #fcce0c;
+      }
+
+      .cls-26 {
+        fill: #fccd0d;
+      }
+
+      .cls-27 {
+        fill: #fccc0d;
+      }
+
+      .cls-28 {
+        fill: #fccb0e;
+      }
+
+      .cls-29 {
+        fill: #fcca0e;
+      }
+
+      .cls-30 {
+        fill: #fcc90f;
+      }
+
+      .cls-31 {
+        fill: #fcc810;
+      }
+
+      .cls-32 {
+        fill: #fcc710;
+      }
+
+      .cls-33 {
+        fill: #fbc611;
+      }
+
+      .cls-34 {
+        fill: #fbc511;
+      }
+
+      .cls-35 {
+        fill: #fbc412;
+      }
+
+      .cls-36 {
+        fill: #fbc313;
+      }
+
+      .cls-37 {
+        fill: #fbc213;
+      }
+
+      .cls-38 {
+        clip-path: url(#clip-path-38);
+      }
+
+      .cls-39 {
+        clip-path: url(#clip-path-39);
+      }
+
+      .cls-40 {
+        fill: #ef4547;
+      }
+
+      .cls-41 {
+        fill: #ef4548;
+      }
+
+      .cls-42 {
+        fill: #ee4448;
+      }
+
+      .cls-43 {
+        fill: #ee4449;
+      }
+
+      .cls-44 {
+        fill: #ed4449;
+      }
+
+      .cls-45 {
+        fill: #ec434a;
+      }
+
+      .cls-46 {
+        fill: #eb434b;
+      }
+
+      .cls-47 {
+        fill: #ea424b;
+      }
+
+      .cls-48 {
+        fill: #ea424c;
+      }
+
+      .cls-49 {
+        fill: #e9424c;
+      }
+
+      .cls-50 {
+        fill: #e9414d;
+      }
+
+      .cls-51 {
+        fill: #e8414d;
+      }
+
+      .cls-52 {
+        fill: #e7404e;
+      }
+
+      .cls-53 {
+        fill: #e6404f;
+      }
+
+      .cls-54 {
+        fill: #e63f4f;
+      }
+
+      .cls-55 {
+        fill: #e53f4f;
+      }
+
+      .cls-56 {
+        fill: #e53f50;
+      }
+
+      .cls-57 {
+        fill: #e43e50;
+      }
+
+      .cls-58 {
+        fill: #e43e51;
+      }
+
+      .cls-59 {
+        fill: #e33d51;
+      }
+
+      .cls-60 {
+        fill: #e33d52;
+      }
+
+      .cls-61 {
+        fill: #e23d52;
+      }
+
+      .cls-62 {
+        fill: #e23c53;
+      }
+
+      .cls-63 {
+        fill: #e13c53;
+      }
+
+      .cls-64 {
+        fill: #e13c54;
+      }
+
+      .cls-65 {
+        fill: #e13b54;
+      }
+
+      .cls-66 {
+        fill: #e03b54;
+      }
+
+      .cls-67 {
+        fill: #e03b55;
+      }
+
+      .cls-68 {
+        fill: #e03a55;
+      }
+
+      .cls-69 {
+        fill: #df3a55;
+      }
+
+      .cls-70 {
+        fill: #df3a56;
+      }
+
+      .cls-71 {
+        fill: #de3956;
+      }
+
+      .cls-72 {
+        fill: #de3957;
+      }
+
+      .cls-73 {
+        fill: #de3857;
+      }
+
+      .cls-74 {
+        fill: #dd3857;
+      }
+
+      .cls-75 {
+        fill: #dd3858;
+      }
+
+      .cls-76 {
+        fill: #dc3758;
+      }
+
+      .cls-77 {
+        fill: #dc3759;
+      }
+
+      .cls-78 {
+        fill: #db3659;
+      }
+
+      .cls-79 {
+        fill: #db365a;
+      }
+
+      .cls-80 {
+        fill: #db355a;
+      }
+
+      .cls-81 {
+        fill: #da355a;
+      }
+
+      .cls-82 {
+        fill: #da355b;
+      }
+
+      .cls-83 {
+        fill: #d9345b;
+      }
+
+      .cls-84 {
+        fill: #d9345c;
+      }
+
+      .cls-85 {
+        fill: #d9335c;
+      }
+
+      .cls-86 {
+        fill: #d8335c;
+      }
+
+      .cls-87 {
+        fill: #d8325d;
+      }
+
+      .cls-88 {
+        fill: #d7325d;
+      }
+
+      .cls-89 {
+        fill: #d7315e;
+      }
+
+      .cls-90 {
+        fill: #d6315e;
+      }
+
+      .cls-91 {
+        fill: #d6305e;
+      }
+
+      .cls-92 {
+        fill: #d6305f;
+      }
+
+      .cls-93 {
+        fill: #d52f5f;
+      }
+
+      .cls-94 {
+        fill: #d52f60;
+      }
+
+      .cls-95 {
+        fill: #d42e60;
+      }
+
+      .cls-96 {
+        fill: #d42e61;
+      }
+
+      .cls-97 {
+        fill: #d42d61;
+      }
+
+      .cls-98 {
+        fill: #d32d61;
+      }
+
+      .cls-99 {
+        fill: #d32c62;
+      }
+
+      .cls-100 {
+        fill: #d22c62;
+      }
+
+      .cls-101 {
+        fill: #d22b62;
+      }
+
+      .cls-102 {
+        fill: #d22b63;
+      }
+
+      .cls-103 {
+        fill: #d12b63;
+      }
+
+      .cls-104 {
+        fill: #d12a63;
+      }
+
+      .cls-105 {
+        fill: #d12a64;
+      }
+
+      .cls-106 {
+        fill: #d02964;
+      }
+
+      .cls-107 {
+        fill: #d02864;
+      }
+
+      .cls-108 {
+        fill: #d02865;
+      }
+
+      .cls-109 {
+        fill: #cf2865;
+      }
+
+      .cls-110 {
+        fill: #cf2765;
+      }
+
+      .cls-111 {
+        fill: #cf2666;
+      }
+
+      .cls-112 {
+        fill: #ce2666;
+      }
+
+      .cls-113 {
+        fill: #ce2566;
+      }
+
+      .cls-114 {
+        fill: #ce2567;
+      }
+
+      .cls-115 {
+        fill: #cd2467;
+      }
+
+      .cls-116 {
+        fill: #cd2368;
+      }
+
+      .cls-117 {
+        fill: #cc2368;
+      }
+
+      .cls-118 {
+        fill: #cc2268;
+      }
+
+      .cls-119 {
+        fill: #cb2269;
+      }
+
+      .cls-120 {
+        fill: #cb2169;
+      }
+
+      .cls-121 {
+        fill: #cb2069;
+      }
+
+      .cls-122 {
+        clip-path: url(#clip-path-155);
+      }
+
+      .cls-123 {
+        fill: #3ba46e;
+      }
+
+      .cls-124 {
+        fill: #3da56e;
+      }
+
+      .cls-125 {
+        fill: #3fa56e;
+      }
+
+      .cls-126 {
+        fill: #41a66e;
+      }
+
+      .cls-127 {
+        fill: #43a76e;
+      }
+
+      .cls-128 {
+        fill: #45a86e;
+      }
+
+      .cls-129 {
+        fill: #47a86e;
+      }
+
+      .cls-130 {
+        fill: #49a96d;
+      }
+
+      .cls-131 {
+        fill: #4baa6d;
+      }
+
+      .cls-132 {
+        fill: #4caa6d;
+      }
+
+      .cls-133 {
+        fill: #4eab6d;
+      }
+
+      .cls-134 {
+        fill: #4fac6d;
+      }
+
+      .cls-135 {
+        fill: #51ad6d;
+      }
+
+      .cls-136 {
+        fill: #52ad6d;
+      }
+
+      .cls-137 {
+        fill: #54ae6c;
+      }
+
+      .cls-138 {
+        fill: #55af6c;
+      }
+
+      .cls-139 {
+        fill: #57af6c;
+      }
+
+      .cls-140 {
+        fill: #58b06c;
+      }
+
+      .cls-141 {
+        fill: #59b16c;
+      }
+
+      .cls-142 {
+        fill: #5bb16c;
+      }
+
+      .cls-143 {
+        fill: #5cb26c;
+      }
+
+      .cls-144 {
+        fill: #5db36b;
+      }
+
+      .cls-145 {
+        fill: #5fb36b;
+      }
+
+      .cls-146 {
+        fill: #60b46b;
+      }
+
+      .cls-147 {
+        fill: #61b56b;
+      }
+
+      .cls-148 {
+        fill: #62b56b;
+      }
+
+      .cls-149 {
+        fill: #63b66b;
+      }
+
+      .cls-150 {
+        fill: #64b76b;
+      }
+
+      .cls-151 {
+        fill: #66b76a;
+      }
+
+      .cls-152 {
+        fill: #67b86a;
+      }
+
+      .cls-153 {
+        fill: #68b86a;
+      }
+
+      .cls-154 {
+        fill: #69b96a;
+      }
+
+      .cls-155 {
+        fill: #6aba6a;
+      }
+
+      .cls-156 {
+        fill: #6bba6a;
+      }
+
+      .cls-157 {
+        fill: #6cbb6a;
+      }
+
+      .cls-158 {
+        fill: #6dbc69;
+      }
+
+      .cls-159 {
+        fill: #6ebd69;
+      }
+
+      .cls-160 {
+        fill: #6fbd69;
+      }
+
+      .cls-161 {
+        fill: #70be69;
+      }
+
+      .cls-162 {
+        fill: #71bf69;
+      }
+
+      .cls-163 {
+        fill: #72bf69;
+      }
+
+      .cls-164 {
+        fill: #72c069;
+      }
+
+      .cls-165 {
+        fill: #73c069;
+      }
+
+      .cls-166 {
+        fill: #73c169;
+      }
+
+      .cls-167 {
+        fill: #74c169;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Path_761" data-name="Path 761" d="M38.1,32.878l-2.9-2.9V29.8l2.9-2.9,3.495,1.977a1.069,1.069,0,0,1,0,2.023l-3.449,1.977H38.1" transform="translate(-35.2 -26.9)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_304" data-name="Rectangle 304" width="7.404" height="6.024" transform="matrix(1, -0.003, 0.003, 1, 0, 0.019)"/>
+    </clipPath>
+    <clipPath id="clip-path-38">
+      <path id="Path_878" data-name="Path 878" d="M27.826,36.343,24.837,33.4,16.1,42.183a1.215,1.215,0,0,0,1.472.046l10.255-5.886" transform="translate(-16.1 -33.4)"/>
+    </clipPath>
+    <clipPath id="clip-path-39">
+      <rect id="Rectangle_340" data-name="Rectangle 340" width="14.761" height="14.761" transform="matrix(0.705, -0.709, 0.709, 0.705, 0, 10.464)"/>
+    </clipPath>
+    <clipPath id="clip-path-155">
+      <path id="Path_928" data-name="Path 928" d="M27.772,19.782l-10.3-5.84A1.215,1.215,0,0,0,16,13.988l8.783,8.737,2.989-2.943" transform="translate(-16 -13.722)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1013" data-name="Group 1013" transform="translate(-1923 4504.782)">
+    <g id="Group_785" data-name="Group 785" transform="translate(0 0)">
+      <path id="Path_708" data-name="Path 708" d="M91.648,30.489l-88.061.23A3.533,3.533,0,0,1,.046,27.224L0,6.071A3.533,3.533,0,0,1,3.495,2.53L91.556,2.3A3.533,3.533,0,0,1,95.1,5.795l.046,21.153a3.563,3.563,0,0,1-3.495,3.541" transform="translate(0 -2.3)"/>
+    </g>
+    <g id="Group_786" data-name="Group 786">
+      <path id="Path_709" data-name="Path 709" class="cls-1" d="M91.556,2.852a3.035,3.035,0,0,1,2.989,2.943l.046,21.153a3.035,3.035,0,0,1-2.943,2.989l-88.061.184A3.035,3.035,0,0,1,.6,27.178L.552,6.025A2.964,2.964,0,0,1,3.495,3.082l88.061-.23m0-.552L3.495,2.53A3.5,3.5,0,0,0,0,6.071L.046,27.224a3.5,3.5,0,0,0,3.541,3.495l88.061-.23a3.5,3.5,0,0,0,3.495-3.541L95.1,5.795A3.533,3.533,0,0,0,91.556,2.3Z" transform="translate(0 -2.3)"/>
+    </g>
+    <g id="Group_787" data-name="Group 787" transform="translate(29.155 5.012)">
+      <path id="Path_710" data-name="Path 710" class="cls-2" d="M67.677,15.545a2.072,2.072,0,0,1-.506,1.426,2.114,2.114,0,0,1-1.563.644A2.2,2.2,0,0,1,63.4,15.407a2.114,2.114,0,0,1,.644-1.563,2.19,2.19,0,0,1,1.563-.644,1.866,1.866,0,0,1,.874.184,1.785,1.785,0,0,1,.644.46l-.368.368a1.428,1.428,0,0,0-1.15-.506,1.525,1.525,0,0,0-1.15.46,1.7,1.7,0,0,0-.506,1.242,1.648,1.648,0,0,0,1.655,1.655,1.629,1.629,0,0,0,1.2-.46,1.534,1.534,0,0,0,.368-.874H65.653v-.506h2.069c-.092.092-.046.23-.046.322" transform="translate(-63.4 -13.2)"/>
+    </g>
+    <g id="Group_788" data-name="Group 788" transform="translate(28.971 5.012)">
+      <path id="Path_711" data-name="Path 711" class="cls-2" d="M67.461,15.545h-.092a1.954,1.954,0,0,1-.506,1.38h0a1.911,1.911,0,0,1-1.518.6,2.044,2.044,0,0,1-1.518-.6,2.085,2.085,0,0,1-.644-1.518A2.045,2.045,0,0,1,65.3,13.292a1.8,1.8,0,0,1,.828.184,1.65,1.65,0,0,1,.644.46l.046-.046-.046-.046-.368.368.046.046.046-.046a1.39,1.39,0,0,0-1.2-.506,1.67,1.67,0,0,0-1.2.506A1.73,1.73,0,0,0,63.6,15.5a1.806,1.806,0,0,0,.506,1.288,1.67,1.67,0,0,0,1.2.506,1.7,1.7,0,0,0,1.242-.506,1.405,1.405,0,0,0,.368-.92v-.092H65.345v-.368h1.977v-.092h-.092c0,.092.046.23.046.322h.138a.783.783,0,0,0-.046-.322v-.046H65.207v.644h1.609v-.092h-.092a1.37,1.37,0,0,1-.322.828,1.525,1.525,0,0,1-1.15.46,1.5,1.5,0,0,1-1.1-.46,1.525,1.525,0,0,1-.46-1.15,1.4,1.4,0,0,1,.46-1.15,1.5,1.5,0,0,1,1.1-.46,1.363,1.363,0,0,1,1.1.46l.046.046.414-.414.046-.046-.046-.046a2.679,2.679,0,0,0-.69-.506,1.993,1.993,0,0,0-.874-.184,2.3,2.3,0,0,0-1.609.644A2.05,2.05,0,0,0,63,15.453a2.219,2.219,0,0,0,.644,1.609,2.3,2.3,0,0,0,1.609.644,2.219,2.219,0,0,0,1.609-.644l-.046-.046.046.046a2.013,2.013,0,0,0,.552-1.472l.046-.046" transform="translate(-63 -13.2)"/>
+    </g>
+    <g id="Group_789" data-name="Group 789" transform="translate(34.167 5.058)">
+      <path id="Path_712" data-name="Path 712" class="cls-2" d="M76.783,13.806l-1.931.046v1.334H76.6v.506H74.852v1.334h1.931v.506H74.346L74.3,13.3h2.483v.506" transform="translate(-74.3 -13.3)"/>
+    </g>
+    <g id="Group_790" data-name="Group 790" transform="translate(34.121 5.012)">
+      <path id="Path_713" data-name="Path 713" class="cls-2" d="M76.729,13.752v-.046H74.752v1.472H76.5v.368H74.752v1.472h1.931v.414H74.338V13.338h2.345v.414h.046v0h.092V13.2H74.2v4.369h2.621v-.69H74.89v-1.2h1.747v-.644H74.89v-1.2h1.931v-.092h-.092" transform="translate(-74.2 -13.2)"/>
+    </g>
+    <g id="Group_791" data-name="Group 791" transform="translate(37.202 5.058)">
+      <path id="Path_714" data-name="Path 714" class="cls-2" d="M82.647,17.531H82.1V13.806H80.9V13.3h2.943v.506h-1.2v3.725" transform="translate(-80.9 -13.3)"/>
+    </g>
+    <g id="Group_792" data-name="Group 792" transform="translate(37.156 4.966)">
+      <path id="Path_715" data-name="Path 715" class="cls-2" d="M82.593,17.423v-.092h-.46V13.652h-1.2v-.368l2.759-.046v.414H82.5l.046,3.771h.046v0h.092l-.046-3.633h1.2V13.1l-3.035.046v.644H82v3.679h.69v-.046h-.092" transform="translate(-80.8 -13.1)"/>
+    </g>
+    <g id="Group_793" data-name="Group 793" transform="translate(42.209 5.058)">
+      <rect id="Rectangle_303" data-name="Rectangle 303" class="cls-2" width="0.552" height="4.231" transform="translate(0 0.001) rotate(-0.144)"/>
+    </g>
+    <g id="Group_794" data-name="Group 794" transform="translate(42.168 4.966)">
+      <path id="Path_716" data-name="Path 716" class="cls-2" d="M91.792,17.423h.046V13.238h.414v4.093h-.46v.092h0v.046h.6V13.1H91.7v4.369h.092v-.046" transform="translate(-91.7 -13.1)"/>
+    </g>
+    <g id="Group_795" data-name="Group 795" transform="translate(43.456 5.058)">
+      <path id="Path_717" data-name="Path 717" class="cls-2" d="M96.247,17.531H95.7V13.806H94.5V13.3h2.9v.506H96.2l.046,3.725" transform="translate(-94.5 -13.3)"/>
+    </g>
+    <g id="Group_796" data-name="Group 796" transform="translate(43.364 4.966)">
+      <path id="Path_718" data-name="Path 718" class="cls-2" d="M96.139,17.423v-.092h-.506V13.606l-1.15.046v-.414h2.759v.368h-1.2v3.817h.092v0h.046V13.744h1.2V13.1H94.3v.69h1.2v3.679h.69v-.046h-.046" transform="translate(-94.3 -13.1)"/>
+    </g>
+    <g id="Group_797" data-name="Group 797" transform="translate(48.1 4.92)">
+      <path id="Path_719" data-name="Path 719" class="cls-2" d="M108.371,16.771a2.114,2.114,0,0,1-1.563.644,2.2,2.2,0,0,1-2.207-2.207,2.15,2.15,0,0,1,.6-1.563A2.114,2.114,0,0,1,106.761,13a2.2,2.2,0,0,1,2.207,2.207,2.079,2.079,0,0,1-.6,1.563m-2.713-.322a1.667,1.667,0,0,0,2.3,0,1.629,1.629,0,0,0,.46-1.2,1.56,1.56,0,0,0-.46-1.2,1.667,1.667,0,0,0-2.3,0,1.784,1.784,0,0,0,0,2.391Z" transform="translate(-104.6 -13)"/>
+    </g>
+    <g id="Group_798" data-name="Group 798" transform="translate(48.054 4.874)">
+      <path id="Path_720" data-name="Path 720" class="cls-2" d="M108.317,16.717l-.046-.046a2.011,2.011,0,0,1-1.518.644,2.044,2.044,0,0,1-1.518-.6h0a2.225,2.225,0,0,1,0-3.035,2.011,2.011,0,0,1,1.518-.644,2.147,2.147,0,0,1,1.518,3.633l.092.092a2.334,2.334,0,0,0,0-3.219,2.05,2.05,0,0,0-1.609-.644,2.2,2.2,0,0,0-2.253,2.253,2.219,2.219,0,0,0,.644,1.609h0a2.05,2.05,0,0,0,1.609.644,2.219,2.219,0,0,0,1.609-.644l-.046-.046m-2.713-.322-.046.046a1.666,1.666,0,0,0,2.391,0,1.777,1.777,0,0,0,0-2.483,1.666,1.666,0,0,0-2.391,0,1.777,1.777,0,0,0,0,2.483l.092-.092a1.525,1.525,0,0,1-.46-1.15,1.459,1.459,0,0,1,.46-1.15h0a1.426,1.426,0,0,1,1.1-.46,1.5,1.5,0,0,1,1.1.46,1.525,1.525,0,0,1,.46,1.15,1.459,1.459,0,0,1-.46,1.15,1.426,1.426,0,0,1-1.1.46,1.5,1.5,0,0,1-1.1-.46Z" transform="translate(-104.5 -12.9)"/>
+    </g>
+    <g id="Group_799" data-name="Group 799" transform="translate(53.251 5.012)">
+      <path id="Path_721" data-name="Path 721" class="cls-2" d="M115.8,17.431V13.2h.644l2.069,3.311h.046l-.046-.828V13.2h.552v4.231h-.552l-2.161-3.449h-.046l.046.828v2.621H115.8" transform="translate(-115.8 -13.2)"/>
+    </g>
+    <g id="Group_800" data-name="Group 800" transform="translate(53.159 4.92)">
+      <path id="Path_722" data-name="Path 722" class="cls-2" d="M115.692,17.323h.092l-.046-4.139h.552l2.069,3.265h.138v-.874l-.046-2.391h.414v4.047h-.46l-2.115-3.4h-.138v3.449h-.46v.046h0v.092h.6V13.874H116.2v.092h.046v-.092l-.092.046,2.207,3.495.644-.046V13l-.69.046v2.529l.046.828h.092v-.092h-.046V16.4l.046-.046-2.069-3.311H115.6l.046,4.369h.046v-.092" transform="translate(-115.6 -13)"/>
+    </g>
+    <g id="Group_801" data-name="Group 801" transform="translate(28.924 12.14)">
+      <path id="Path_723" data-name="Path 723" class="cls-2" d="M81.983,31.965a2.989,2.989,0,1,0,3.035,2.989,2.993,2.993,0,0,0-3.035-2.989m.046,4.828A1.72,1.72,0,0,1,80.327,35a1.761,1.761,0,0,1,1.7-1.839,1.72,1.72,0,0,1,1.7,1.793A1.791,1.791,0,0,1,82.029,36.793Zm-6.576-4.782A2.989,2.989,0,1,0,78.488,35,2.992,2.992,0,0,0,75.453,32.011Zm0,4.782A1.72,1.72,0,0,1,73.752,35a1.761,1.761,0,0,1,1.7-1.839,1.82,1.82,0,0,1,0,3.633Zm-7.817-3.863v1.288h3.035a2.616,2.616,0,0,1-.69,1.609,3.1,3.1,0,0,1-2.345.92,3.38,3.38,0,0,1-.046-6.76,3.3,3.3,0,0,1,2.3.92l.874-.92A4.467,4.467,0,0,0,67.59,28.7a4.671,4.671,0,0,0-4.69,4.644,4.811,4.811,0,0,0,4.736,4.69A4.167,4.167,0,0,0,72,33.712a4.051,4.051,0,0,0-.092-.782Zm31.914.92a2.727,2.727,0,0,0-2.575-1.885,2.833,2.833,0,0,0-2.805,2.989,2.927,2.927,0,0,0,2.989,2.989,2.893,2.893,0,0,0,2.483-1.334l-1.012-.69a1.645,1.645,0,0,1-1.472.828,1.562,1.562,0,0,1-1.472-.92l4-1.655Zm-4.093,1.012a1.627,1.627,0,0,1,1.563-1.747,1.17,1.17,0,0,1,1.1.644Zm-3.219,2.9h1.334V28.93H92.238Zm-2.161-5.1h0a2.009,2.009,0,0,0-1.609-.644,3.015,3.015,0,0,0,.046,6.024,1.938,1.938,0,0,0,1.563-.69h.046v.414c0,1.15-.6,1.747-1.609,1.747A1.709,1.709,0,0,1,87,38.449l-1.15.46a2.846,2.846,0,0,0,2.667,1.747c1.563,0,2.851-.92,2.851-3.127v-5.38H90.122Zm-1.518,4.139A1.684,1.684,0,0,1,86.9,35a1.725,1.725,0,0,1,1.655-1.839,1.83,1.83,0,0,1,0,3.633Zm17.152-7.863h-3.127v8.829h1.334V34.4h1.839a2.8,2.8,0,0,0,2.9-2.759A2.855,2.855,0,0,0,105.711,28.93Zm.046,4.231h-1.885V30.126h1.885a1.569,1.569,0,0,1,1.563,1.518A1.6,1.6,0,0,1,105.757,33.161Zm8.139-1.288a2.464,2.464,0,0,0-2.345,1.334l1.15.506a1.175,1.175,0,0,1,1.2-.644,1.256,1.256,0,0,1,1.38,1.15v.092a2.862,2.862,0,0,0-1.38-.322c-1.242,0-2.529.69-2.529,1.977a2.041,2.041,0,0,0,2.207,1.931,1.809,1.809,0,0,0,1.655-.874h.046v.69h1.288V34.356A2.439,2.439,0,0,0,113.9,31.873Zm-.184,4.828c-.414,0-1.012-.23-1.012-.736,0-.69.736-.92,1.38-.966a2.7,2.7,0,0,1,1.2.276A1.551,1.551,0,0,1,113.713,36.7Zm7.45-4.644-1.518,3.817H119.6l-1.563-3.817H116.61l2.345,5.334-1.334,2.989H119l3.587-8.323Zm-11.818,5.656h1.334V28.884h-1.334Z" transform="translate(-62.898 -28.7)"/>
+    </g>
+    <g id="Group_802" data-name="Group 802" transform="translate(7.036 5.518)">
+      <path id="Path_724" data-name="Path 724" class="cls-3" d="M15.622,14.3a1.56,1.56,0,0,0-.322,1.012L15.346,30.9a1.425,1.425,0,0,0,.322.966l.046.046,8.691-8.737v-.184L15.668,14.3h-.046" transform="translate(-15.3 -14.3)"/>
+    </g>
+    <g id="Group_841" data-name="Group 841" transform="translate(16.187 11.312)">
+      <g id="Group_840" data-name="Group 840" class="cls-4">
+        <g id="Group_839" data-name="Group 839" transform="translate(-0.054 -0.055)">
+          <g id="Group_803" data-name="Group 803" class="cls-5" transform="translate(0 0)">
+            <path id="Path_725" data-name="Path 725" class="cls-6" d="M47.7,32.9V26.6l1.793.092-.184,6.254Z" transform="translate(-41.898 -26.683)"/>
+          </g>
+          <g id="Group_804" data-name="Group 804" class="cls-5" transform="translate(0 0)">
+            <path id="Path_726" data-name="Path 726" class="cls-6" d="M47.3,32.9V26.6h.184v6.3Z" transform="translate(-41.682 -26.683)"/>
+          </g>
+          <g id="Group_805" data-name="Group 805" class="cls-5" transform="translate(0 0)">
+            <path id="Path_727" data-name="Path 727" class="cls-7" d="M46.9,32.9V26.6h.184v6.3Z" transform="translate(-41.466 -26.683)"/>
+          </g>
+          <g id="Group_806" data-name="Group 806" class="cls-5" transform="translate(0 0)">
+            <path id="Path_728" data-name="Path 728" class="cls-8" d="M46.546,32.854,46.5,26.6h.184v6.3Z" transform="translate(-41.25 -26.683)"/>
+          </g>
+          <g id="Group_807" data-name="Group 807" class="cls-5" transform="translate(0 0)">
+            <path id="Path_729" data-name="Path 729" class="cls-9" d="M46.2,32.854V26.6h.138l.046,6.254Z" transform="translate(-41.088 -26.683)"/>
+          </g>
+          <g id="Group_808" data-name="Group 808" class="cls-5" transform="translate(0 0)">
+            <path id="Path_730" data-name="Path 730" class="cls-10" d="M45.8,32.854V26.6h.184v6.254Z" transform="translate(-40.872 -26.683)"/>
+          </g>
+          <g id="Group_809" data-name="Group 809" class="cls-5" transform="translate(0 0)">
+            <path id="Path_731" data-name="Path 731" class="cls-11" d="M45.4,32.854V26.6h.184v6.254Z" transform="translate(-40.656 -26.683)"/>
+          </g>
+          <g id="Group_810" data-name="Group 810" class="cls-5" transform="translate(0 0)">
+            <path id="Path_732" data-name="Path 732" class="cls-12" d="M45.046,32.854,45,26.6h.184v6.254Z" transform="translate(-40.44 -26.683)"/>
+          </g>
+          <g id="Group_811" data-name="Group 811" class="cls-5" transform="translate(0 0)">
+            <path id="Path_733" data-name="Path 733" class="cls-13" d="M44.646,32.854,44.6,26.6h.184l.046,6.254Z" transform="translate(-40.224 -26.683)"/>
+          </g>
+          <g id="Group_812" data-name="Group 812" class="cls-5" transform="translate(0 0)">
+            <path id="Path_734" data-name="Path 734" class="cls-14" d="M44.3,32.8V26.5l.138.046.046,6.254Z" transform="translate(-40.062 -26.628)"/>
+          </g>
+          <g id="Group_813" data-name="Group 813" class="cls-5" transform="translate(0 0)">
+            <path id="Path_735" data-name="Path 735" class="cls-15" d="M43.9,32.8V26.5h.184v6.3Z" transform="translate(-39.846 -26.628)"/>
+          </g>
+          <g id="Group_814" data-name="Group 814" class="cls-5" transform="translate(0 0)">
+            <path id="Path_736" data-name="Path 736" class="cls-16" d="M43.5,32.754V26.5h.184v6.3Z" transform="translate(-39.63 -26.628)"/>
+          </g>
+          <g id="Group_815" data-name="Group 815" class="cls-5" transform="translate(0 0)">
+            <path id="Path_737" data-name="Path 737" class="cls-17" d="M43.146,32.754,43.1,26.5h.184v6.254Z" transform="translate(-39.414 -26.628)"/>
+          </g>
+          <g id="Group_816" data-name="Group 816" class="cls-5" transform="translate(0 0)">
+            <path id="Path_738" data-name="Path 738" class="cls-18" d="M42.8,32.754V26.5h.138l.046,6.254Z" transform="translate(-39.252 -26.628)"/>
+          </g>
+          <g id="Group_817" data-name="Group 817" class="cls-5" transform="translate(0 0)">
+            <path id="Path_739" data-name="Path 739" class="cls-19" d="M42.4,32.754V26.5h.184v6.254Z" transform="translate(-39.035 -26.628)"/>
+          </g>
+          <g id="Group_818" data-name="Group 818" class="cls-5" transform="translate(0 0)">
+            <path id="Path_740" data-name="Path 740" class="cls-20" d="M42,32.754V26.5h.184v6.254Z" transform="translate(-38.819 -26.628)"/>
+          </g>
+          <g id="Group_819" data-name="Group 819" class="cls-5" transform="translate(0 0)">
+            <path id="Path_741" data-name="Path 741" class="cls-21" d="M41.646,32.754,41.6,26.5h.184v6.254Z" transform="translate(-38.603 -26.628)"/>
+          </g>
+          <g id="Group_820" data-name="Group 820" class="cls-5" transform="translate(0 0)">
+            <path id="Path_742" data-name="Path 742" class="cls-22" d="M41.246,32.754,41.2,26.5h.184l.046,6.254Z" transform="translate(-38.387 -26.628)"/>
+          </g>
+          <g id="Group_821" data-name="Group 821" class="cls-5" transform="translate(0 0)">
+            <path id="Path_743" data-name="Path 743" class="cls-23" d="M40.9,32.7V26.4l.138.046.046,6.254Z" transform="translate(-38.225 -26.574)"/>
+          </g>
+          <g id="Group_822" data-name="Group 822" class="cls-5" transform="translate(0 0)">
+            <path id="Path_744" data-name="Path 744" class="cls-24" d="M40.5,32.7V26.4h.184v6.3Z" transform="translate(-38.009 -26.574)"/>
+          </g>
+          <g id="Group_823" data-name="Group 823" class="cls-5" transform="translate(0 0)">
+            <path id="Path_745" data-name="Path 745" class="cls-24" d="M40.1,32.654V26.4h.184v6.3Z" transform="translate(-37.793 -26.574)"/>
+          </g>
+          <g id="Group_824" data-name="Group 824" class="cls-5" transform="translate(0 0)">
+            <path id="Path_746" data-name="Path 746" class="cls-25" d="M39.746,32.654,39.7,26.4h.184v6.254Z" transform="translate(-37.577 -26.574)"/>
+          </g>
+          <g id="Group_825" data-name="Group 825" class="cls-5" transform="translate(0 0)">
+            <path id="Path_747" data-name="Path 747" class="cls-26" d="M39.4,32.654V26.4h.138l.046,6.254Z" transform="translate(-37.415 -26.574)"/>
+          </g>
+          <g id="Group_826" data-name="Group 826" class="cls-5" transform="translate(0 0)">
+            <path id="Path_748" data-name="Path 748" class="cls-27" d="M39,32.654V26.4h.184v6.254Z" transform="translate(-37.199 -26.574)"/>
+          </g>
+          <g id="Group_827" data-name="Group 827" class="cls-5" transform="translate(0 0)">
+            <path id="Path_749" data-name="Path 749" class="cls-28" d="M38.6,32.654V26.4h.184v6.254Z" transform="translate(-36.983 -26.574)"/>
+          </g>
+          <g id="Group_828" data-name="Group 828" class="cls-5" transform="translate(0 0)">
+            <path id="Path_750" data-name="Path 750" class="cls-29" d="M38.246,32.654,38.2,26.4h.184v6.254Z" transform="translate(-36.767 -26.574)"/>
+          </g>
+          <g id="Group_829" data-name="Group 829" class="cls-5" transform="translate(0 0)">
+            <path id="Path_751" data-name="Path 751" class="cls-30" d="M37.846,32.6,37.8,26.3l.184.046L38.03,32.6Z" transform="translate(-36.551 -26.52)"/>
+          </g>
+          <g id="Group_830" data-name="Group 830" class="cls-5" transform="translate(0 0)">
+            <path id="Path_752" data-name="Path 752" class="cls-30" d="M37.5,32.6V26.3h.138l.046,6.3Z" transform="translate(-36.389 -26.52)"/>
+          </g>
+          <g id="Group_831" data-name="Group 831" class="cls-5" transform="translate(0 0)">
+            <path id="Path_753" data-name="Path 753" class="cls-31" d="M37.1,32.6V26.3h.184v6.3Z" transform="translate(-36.173 -26.52)"/>
+          </g>
+          <g id="Group_832" data-name="Group 832" class="cls-5" transform="translate(0 0)">
+            <path id="Path_754" data-name="Path 754" class="cls-32" d="M36.7,32.554V26.3h.184v6.3Z" transform="translate(-35.957 -26.52)"/>
+          </g>
+          <g id="Group_833" data-name="Group 833" class="cls-5" transform="translate(0 0)">
+            <path id="Path_755" data-name="Path 755" class="cls-33" d="M36.346,32.554,36.3,26.3h.184v6.254Z" transform="translate(-35.741 -26.52)"/>
+          </g>
+          <g id="Group_834" data-name="Group 834" class="cls-5" transform="translate(0 0)">
+            <path id="Path_756" data-name="Path 756" class="cls-34" d="M36,32.554V26.3h.138l.046,6.254Z" transform="translate(-35.579 -26.52)"/>
+          </g>
+          <g id="Group_835" data-name="Group 835" class="cls-5" transform="translate(0 0)">
+            <path id="Path_757" data-name="Path 757" class="cls-35" d="M35.6,32.554V26.3h.184v6.254Z" transform="translate(-35.362 -26.52)"/>
+          </g>
+          <g id="Group_836" data-name="Group 836" class="cls-5" transform="translate(0 0)">
+            <path id="Path_758" data-name="Path 758" class="cls-35" d="M35.2,32.554V26.3h.184v6.254Z" transform="translate(-35.146 -26.52)"/>
+          </g>
+          <g id="Group_837" data-name="Group 837" class="cls-5" transform="translate(0 0)">
+            <path id="Path_759" data-name="Path 759" class="cls-36" d="M34.846,32.554,34.8,30.485l.138-4.185h.046v6.254Z" transform="translate(-34.93 -26.52)"/>
+          </g>
+          <g id="Group_838" data-name="Group 838" class="cls-5" transform="translate(0 0)">
+            <path id="Path_760" data-name="Path 760" class="cls-37" d="M34.746,35.4l.046,2.069H34.7Z" transform="translate(-34.876 -31.436)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_960" data-name="Group 960" transform="translate(7.404 14.301)">
+      <g id="Group_959" data-name="Group 959" class="cls-38">
+        <g id="Group_958" data-name="Group 958" transform="translate(-4.598 -5.901)">
+          <g id="Group_842" data-name="Group 842" class="cls-39" transform="translate(0)">
+            <path id="Path_762" data-name="Path 762" class="cls-40" d="M35.25,34.058,21.5,20.4l14.117.414Z" transform="translate(-14.419 -20.477)"/>
+          </g>
+          <g id="Group_843" data-name="Group 843" class="cls-39" transform="translate(0)">
+            <path id="Path_763" data-name="Path 763" class="cls-40" d="M34.933,34.233,21,20.3l.23.046L34.979,34Z" transform="translate(-14.149 -20.423)"/>
+          </g>
+          <g id="Group_844" data-name="Group 844" class="cls-39" transform="translate(0)">
+            <path id="Path_764" data-name="Path 764" class="cls-41" d="M34.609,34.463,20.4,20.3h.276L34.609,34.233Z" transform="translate(-13.825 -20.423)"/>
+          </g>
+          <g id="Group_845" data-name="Group 845" class="cls-39" transform="translate(0)">
+            <path id="Path_765" data-name="Path 765" class="cls-42" d="M34.339,34.693,19.9,20.3h.23L34.339,34.463Z" transform="translate(-13.555 -20.423)"/>
+          </g>
+          <g id="Group_846" data-name="Group 846" class="cls-39" transform="translate(0)">
+            <path id="Path_766" data-name="Path 766" class="cls-43" d="M34.015,34.923,19.3,20.3h.276L34.015,34.693Z" transform="translate(-13.231 -20.423)"/>
+          </g>
+          <g id="Group_847" data-name="Group 847" class="cls-39" transform="translate(0)">
+            <path id="Path_767" data-name="Path 767" class="cls-44" d="M33.745,35.153,18.8,20.3h.23L33.745,34.923Z" transform="translate(-12.96 -20.423)"/>
+          </g>
+          <g id="Group_848" data-name="Group 848" class="cls-39" transform="translate(0)">
+            <path id="Path_768" data-name="Path 768" class="cls-44" d="M33.421,35.383,18.2,20.3h.276L33.421,35.153Z" transform="translate(-12.636 -20.423)"/>
+          </g>
+          <g id="Group_849" data-name="Group 849" class="cls-39" transform="translate(0)">
+            <path id="Path_769" data-name="Path 769" class="cls-45" d="M33.105,35.605,17.7,20.2l.23.046L33.151,35.329Z" transform="translate(-12.366 -20.369)"/>
+          </g>
+          <g id="Group_850" data-name="Group 850" class="cls-39" transform="translate(0)">
+            <path id="Path_770" data-name="Path 770" class="cls-45" d="M32.781,35.835,17.1,20.2h.276L32.781,35.605Z" transform="translate(-12.042 -20.369)"/>
+          </g>
+          <g id="Group_851" data-name="Group 851" class="cls-39" transform="translate(0)">
+            <path id="Path_771" data-name="Path 771" class="cls-46" d="M32.511,36.065,16.6,20.2h.23L32.511,35.835Z" transform="translate(-11.772 -20.369)"/>
+          </g>
+          <g id="Group_852" data-name="Group 852" class="cls-39" transform="translate(0)">
+            <path id="Path_772" data-name="Path 772" class="cls-47" d="M32.187,36.295,16,20.2h.276L32.187,36.065Z" transform="translate(-11.448 -20.369)"/>
+          </g>
+          <g id="Group_853" data-name="Group 853" class="cls-39" transform="translate(0)">
+            <path id="Path_773" data-name="Path 773" class="cls-47" d="M31.917,36.525,15.5,20.2h.23L31.917,36.295Z" transform="translate(-11.178 -20.369)"/>
+          </g>
+          <g id="Group_854" data-name="Group 854" class="cls-39" transform="translate(0)">
+            <path id="Path_774" data-name="Path 774" class="cls-48" d="M31.593,36.755,14.9,20.2h.276L31.593,36.525Z" transform="translate(-10.854 -20.369)"/>
+          </g>
+          <g id="Group_855" data-name="Group 855" class="cls-39" transform="translate(0)">
+            <path id="Path_775" data-name="Path 775" class="cls-49" d="M31.323,36.977,14.4,20.1l.23.046L31.323,36.7Z" transform="translate(-10.584 -20.315)"/>
+          </g>
+          <g id="Group_856" data-name="Group 856" class="cls-39" transform="translate(0)">
+            <path id="Path_776" data-name="Path 776" class="cls-50" d="M30.952,37.206,13.8,20.1h.276L31,36.977Z" transform="translate(-10.26 -20.315)"/>
+          </g>
+          <g id="Group_857" data-name="Group 857" class="cls-39" transform="translate(0)">
+            <path id="Path_777" data-name="Path 777" class="cls-51" d="M30.682,37.436,13.3,20.1h.23L30.682,37.206Z" transform="translate(-9.99 -20.315)"/>
+          </g>
+          <g id="Group_858" data-name="Group 858" class="cls-39" transform="translate(0)">
+            <path id="Path_778" data-name="Path 778" class="cls-51" d="M30.358,37.666,12.7,20.1h.276L30.358,37.436Z" transform="translate(-9.666 -20.315)"/>
+          </g>
+          <g id="Group_859" data-name="Group 859" class="cls-39" transform="translate(0)">
+            <path id="Path_779" data-name="Path 779" class="cls-52" d="M30.088,37.9,12.2,20.1h.23L30.088,37.666Z" transform="translate(-9.396 -20.315)"/>
+          </g>
+          <g id="Group_860" data-name="Group 860" class="cls-39" transform="translate(0)">
+            <path id="Path_780" data-name="Path 780" class="cls-52" d="M29.764,38.126,11.6,20.1h.276L29.764,37.9Z" transform="translate(-9.071 -20.315)"/>
+          </g>
+          <g id="Group_861" data-name="Group 861" class="cls-39" transform="translate(0)">
+            <path id="Path_781" data-name="Path 781" class="cls-52" d="M29.494,38.3,11.1,20l.23.046L29.494,38.072Z" transform="translate(-8.801 -20.261)"/>
+          </g>
+          <g id="Group_862" data-name="Group 862" class="cls-39" transform="translate(0)">
+            <path id="Path_782" data-name="Path 782" class="cls-53" d="M29.124,38.578,10.5,20h.276L29.17,38.3Z" transform="translate(-8.477 -20.261)"/>
+          </g>
+          <g id="Group_863" data-name="Group 863" class="cls-39" transform="translate(0)">
+            <path id="Path_783" data-name="Path 783" class="cls-54" d="M28.854,38.808,10,20h.23L28.854,38.578Z" transform="translate(-8.207 -20.261)"/>
+          </g>
+          <g id="Group_864" data-name="Group 864" class="cls-39" transform="translate(0)">
+            <path id="Path_784" data-name="Path 784" class="cls-55" d="M28.53,39.038,9.4,20h.276L28.53,38.808Z" transform="translate(-7.883 -20.261)"/>
+          </g>
+          <g id="Group_865" data-name="Group 865" class="cls-39" transform="translate(0)">
+            <path id="Path_785" data-name="Path 785" class="cls-56" d="M28.26,39.268,8.9,20h.23L28.26,39.038Z" transform="translate(-7.613 -20.261)"/>
+          </g>
+          <g id="Group_866" data-name="Group 866" class="cls-39" transform="translate(0)">
+            <path id="Path_786" data-name="Path 786" class="cls-56" d="M27.936,39.5,8.3,20h.276l19.36,19.268Z" transform="translate(-7.289 -20.261)"/>
+          </g>
+          <g id="Group_867" data-name="Group 867" class="cls-39" transform="translate(0)">
+            <path id="Path_787" data-name="Path 787" class="cls-57" d="M27.666,39.674,7.8,19.9l.23.046,19.636,19.5Z" transform="translate(-7.019 -20.207)"/>
+          </g>
+          <g id="Group_868" data-name="Group 868" class="cls-39" transform="translate(0)">
+            <path id="Path_788" data-name="Path 788" class="cls-58" d="M27.3,39.9,7.2,19.9h.276L27.341,39.674Z" transform="translate(-6.695 -20.207)"/>
+          </g>
+          <g id="Group_869" data-name="Group 869" class="cls-39" transform="translate(0)">
+            <path id="Path_789" data-name="Path 789" class="cls-58" d="M27.079,40.179,6.8,19.992V19.9h.184l20.1,20Z" transform="translate(-6.479 -20.207)"/>
+          </g>
+          <g id="Group_870" data-name="Group 870" class="cls-39" transform="translate(0)">
+            <path id="Path_790" data-name="Path 790" class="cls-59" d="M27.079,40.517,6.8,20.33V20.1L27.079,40.287Z" transform="translate(-6.479 -20.315)"/>
+          </g>
+          <g id="Group_871" data-name="Group 871" class="cls-39" transform="translate(0)">
+            <path id="Path_791" data-name="Path 791" class="cls-60" d="M27.079,41.017,6.8,20.83V20.6L27.079,40.787Z" transform="translate(-6.479 -20.585)"/>
+          </g>
+          <g id="Group_872" data-name="Group 872" class="cls-39" transform="translate(0)">
+            <path id="Path_792" data-name="Path 792" class="cls-60" d="M27.079,41.517,6.8,21.33V21.1L27.079,41.287Z" transform="translate(-6.479 -20.855)"/>
+          </g>
+          <g id="Group_873" data-name="Group 873" class="cls-39" transform="translate(0)">
+            <path id="Path_793" data-name="Path 793" class="cls-61" d="M27.079,42.017,6.8,21.83V21.6L27.079,41.787Z" transform="translate(-6.479 -21.125)"/>
+          </g>
+          <g id="Group_874" data-name="Group 874" class="cls-39" transform="translate(0)">
+            <path id="Path_794" data-name="Path 794" class="cls-62" d="M27.025,42.517,6.7,22.376l.046-.276L27.025,42.287Z" transform="translate(-6.425 -21.395)"/>
+          </g>
+          <g id="Group_875" data-name="Group 875" class="cls-39" transform="translate(0)">
+            <path id="Path_795" data-name="Path 795" class="cls-62" d="M26.841,42.933,6.7,22.93V22.7L27.025,42.841l-.046.092Z" transform="translate(-6.425 -21.719)"/>
+          </g>
+          <g id="Group_876" data-name="Group 876" class="cls-39" transform="translate(0)">
+            <path id="Path_796" data-name="Path 796" class="cls-63" d="M26.566,43.2,6.7,23.43V23.2l20.141,20Z" transform="translate(-6.425 -21.989)"/>
+          </g>
+          <g id="Group_877" data-name="Group 877" class="cls-39" transform="translate(0)">
+            <path id="Path_797" data-name="Path 797" class="cls-64" d="M26.336,43.474,6.7,23.93V23.7L26.566,43.474Z" transform="translate(-6.425 -22.259)"/>
+          </g>
+          <g id="Group_878" data-name="Group 878" class="cls-39" transform="translate(0)">
+            <path id="Path_798" data-name="Path 798" class="cls-65" d="M26.06,43.744,6.7,24.43V24.2L26.336,43.744Z" transform="translate(-6.425 -22.529)"/>
+          </g>
+          <g id="Group_879" data-name="Group 879" class="cls-39" transform="translate(0)">
+            <path id="Path_799" data-name="Path 799" class="cls-66" d="M25.83,43.968,6.7,24.93V24.7L26.06,44.014Z" transform="translate(-6.425 -22.799)"/>
+          </g>
+          <g id="Group_880" data-name="Group 880" class="cls-39" transform="translate(0)">
+            <path id="Path_800" data-name="Path 800" class="cls-67" d="M25.554,44.238,6.7,25.43V25.2L25.83,44.238Z" transform="translate(-6.425 -23.069)"/>
+          </g>
+          <g id="Group_881" data-name="Group 881" class="cls-39" transform="translate(0)">
+            <path id="Path_801" data-name="Path 801" class="cls-68" d="M25.27,44.508,6.6,25.976l.046-.276L25.5,44.508Z" transform="translate(-6.371 -23.34)"/>
+          </g>
+          <g id="Group_882" data-name="Group 882" class="cls-39" transform="translate(0)">
+            <path id="Path_802" data-name="Path 802" class="cls-69" d="M24.994,44.832,6.6,26.53V26.3L25.27,44.832Z" transform="translate(-6.371 -23.664)"/>
+          </g>
+          <g id="Group_883" data-name="Group 883" class="cls-39" transform="translate(0)">
+            <path id="Path_803" data-name="Path 803" class="cls-70" d="M24.764,45.1,6.6,27.03V26.8L24.994,45.1Z" transform="translate(-6.371 -23.934)"/>
+          </g>
+          <g id="Group_884" data-name="Group 884" class="cls-39" transform="translate(0)">
+            <path id="Path_804" data-name="Path 804" class="cls-70" d="M24.488,45.372,6.6,27.53V27.3L24.764,45.372Z" transform="translate(-6.371 -24.204)"/>
+          </g>
+          <g id="Group_885" data-name="Group 885" class="cls-39" transform="translate(0)">
+            <path id="Path_805" data-name="Path 805" class="cls-71" d="M24.258,45.6,6.6,28.03V27.8L24.488,45.642Z" transform="translate(-6.371 -24.474)"/>
+          </g>
+          <g id="Group_886" data-name="Group 886" class="cls-39" transform="translate(0)">
+            <path id="Path_806" data-name="Path 806" class="cls-71" d="M23.982,45.866,6.6,28.53V28.3L24.258,45.866Z" transform="translate(-6.371 -24.744)"/>
+          </g>
+          <g id="Group_887" data-name="Group 887" class="cls-39" transform="translate(0)">
+            <path id="Path_807" data-name="Path 807" class="cls-72" d="M23.7,46.136,6.5,29.03l.046-.23L23.928,46.136Z" transform="translate(-6.317 -25.014)"/>
+          </g>
+          <g id="Group_888" data-name="Group 888" class="cls-39" transform="translate(0)">
+            <path id="Path_808" data-name="Path 808" class="cls-73" d="M23.423,46.406,6.5,29.576V29.3L23.7,46.406Z" transform="translate(-6.317 -25.284)"/>
+          </g>
+          <g id="Group_889" data-name="Group 889" class="cls-39" transform="translate(0)">
+            <path id="Path_809" data-name="Path 809" class="cls-74" d="M23.193,46.731,6.5,30.13V29.9L23.423,46.731Z" transform="translate(-6.317 -25.608)"/>
+          </g>
+          <g id="Group_890" data-name="Group 890" class="cls-39" transform="translate(0)">
+            <path id="Path_810" data-name="Path 810" class="cls-75" d="M22.917,47,6.5,30.63V30.4L23.193,47Z" transform="translate(-6.317 -25.878)"/>
+          </g>
+          <g id="Group_891" data-name="Group 891" class="cls-39" transform="translate(0)">
+            <path id="Path_811" data-name="Path 811" class="cls-75" d="M22.687,47.225,6.5,31.13V30.9L22.917,47.271Z" transform="translate(-6.317 -26.148)"/>
+          </g>
+          <g id="Group_892" data-name="Group 892" class="cls-39" transform="translate(0)">
+            <path id="Path_812" data-name="Path 812" class="cls-76" d="M22.411,47.495,6.5,31.63V31.4L22.687,47.495Z" transform="translate(-6.317 -26.418)"/>
+          </g>
+          <g id="Group_893" data-name="Group 893" class="cls-39" transform="translate(0)">
+            <path id="Path_813" data-name="Path 813" class="cls-76" d="M22.127,47.765,6.4,32.13l.046-.23L22.357,47.765Z" transform="translate(-6.263 -26.688)"/>
+          </g>
+          <g id="Group_894" data-name="Group 894" class="cls-39" transform="translate(0)">
+            <path id="Path_814" data-name="Path 814" class="cls-77" d="M21.851,48.035,6.4,32.63V32.4L22.127,48.035Z" transform="translate(-6.263 -26.959)"/>
+          </g>
+          <g id="Group_895" data-name="Group 895" class="cls-39" transform="translate(0)">
+            <path id="Path_815" data-name="Path 815" class="cls-78" d="M21.621,48.305,6.4,33.176V32.9L21.851,48.305Z" transform="translate(-6.263 -27.229)"/>
+          </g>
+          <g id="Group_896" data-name="Group 896" class="cls-39" transform="translate(0)">
+            <path id="Path_816" data-name="Path 816" class="cls-78" d="M21.345,48.629,6.4,33.73V33.5L21.621,48.629Z" transform="translate(-6.263 -27.553)"/>
+          </g>
+          <g id="Group_897" data-name="Group 897" class="cls-39" transform="translate(0)">
+            <path id="Path_817" data-name="Path 817" class="cls-79" d="M21.115,48.853,6.4,34.23V34L21.345,48.9Z" transform="translate(-6.263 -27.823)"/>
+          </g>
+          <g id="Group_898" data-name="Group 898" class="cls-39" transform="translate(0)">
+            <path id="Path_818" data-name="Path 818" class="cls-80" d="M20.839,49.123,6.4,34.73V34.5L21.115,49.123Z" transform="translate(-6.263 -28.093)"/>
+          </g>
+          <g id="Group_899" data-name="Group 899" class="cls-39" transform="translate(0)">
+            <path id="Path_819" data-name="Path 819" class="cls-81" d="M20.609,49.393,6.4,35.23V35L20.839,49.393Z" transform="translate(-6.263 -28.363)"/>
+          </g>
+          <g id="Group_900" data-name="Group 900" class="cls-39" transform="translate(0)">
+            <path id="Path_820" data-name="Path 820" class="cls-81" d="M20.279,49.663,6.3,35.73l.046-.23L20.555,49.663Z" transform="translate(-6.209 -28.633)"/>
+          </g>
+          <g id="Group_901" data-name="Group 901" class="cls-39" transform="translate(0)">
+            <path id="Path_821" data-name="Path 821" class="cls-82" d="M20.05,49.933,6.3,36.23V36L20.279,49.933Z" transform="translate(-6.209 -28.903)"/>
+          </g>
+          <g id="Group_902" data-name="Group 902" class="cls-39" transform="translate(0)">
+            <path id="Path_822" data-name="Path 822" class="cls-83" d="M19.774,50.2,6.3,36.776V36.5L20.05,50.2Z" transform="translate(-6.209 -29.173)"/>
+          </g>
+          <g id="Group_903" data-name="Group 903" class="cls-39" transform="translate(0)">
+            <path id="Path_823" data-name="Path 823" class="cls-83" d="M19.544,50.482,6.3,37.33V37.1L19.774,50.528Z" transform="translate(-6.209 -29.497)"/>
+          </g>
+          <g id="Group_904" data-name="Group 904" class="cls-39" transform="translate(0)">
+            <path id="Path_824" data-name="Path 824" class="cls-84" d="M19.268,50.752,6.3,37.83V37.6L19.544,50.752Z" transform="translate(-6.209 -29.767)"/>
+          </g>
+          <g id="Group_905" data-name="Group 905" class="cls-39" transform="translate(0)">
+            <path id="Path_825" data-name="Path 825" class="cls-85" d="M19.038,51.022,6.3,38.33V38.1L19.268,51.022Z" transform="translate(-6.209 -30.037)"/>
+          </g>
+          <g id="Group_906" data-name="Group 906" class="cls-39" transform="translate(0)">
+            <path id="Path_826" data-name="Path 826" class="cls-86" d="M18.708,51.292,6.2,38.83l.046-.23L18.984,51.292Z" transform="translate(-6.155 -30.307)"/>
+          </g>
+          <g id="Group_907" data-name="Group 907" class="cls-39" transform="translate(0)">
+            <path id="Path_827" data-name="Path 827" class="cls-86" d="M18.478,51.562,6.2,39.33V39.1L18.708,51.562Z" transform="translate(-6.155 -30.578)"/>
+          </g>
+          <g id="Group_908" data-name="Group 908" class="cls-39" transform="translate(0)">
+            <path id="Path_828" data-name="Path 828" class="cls-87" d="M18.2,51.832,6.2,39.876V39.6L18.478,51.832Z" transform="translate(-6.155 -30.848)"/>
+          </g>
+          <g id="Group_909" data-name="Group 909" class="cls-39" transform="translate(0)">
+            <path id="Path_829" data-name="Path 829" class="cls-87" d="M17.972,52.11,6.2,40.43V40.2l12,11.956Z" transform="translate(-6.155 -31.172)"/>
+          </g>
+          <g id="Group_910" data-name="Group 910" class="cls-39" transform="translate(0)">
+            <path id="Path_830" data-name="Path 830" class="cls-88" d="M17.7,52.38,6.2,40.93V40.7L17.972,52.38Z" transform="translate(-6.155 -31.442)"/>
+          </g>
+          <g id="Group_911" data-name="Group 911" class="cls-39" transform="translate(0)">
+            <path id="Path_831" data-name="Path 831" class="cls-89" d="M17.466,52.65,6.2,41.43V41.2L17.7,52.65Z" transform="translate(-6.155 -31.712)"/>
+          </g>
+          <g id="Group_912" data-name="Group 912" class="cls-39" transform="translate(0)">
+            <path id="Path_832" data-name="Path 832" class="cls-89" d="M17.136,52.92,6.1,41.93l.046-.23L17.412,52.92Z" transform="translate(-6.101 -31.982)"/>
+          </g>
+          <g id="Group_913" data-name="Group 913" class="cls-39" transform="translate(0)">
+            <path id="Path_833" data-name="Path 833" class="cls-90" d="M16.906,53.19,6.1,42.43V42.2L17.136,53.19Z" transform="translate(-6.101 -32.252)"/>
+          </g>
+          <g id="Group_914" data-name="Group 914" class="cls-39" transform="translate(0)">
+            <path id="Path_834" data-name="Path 834" class="cls-91" d="M16.631,53.415,6.1,42.93V42.7L16.906,53.461Z" transform="translate(-6.101 -32.522)"/>
+          </g>
+          <g id="Group_915" data-name="Group 915" class="cls-39" transform="translate(0)">
+            <path id="Path_835" data-name="Path 835" class="cls-92" d="M16.4,53.685,6.1,43.476V43.2L16.631,53.685Z" transform="translate(-6.101 -32.792)"/>
+          </g>
+          <g id="Group_916" data-name="Group 916" class="cls-39" transform="translate(0)">
+            <path id="Path_836" data-name="Path 836" class="cls-92" d="M16.125,54.009,6.1,44.03V43.8L16.4,54.009Z" transform="translate(-6.101 -33.116)"/>
+          </g>
+          <g id="Group_917" data-name="Group 917" class="cls-39" transform="translate(0)">
+            <path id="Path_837" data-name="Path 837" class="cls-93" d="M15.895,54.279,6.1,44.53V44.3l10.025,9.979Z" transform="translate(-6.101 -33.386)"/>
+          </g>
+          <g id="Group_918" data-name="Group 918" class="cls-39" transform="translate(0)">
+            <path id="Path_838" data-name="Path 838" class="cls-93" d="M15.619,54.549,6.1,45.03V44.8l9.795,9.749Z" transform="translate(-6.101 -33.656)"/>
+          </g>
+          <g id="Group_919" data-name="Group 919" class="cls-39" transform="translate(0)">
+            <path id="Path_839" data-name="Path 839" class="cls-94" d="M15.335,54.819,6,45.53l.046-.23,9.519,9.519Z" transform="translate(-6.047 -33.926)"/>
+          </g>
+          <g id="Group_920" data-name="Group 920" class="cls-39" transform="translate(0)">
+            <path id="Path_840" data-name="Path 840" class="cls-95" d="M15.059,55.043,6,46.03V45.8l9.335,9.289Z" transform="translate(-6.047 -34.197)"/>
+          </g>
+          <g id="Group_921" data-name="Group 921" class="cls-39" transform="translate(0)">
+            <path id="Path_841" data-name="Path 841" class="cls-95" d="M14.829,55.313,6,46.53V46.3l9.059,9.013Z" transform="translate(-6.047 -34.467)"/>
+          </g>
+          <g id="Group_922" data-name="Group 922" class="cls-39" transform="translate(0)">
+            <path id="Path_842" data-name="Path 842" class="cls-96" d="M14.553,55.583,6,47.076V46.8l8.829,8.783Z" transform="translate(-6.047 -34.737)"/>
+          </g>
+          <g id="Group_923" data-name="Group 923" class="cls-39" transform="translate(0)">
+            <path id="Path_843" data-name="Path 843" class="cls-97" d="M14.323,55.907,6,47.63V47.4l8.553,8.507Z" transform="translate(-6.047 -35.061)"/>
+          </g>
+          <g id="Group_924" data-name="Group 924" class="cls-39" transform="translate(0)">
+            <path id="Path_844" data-name="Path 844" class="cls-98" d="M14.047,56.177,6,48.13V47.9l8.323,8.277Z" transform="translate(-6.047 -35.331)"/>
+          </g>
+          <g id="Group_925" data-name="Group 925" class="cls-39" transform="translate(0)">
+            <path id="Path_845" data-name="Path 845" class="cls-98" d="M13.763,56.447,5.9,48.63l.046-.23,8.047,8.047Z" transform="translate(-5.993 -35.601)"/>
+          </g>
+          <g id="Group_926" data-name="Group 926" class="cls-39" transform="translate(0)">
+            <path id="Path_846" data-name="Path 846" class="cls-99" d="M13.488,56.671,5.9,49.13V48.9l7.863,7.817Z" transform="translate(-5.993 -35.871)"/>
+          </g>
+          <g id="Group_927" data-name="Group 927" class="cls-39" transform="translate(0)">
+            <path id="Path_847" data-name="Path 847" class="cls-99" d="M13.258,56.942,5.9,49.63V49.4l7.588,7.542Z" transform="translate(-5.993 -36.141)"/>
+          </g>
+          <g id="Group_928" data-name="Group 928" class="cls-39" transform="translate(0)">
+            <path id="Path_848" data-name="Path 848" class="cls-100" d="M12.982,57.212,5.9,50.13V49.9l7.358,7.312Z" transform="translate(-5.993 -36.411)"/>
+          </g>
+          <g id="Group_929" data-name="Group 929" class="cls-39" transform="translate(0)">
+            <path id="Path_849" data-name="Path 849" class="cls-101" d="M12.752,57.482,5.9,50.676V50.4l7.082,7.082Z" transform="translate(-5.993 -36.681)"/>
+          </g>
+          <g id="Group_930" data-name="Group 930" class="cls-39" transform="translate(0)">
+            <path id="Path_850" data-name="Path 850" class="cls-102" d="M12.476,57.806,5.9,51.23V51l6.852,6.806Z" transform="translate(-5.993 -37.005)"/>
+          </g>
+          <g id="Group_931" data-name="Group 931" class="cls-39" transform="translate(0)">
+            <path id="Path_851" data-name="Path 851" class="cls-103" d="M12.192,58.076,5.8,51.73l.046-.23,6.576,6.576Z" transform="translate(-5.939 -37.275)"/>
+          </g>
+          <g id="Group_932" data-name="Group 932" class="cls-39" transform="translate(0)">
+            <path id="Path_852" data-name="Path 852" class="cls-104" d="M11.916,58.3,5.8,52.23V52l6.392,6.346Z" transform="translate(-5.939 -37.545)"/>
+          </g>
+          <g id="Group_933" data-name="Group 933" class="cls-39" transform="translate(0)">
+            <path id="Path_853" data-name="Path 853" class="cls-104" d="M11.686,58.57,5.8,52.73V52.5l6.116,6.07Z" transform="translate(-5.939 -37.816)"/>
+          </g>
+          <g id="Group_934" data-name="Group 934" class="cls-39" transform="translate(0)">
+            <path id="Path_854" data-name="Path 854" class="cls-105" d="M11.41,58.84,5.8,53.23V53l5.886,5.84Z" transform="translate(-5.939 -38.086)"/>
+          </g>
+          <g id="Group_935" data-name="Group 935" class="cls-39" transform="translate(0)">
+            <path id="Path_855" data-name="Path 855" class="cls-106" d="M11.18,59.11,5.8,53.776V53.5l5.61,5.61Z" transform="translate(-5.939 -38.356)"/>
+          </g>
+          <g id="Group_936" data-name="Group 936" class="cls-39" transform="translate(0)">
+            <path id="Path_856" data-name="Path 856" class="cls-106" d="M10.9,59.434l-5.1-5.1V54.1l5.38,5.334Z" transform="translate(-5.939 -38.68)"/>
+          </g>
+          <g id="Group_937" data-name="Group 937" class="cls-39" transform="translate(0)">
+            <path id="Path_857" data-name="Path 857" class="cls-107" d="M10.674,59.7,5.8,54.83V54.6l5.1,5.1Z" transform="translate(-5.939 -38.95)"/>
+          </g>
+          <g id="Group_938" data-name="Group 938" class="cls-39" transform="translate(0)">
+            <path id="Path_858" data-name="Path 858" class="cls-108" d="M10.344,59.928,5.7,55.33l.046-.23,4.874,4.874Z" transform="translate(-5.885 -39.22)"/>
+          </g>
+          <g id="Group_939" data-name="Group 939" class="cls-39" transform="translate(0)">
+            <path id="Path_859" data-name="Path 859" class="cls-109" d="M10.115,60.2,5.7,55.83V55.6l4.644,4.6Z" transform="translate(-5.885 -39.49)"/>
+          </g>
+          <g id="Group_940" data-name="Group 940" class="cls-39" transform="translate(0)">
+            <path id="Path_860" data-name="Path 860" class="cls-110" d="M9.839,60.469,5.7,56.33V56.1l4.415,4.369Z" transform="translate(-5.885 -39.76)"/>
+          </g>
+          <g id="Group_941" data-name="Group 941" class="cls-39" transform="translate(0)">
+            <path id="Path_861" data-name="Path 861" class="cls-110" d="M9.609,60.739,5.7,56.83V56.6l4.139,4.139Z" transform="translate(-5.885 -40.03)"/>
+          </g>
+          <g id="Group_942" data-name="Group 942" class="cls-39" transform="translate(0)">
+            <path id="Path_862" data-name="Path 862" class="cls-111" d="M9.333,61.009,5.7,57.376V57.1l3.909,3.909Z" transform="translate(-5.885 -40.3)"/>
+          </g>
+          <g id="Group_943" data-name="Group 943" class="cls-39" transform="translate(0)">
+            <path id="Path_863" data-name="Path 863" class="cls-112" d="M9.1,61.333l-3.4-3.4V57.7l3.633,3.633Z" transform="translate(-5.885 -40.624)"/>
+          </g>
+          <g id="Group_944" data-name="Group 944" class="cls-39" transform="translate(0)">
+            <path id="Path_864" data-name="Path 864" class="cls-112" d="M8.773,61.557,5.6,58.43l.046-.23,3.4,3.4Z" transform="translate(-5.831 -40.894)"/>
+          </g>
+          <g id="Group_945" data-name="Group 945" class="cls-39" transform="translate(0)">
+            <path id="Path_865" data-name="Path 865" class="cls-113" d="M8.543,61.827,5.6,58.93V58.7l3.173,3.127Z" transform="translate(-5.831 -41.164)"/>
+          </g>
+          <g id="Group_946" data-name="Group 946" class="cls-39" transform="translate(0)">
+            <path id="Path_866" data-name="Path 866" class="cls-114" d="M8.267,62.1,5.6,59.43V59.2l2.943,2.9Z" transform="translate(-5.831 -41.435)"/>
+          </g>
+          <g id="Group_947" data-name="Group 947" class="cls-39" transform="translate(0)">
+            <path id="Path_867" data-name="Path 867" class="cls-115" d="M8.037,62.367,5.6,59.93V59.7l2.667,2.667Z" transform="translate(-5.831 -41.705)"/>
+          </g>
+          <g id="Group_948" data-name="Group 948" class="cls-39" transform="translate(0)">
+            <path id="Path_868" data-name="Path 868" class="cls-115" d="M7.761,62.637,5.6,60.43V60.2l2.437,2.437Z" transform="translate(-5.831 -41.975)"/>
+          </g>
+          <g id="Group_949" data-name="Group 949" class="cls-39" transform="translate(0)">
+            <path id="Path_869" data-name="Path 869" class="cls-115" d="M7.531,62.907,5.6,60.976V60.7l2.161,2.207Z" transform="translate(-5.831 -42.245)"/>
+          </g>
+          <g id="Group_950" data-name="Group 950" class="cls-39" transform="translate(0)">
+            <path id="Path_870" data-name="Path 870" class="cls-116" d="M7.2,63.185,5.5,61.53l.046-.23,1.931,1.931Z" transform="translate(-5.777 -42.569)"/>
+          </g>
+          <g id="Group_951" data-name="Group 951" class="cls-39" transform="translate(0)">
+            <path id="Path_871" data-name="Path 871" class="cls-117" d="M6.972,63.455,5.5,62.03V61.8l1.7,1.655Z" transform="translate(-5.777 -42.839)"/>
+          </g>
+          <g id="Group_952" data-name="Group 952" class="cls-39" transform="translate(0)">
+            <path id="Path_872" data-name="Path 872" class="cls-118" d="M6.7,63.726l-1.2-1.2V62.3l1.472,1.426Z" transform="translate(-5.777 -43.109)"/>
+          </g>
+          <g id="Group_953" data-name="Group 953" class="cls-39" transform="translate(0)">
+            <path id="Path_873" data-name="Path 873" class="cls-118" d="M6.466,64,5.5,63.03V62.8L6.7,64Z" transform="translate(-5.777 -43.379)"/>
+          </g>
+          <g id="Group_954" data-name="Group 954" class="cls-39" transform="translate(0)">
+            <path id="Path_874" data-name="Path 874" class="cls-119" d="M6.19,64.266,5.5,63.53V63.3l.966.966Z" transform="translate(-5.777 -43.649)"/>
+          </g>
+          <g id="Group_955" data-name="Group 955" class="cls-39" transform="translate(0)">
+            <path id="Path_875" data-name="Path 875" class="cls-120" d="M5.96,64.536,5.5,64.03V63.8l.69.736Z" transform="translate(-5.777 -43.919)"/>
+          </g>
+          <g id="Group_956" data-name="Group 956" class="cls-39" transform="translate(0)">
+            <path id="Path_876" data-name="Path 876" class="cls-120" d="M5.684,64.76,5.5,64.576V64.3l.46.506Z" transform="translate(-5.777 -44.189)"/>
+          </g>
+          <g id="Group_957" data-name="Group 957" class="cls-39" transform="translate(0)">
+            <path id="Path_877" data-name="Path 877" class="cls-121" d="M5.446,64.9l.184.184H5.4Z" transform="translate(-5.723 -44.513)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_1012" data-name="Group 1012" transform="translate(7.358 5.253)">
+      <g id="Group_1011" data-name="Group 1011" class="cls-122">
+        <g id="Group_1010" data-name="Group 1010" transform="translate(-4.586 -5.99)">
+          <g id="Group_961" data-name="Group 961" class="cls-39" transform="translate(0 0)">
+            <path id="Path_879" data-name="Path 879" class="cls-123" d="M6.892,0,6.8.138V0Z" transform="translate(-6.444 -0.32)"/>
+          </g>
+          <g id="Group_962" data-name="Group 962" class="cls-39" transform="translate(0 0)">
+            <path id="Path_880" data-name="Path 880" class="cls-124" d="M7.3,0,6.7.6l.046-.46L6.838,0Z" transform="translate(-6.39 -0.32)"/>
+          </g>
+          <g id="Group_963" data-name="Group 963" class="cls-39" transform="translate(0 0)">
+            <path id="Path_881" data-name="Path 881" class="cls-125" d="M7.758.046,6.7,1.1V.6L7.3,0Z" transform="translate(-6.39 -0.32)"/>
+          </g>
+          <g id="Group_964" data-name="Group 964" class="cls-39" transform="translate(0 0)">
+            <path id="Path_882" data-name="Path 882" class="cls-126" d="M8.218.1,6.7,1.618v-.46L7.758.1Z" transform="translate(-6.39 -0.374)"/>
+          </g>
+          <g id="Group_965" data-name="Group 965" class="cls-39" transform="translate(0 0)">
+            <path id="Path_883" data-name="Path 883" class="cls-127" d="M8.623.1,6.6,2.123l.046-.506L8.163.1Z" transform="translate(-6.336 -0.374)"/>
+          </g>
+          <g id="Group_966" data-name="Group 966" class="cls-39" transform="translate(0 0)">
+            <path id="Path_884" data-name="Path 884" class="cls-128" d="M9.083.146,6.6,2.583v-.46L8.623.1Z" transform="translate(-6.336 -0.374)"/>
+          </g>
+          <g id="Group_967" data-name="Group 967" class="cls-39" transform="translate(0 0)">
+            <path id="Path_885" data-name="Path 885" class="cls-129" d="M9.5.2,6.6,3.143V2.637L9.083.2Z" transform="translate(-6.336 -0.428)"/>
+          </g>
+          <g id="Group_968" data-name="Group 968" class="cls-39" transform="translate(0 0)">
+            <path id="Path_886" data-name="Path 886" class="cls-130" d="M9.9.2,6.5,3.6l.046-.46L9.443.2Z" transform="translate(-6.282 -0.428)"/>
+          </g>
+          <g id="Group_969" data-name="Group 969" class="cls-39" transform="translate(0 0)">
+            <path id="Path_887" data-name="Path 887" class="cls-131" d="M10.363.2,6.5,4.109V3.6L9.9.2Z" transform="translate(-6.282 -0.428)"/>
+          </g>
+          <g id="Group_970" data-name="Group 970" class="cls-39" transform="translate(0 0)">
+            <path id="Path_888" data-name="Path 888" class="cls-132" d="M10.823.246,6.5,4.569v-.46L10.363.2Z" transform="translate(-6.282 -0.428)"/>
+          </g>
+          <g id="Group_971" data-name="Group 971" class="cls-39" transform="translate(0 0)">
+            <path id="Path_889" data-name="Path 889" class="cls-133" d="M11.282.3,6.5,5.128V4.623L10.823.3Z" transform="translate(-6.282 -0.482)"/>
+          </g>
+          <g id="Group_972" data-name="Group 972" class="cls-39" transform="translate(0 0)">
+            <path id="Path_890" data-name="Path 890" class="cls-134" d="M11.688.3,6.4,5.588l.046-.46L11.228.3Z" transform="translate(-6.228 -0.482)"/>
+          </g>
+          <g id="Group_973" data-name="Group 973" class="cls-39" transform="translate(0 0)">
+            <path id="Path_891" data-name="Path 891" class="cls-135" d="M12.1.346,6.4,6.094V5.588L11.688.3Z" transform="translate(-6.228 -0.482)"/>
+          </g>
+          <g id="Group_974" data-name="Group 974" class="cls-39" transform="translate(0 0)">
+            <path id="Path_892" data-name="Path 892" class="cls-136" d="M12.562.4,6.4,6.608v-.46L12.1.4Z" transform="translate(-6.228 -0.536)"/>
+          </g>
+          <g id="Group_975" data-name="Group 975" class="cls-39" transform="translate(0 0)">
+            <path id="Path_893" data-name="Path 893" class="cls-137" d="M12.968.4,6.3,7.114l.046-.506L12.508.4Z" transform="translate(-6.174 -0.536)"/>
+          </g>
+          <g id="Group_976" data-name="Group 976" class="cls-39" transform="translate(0 0)">
+            <path id="Path_894" data-name="Path 894" class="cls-138" d="M13.428.446,6.3,7.574v-.46L12.968.4Z" transform="translate(-6.174 -0.536)"/>
+          </g>
+          <g id="Group_977" data-name="Group 977" class="cls-39" transform="translate(0 0)">
+            <path id="Path_895" data-name="Path 895" class="cls-139" d="M13.888.5,6.3,8.134V7.628L13.428.5Z" transform="translate(-6.174 -0.59)"/>
+          </g>
+          <g id="Group_978" data-name="Group 978" class="cls-39" transform="translate(0 0)">
+            <path id="Path_896" data-name="Path 896" class="cls-140" d="M14.293.5,6.2,8.593l.046-.46L13.834.5Z" transform="translate(-6.12 -0.59)"/>
+          </g>
+          <g id="Group_979" data-name="Group 979" class="cls-39" transform="translate(0 0)">
+            <path id="Path_897" data-name="Path 897" class="cls-141" d="M14.707.546,6.2,9.1V8.593L14.293.5Z" transform="translate(-6.12 -0.59)"/>
+          </g>
+          <g id="Group_980" data-name="Group 980" class="cls-39" transform="translate(0 0)">
+            <path id="Path_898" data-name="Path 898" class="cls-142" d="M15.167.6,6.2,9.613v-.46L14.707.6Z" transform="translate(-6.12 -0.644)"/>
+          </g>
+          <g id="Group_981" data-name="Group 981" class="cls-39" transform="translate(0 0)">
+            <path id="Path_899" data-name="Path 899" class="cls-143" d="M15.573.6,6.1,10.119l.046-.506L15.113.6Z" transform="translate(-6.066 -0.644)"/>
+          </g>
+          <g id="Group_982" data-name="Group 982" class="cls-39" transform="translate(0 0)">
+            <path id="Path_900" data-name="Path 900" class="cls-144" d="M16.033.6,6.1,10.579v-.46L15.573.6Z" transform="translate(-6.066 -0.644)"/>
+          </g>
+          <g id="Group_983" data-name="Group 983" class="cls-39" transform="translate(0 0)">
+            <path id="Path_901" data-name="Path 901" class="cls-145" d="M16.493.646,6.1,11.085v-.506L16.033.6Z" transform="translate(-6.066 -0.644)"/>
+          </g>
+          <g id="Group_984" data-name="Group 984" class="cls-39" transform="translate(0 0)">
+            <path id="Path_902" data-name="Path 902" class="cls-146" d="M16.9.7,6,11.6l.046-.46L16.439.7Z" transform="translate(-6.012 -0.698)"/>
+          </g>
+          <g id="Group_985" data-name="Group 985" class="cls-39" transform="translate(0 0)">
+            <path id="Path_903" data-name="Path 903" class="cls-147" d="M17.312.7,6,12.1V11.6L16.9.7Z" transform="translate(-6.012 -0.698)"/>
+          </g>
+          <g id="Group_986" data-name="Group 986" class="cls-39" transform="translate(0 0)">
+            <path id="Path_904" data-name="Path 904" class="cls-148" d="M17.772.746,6,12.564V12.1L17.312.7Z" transform="translate(-6.012 -0.698)"/>
+          </g>
+          <g id="Group_987" data-name="Group 987" class="cls-39" transform="translate(0 0)">
+            <path id="Path_905" data-name="Path 905" class="cls-149" d="M18.178.8,5.9,13.124l.046-.506L17.718.8Z" transform="translate(-5.958 -0.752)"/>
+          </g>
+          <g id="Group_988" data-name="Group 988" class="cls-39" transform="translate(0 0)">
+            <path id="Path_906" data-name="Path 906" class="cls-150" d="M18.638.8,5.9,13.63v-.506L18.178.8Z" transform="translate(-5.958 -0.752)"/>
+          </g>
+          <g id="Group_989" data-name="Group 989" class="cls-39" transform="translate(0 0)">
+            <path id="Path_907" data-name="Path 907" class="cls-151" d="M19.1.846,5.9,14.09v-.46L18.638.8Z" transform="translate(-5.958 -0.752)"/>
+          </g>
+          <g id="Group_990" data-name="Group 990" class="cls-39" transform="translate(0 0)">
+            <path id="Path_908" data-name="Path 908" class="cls-152" d="M19.5.9,5.8,14.65l.046-.506L19.044.9Z" transform="translate(-5.904 -0.806)"/>
+          </g>
+          <g id="Group_991" data-name="Group 991" class="cls-39" transform="translate(0 0)">
+            <path id="Path_909" data-name="Path 909" class="cls-153" d="M19.917.9,5.8,15.109v-.46L19.5.9Z" transform="translate(-5.904 -0.806)"/>
+          </g>
+          <g id="Group_992" data-name="Group 992" class="cls-39" transform="translate(0 0)">
+            <path id="Path_910" data-name="Path 910" class="cls-154" d="M20.377.9,5.8,15.615v-.506L19.917.9Z" transform="translate(-5.904 -0.806)"/>
+          </g>
+          <g id="Group_993" data-name="Group 993" class="cls-39" transform="translate(0 0)">
+            <path id="Path_911" data-name="Path 911" class="cls-155" d="M20.783.946,5.7,16.075l.046-.46L20.323.9Z" transform="translate(-5.85 -0.806)"/>
+          </g>
+          <g id="Group_994" data-name="Group 994" class="cls-39" transform="translate(0 0)">
+            <path id="Path_912" data-name="Path 912" class="cls-156" d="M21.243,1,5.7,16.635v-.506L20.783,1Z" transform="translate(-5.85 -0.86)"/>
+          </g>
+          <g id="Group_995" data-name="Group 995" class="cls-39" transform="translate(0 0)">
+            <path id="Path_913" data-name="Path 913" class="cls-157" d="M21.7,1,5.7,17.095v-.46L21.243,1Z" transform="translate(-5.85 -0.86)"/>
+          </g>
+          <g id="Group_996" data-name="Group 996" class="cls-39" transform="translate(0 0)">
+            <path id="Path_914" data-name="Path 914" class="cls-157" d="M22.109,1.046,5.6,17.6l.046-.506L21.649,1Z" transform="translate(-5.796 -0.86)"/>
+          </g>
+          <g id="Group_997" data-name="Group 997" class="cls-39" transform="translate(0 0)">
+            <path id="Path_915" data-name="Path 915" class="cls-158" d="M22.523,1.1,5.6,18.114v-.46L22.109,1.1Z" transform="translate(-5.796 -0.914)"/>
+          </g>
+          <g id="Group_998" data-name="Group 998" class="cls-39" transform="translate(0 0)">
+            <path id="Path_916" data-name="Path 916" class="cls-159" d="M22.982,1.1,5.6,18.62v-.506L22.523,1.1Z" transform="translate(-5.796 -0.914)"/>
+          </g>
+          <g id="Group_999" data-name="Group 999" class="cls-39" transform="translate(0 0)">
+            <path id="Path_917" data-name="Path 917" class="cls-160" d="M23.388,1.146,5.5,19.08l.046-.46L22.928,1.1Z" transform="translate(-5.742 -0.914)"/>
+          </g>
+          <g id="Group_1000" data-name="Group 1000" class="cls-39" transform="translate(0 0)">
+            <path id="Path_918" data-name="Path 918" class="cls-161" d="M23.848,1.2,5.5,19.64v-.506L23.388,1.2Z" transform="translate(-5.742 -0.968)"/>
+          </g>
+          <g id="Group_1001" data-name="Group 1001" class="cls-39" transform="translate(0 0)">
+            <path id="Path_919" data-name="Path 919" class="cls-161" d="M24.308,1.2,5.5,20.1v-.46L23.848,1.2Z" transform="translate(-5.742 -0.968)"/>
+          </g>
+          <g id="Group_1002" data-name="Group 1002" class="cls-39" transform="translate(0 0)">
+            <path id="Path_920" data-name="Path 920" class="cls-162" d="M24.768,1.2,5.5,20.606V20.1L24.308,1.2Z" transform="translate(-5.742 -0.968)"/>
+          </g>
+          <g id="Group_1003" data-name="Group 1003" class="cls-39" transform="translate(0 0)">
+            <path id="Path_921" data-name="Path 921" class="cls-163" d="M25.128,1.246,5.4,21.066l.046-.46L24.714,1.2Z" transform="translate(-5.688 -0.968)"/>
+          </g>
+          <g id="Group_1004" data-name="Group 1004" class="cls-39" transform="translate(0 0)">
+            <path id="Path_922" data-name="Path 922" class="cls-164" d="M25.587,1.3,5.4,21.579h0v-.46L25.128,1.3Z" transform="translate(-5.688 -1.022)"/>
+          </g>
+          <g id="Group_1005" data-name="Group 1005" class="cls-39" transform="translate(0 0)">
+            <path id="Path_923" data-name="Path 923" class="cls-165" d="M26.047,1.3,5.86,21.579H5.4L25.587,1.3Z" transform="translate(-5.688 -1.022)"/>
+          </g>
+          <g id="Group_1006" data-name="Group 1006" class="cls-39" transform="translate(0 0)">
+            <path id="Path_924" data-name="Path 924" class="cls-166" d="M27.047,1.346,6.86,21.625l-.46-.046L26.587,1.3Z" transform="translate(-6.228 -1.022)"/>
+          </g>
+          <g id="Group_1007" data-name="Group 1007" class="cls-39" transform="translate(0 0)">
+            <path id="Path_925" data-name="Path 925" class="cls-167" d="M28,1.446,7.86,21.679H7.4L27.587,1.4H28Z" transform="translate(-6.769 -1.076)"/>
+          </g>
+          <g id="Group_1008" data-name="Group 1008" class="cls-39" transform="translate(0 0)">
+            <path id="Path_926" data-name="Path 926" class="cls-167" d="M28.541,1.96,8.86,21.733H8.4L28.541,1.5Z" transform="translate(-7.309 -1.13)"/>
+          </g>
+          <g id="Group_1009" data-name="Group 1009" class="cls-39" transform="translate(0 0)">
+            <path id="Path_927" data-name="Path 927" class="cls-167" d="M9.4,22.274,29.082,2.5l-.644,20.371Z" transform="translate(-7.849 -1.671)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

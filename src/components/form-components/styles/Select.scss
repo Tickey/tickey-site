@@ -1,0 +1,52 @@
+.selectWrapper {
+    display: inline-block;
+}
+
+.select {
+    min-width: 100px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #bbb;
+    color: #000;
+    border-radius: 3px;
+}
+    .select:hover {
+        background: #f1f1f1;
+        cursor: pointer;
+    }
+
+.label {
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.short {
+    composes: select;
+
+    width: 200px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -1px 0 1px rgba(0, 0, 0, 0.1), inset 0 -10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.middle {
+    composes: select;
+
+    width: 400px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -1px 0 1px rgba(0, 0, 0, 0.1), inset 0 -10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.long {
+    composes: select;
+
+    width: 600px;
+    text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 -1px 0 1px rgba(0, 0, 0, 0.1), inset 0 -10px 20px rgba(0, 0, 0, 0.05);
+}

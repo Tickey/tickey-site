@@ -1,0 +1,32 @@
+.input {
+    font-size: 16px;
+    margin: 1%;
+    outline: 0;
+    padding: 0 15px;
+    line-height: 60px;
+    width: 48%;
+    background: #fff;
+    border: 2px solid #10a9d8;
+    color: #10a9d8;
+    border-radius: 15px;
+}
+
+::-webkit-input-placeholder {
+    color: #10a9d8;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #10a9d8;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #10a9d8;
+}
+
+:-ms-input-placeholder {
+    color: #10a9d8;
+}
+
+.input:focus {
+    box-shadow: inset 0 -1px 0 1px rgba(0, 0, 0, 0.1), inset 0 -10px 20px rgba(0, 0, 0, 0.05);
+}

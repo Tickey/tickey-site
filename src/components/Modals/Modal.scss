@@ -1,0 +1,62 @@
+@import '../../theme/variables.scss';
+
+/* The Modal (background) */
+.modal {
+    display: block;
+    position: fixed;
+    top: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    min-width: 200px;
+    z-index: 101;
+    max-width: 450px;
+}
+
+.overlay {
+    visibility: visible; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background: white;
+    padding: 20px;
+    border: 1px solid #888;
+    background-size: 100%;
+    border-radius: 10px;
+    position: relative;
+    z-index: 110;
+    margin: 2%;
+}
+
+.modal-content .title {
+    color: green;
+    text-align: center;
+}
+
+.modal-content .title {
+    font-size: 25px;
+}
+
+/* The Close Button */
+.close {
+    background: url("./img/cross.png") center center no-repeat;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 50%;
+    cursor: pointer;
+}
+
+
