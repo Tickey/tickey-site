@@ -1,9 +1,47 @@
 @import '../../../theme/variables';
 
-.loader {
-    background: url("img/loading.gif") center center no-repeat;
-    width: 200px;
-    height: 200px;
-    background-size: 70%;
-    margin: 0 auto;
+.second-nav {
+    padding: 10px 0;
+    display: table;
+    width: 100%;
+}
+
+.left-side {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.right-side {
+    display: table-cell;
+    width: 50%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.right-side button {
+    width: 70px;
+}
+
+.text {
+    display: inline-block;
+    padding-right: 10px;
+    font-weight: bold;
+    color: $gray;
+}
+
+.dots {
+    background: url("./img/dots.svg") center center no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 10px;
+    display: inline-block;
+}
+
+.network {
+    background: url("./img/3G-4G.svg") center center no-repeat;
+    background-size: 100%;
+    width: 45px;
+    height: 15px;
+    display: inline-block;
 }

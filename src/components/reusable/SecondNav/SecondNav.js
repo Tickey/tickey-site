@@ -7,7 +7,16 @@ class SecondNav extends Component {
     render() {
         return (
             <div className={classes['second-nav']}>
-                <Button type="green" label="Изтегли" addedClass="small-text"/>
+                <div className={classes['left-side']}>
+                    <span className={classes.dots}/>
+                    <span className={classes.network}/>
+                    <span className={classes.bluetooth}/>
+                </div>
+                <div className={classes['right-side']}>
+                    <span className={classes.text}>BG</span>
+                    <Button type="green" label="Изтегли" addedClass="small-text"/>
+                </div>
+
             </div>
         );
     }

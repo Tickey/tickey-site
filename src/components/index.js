@@ -6,3 +6,4 @@
  */
 export Notifs from './Notifs/Notifs';
 export Form from './form-components';
+export MainSlogan from './Slogans/MainSlogan'

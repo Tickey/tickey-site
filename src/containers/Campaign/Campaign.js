@@ -1,7 +1,8 @@
 import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
 import Helmet from 'react-helmet';
-import {SecondNav} from '../../components/reusable/'
+import {SecondNav} from '../../components/reusable/';
+import {MainSlogan} from '../../components';
 
 export default class Campaign extends Component {
 
@@ -9,6 +10,7 @@ export default class Campaign extends Component {
         return (
             <div className="container form-wrapper">
                 <SecondNav/>
+                <MainSlogan/>
             </div>
         );
     }
