@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import classes from './styles/Button.scss';
 
 export default class Button extends Component {
 
     render() {
         return (
-            <span className={classes[this.props.type]} onClick={this.props.onClick}>
+            <button className={`${classes[this.props.type]} ${classes[this.props.addedClass]} ${classes.button}`} onClick={this.props.onClick} type={this.props.functionType}>
                 {this.props.label}
-            </span>
+            </button>
         );
     }
 }

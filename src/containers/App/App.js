@@ -29,6 +29,9 @@ import Footer from '../../components/Footer/Footer';
 export default class App extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            isTop: true,
+        }
     }
 
     static propTypes = {
@@ -49,12 +52,21 @@ export default class App extends Component {
         this.props.logout();
     };
 
+    componentDidMount() {
+        document.addEventListener('scroll', () => {
+            const isTop = window.scrollY < 20;
+            if (isTop !== this.state.isTop) {
+                this.setState({isTop})
+            }
+        });
+    }
+
     render() {
         const {user, email, notifs, children} = this.props;
         return (
             <div className={classes.app}>
                 <Helmet {...config.app.head} />
-                <Navbar fixedTop>
+                <Navbar fixedTop className={this.state.isTop ? 'up' : 'down'}>
                     <Navbar.Header>
                         <Navbar.Brand>
                             <IndexLink to="/">
@@ -67,8 +79,13 @@ export default class App extends Component {
                     <Navbar.Collapse>
                         <Nav navbar pullRight>
 
-                            <LinkContainer to="/test">
-                                <NavItem>Test</NavItem>
+                            <LinkContainer to="/sofia">
+                                <NavItem>Sofia</NavItem>
+                            </LinkContainer>
+
+
+                            <LinkContainer to="/business">
+                                <NavItem>Business</NavItem>
                             </LinkContainer>
                         </Nav>
 

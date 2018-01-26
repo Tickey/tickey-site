@@ -1287,3 +1287,11 @@ label {
 .form-group {
     position: relative;
 }
+
+.navbar-default.down {
+    display: block;
+}
+
+.navbar-default.up {
+    display: none;
+}
