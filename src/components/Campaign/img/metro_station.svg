@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2501.5 1469.064 153 46.673">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2e6ab4;
+        stroke: #1b447e;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 13px;
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #1a5fac;
+      }
+    </style>
+  </defs>
+  <g id="Group_2347" data-name="Group 2347" transform="translate(-2634 522.564)">
+    <g id="Group_2346" data-name="Group 2346" transform="translate(134 948)">
+      <path id="Path_1912" data-name="Path 1912" class="cls-1" d="M142.08,45.173H10.92a9.5,9.5,0,0,1-9.42-9.42V10.92A9.5,9.5,0,0,1,10.92,1.5H142.08a9.5,9.5,0,0,1,9.42,9.42V35.753A9.5,9.5,0,0,1,142.08,45.173Z" transform="translate(-1.5 -1.5)"/>
+      <path id="Path_1913" data-name="Path 1913" class="cls-2" d="M11.463,42.391H31.73c4.71,0,8.563-3.425,8.563-7.564V10.564C40.293,6.425,36.439,3,31.73,3H11.463C6.753,3,2.9,6.425,2.9,10.564V34.827C2.9,38.966,6.753,42.391,11.463,42.391Z" transform="translate(-0.902 -0.859)"/>
+      <text id="Метро_станция" data-name="Метро
+станция" class="cls-3" transform="translate(49.806 16.335)"><tspan x="0" y="0">Метро</tspan><tspan x="0" y="16">станция</tspan></text>
+    </g>
+    <path id="Path_1911" data-name="Path 1911" class="cls-4" d="M16.786,0,12.031,4.756,7.275,0H0V13.85L12.031,25.113,24.062,13.85V0Zm1.986,11.263L12.231,17.6,5.273,11.263V5.69L12.231,11.8,18.772,5.69Z" transform="translate(142.266 957.425)"/>
+  </g>
+</svg>

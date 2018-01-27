@@ -10,7 +10,6 @@ import stepOneImg from './img/phone_view_1.png';
 import stepTwoImg from './img/phone_view_2.png';
 import stepThreeImg from './img/phone_view_3.png';
 
-
 export default class Campaign extends Component {
 
     render() {
@@ -23,76 +22,82 @@ export default class Campaign extends Component {
             'Витоша',
             'Бизнес парк'
         ];
+
         return (
             <div>
-                <SecondNav/>
-                <section className={classes['main-slogan']}>
-                    <div className={classes.name}/>
-                    <h1 className="centered">ПЛАТИ БИЛЕТА<br/>
-                        <span className={classes['yellow-highlight']}>В СОФИЯ</span><br/>
-                        <span className={classes['thinner']}>през смартфона</span>
-                    </h1>
-                </section>
-                <p className="gray-text centered strong mt-20">Системата на TICKEY работи в:</p>
-                <section className={classes['station']}>
-                    <div className="metro">
-                        <div className={classes.logo}/>
-                        <div className={`gray-text`}>в 9 метростанции</div>
-                        <Button type="red" label="виж кои"/>
-                    </div>
-                    <div className="cgm">
-                        <div className={classes.logo}/>
-                        <div className={`gray-text`}>в 9 метростанции</div>
-                        <div className={`additional-info`}/>
-                        <Button type="red" label="виж oще"/>
-                    </div>
-                    <Button type="gray-bordered" label="КАК РАБОТИ" addedClass="strong"/>
-                </section>
-                <section className={classes.partners}>
-                    <div className={classes['sofia-partners']}>
-                        <h2>В партньорство с:</h2>
-                        <div className={classes['sofia-municipality']}/>
-                        <div className={classes['cgm-text']}/>
-                        <div className={classes['metro-text']}/>
-                    </div>
-                    <Stores/>
-                </section>
-                <section className={classes['stations-info']}>
-                    <div className={classes['metro-stations']}>
-                        <div className={classes['metro-logo']}/>
-                        <h3 className={`gray-text strong ${classes.title}`}>Системата на TICKEY работи пилотно
-                            в следните станции:</h3>
-                        <p className={`${classes['info-text']}`}>*През приложението може да закупите само
-                            единични билети + билет за багаж.</p>
-                        <ol start="1">
-                            {metroStations.map(station => <li>{station}</li>)}
-                        </ol>
-                        <p className="red-text">Коя е твоята станция?</p>
-                    </div>
+                <section className={classes['blue-gradient']}>
+                    <SecondNav/>
+                    <section className={classes['main-slogan']}>
+                        <div className={classes.name}/>
+                        <h1 className="centered uppercase">ПЛАТИ БИЛЕТА<br/>
+                            <span className={classes['yellow-highlight']}>В СОФИЯ</span><br/>
+                            <span className={classes['thinner']}>през смартфона</span>
+                        </h1>
+                    </section>
+                    <p className="gray-text centered strong mt-20">Системата на TICKEY работи в:</p>
+                    <section className={classes['station']}>
+                        <div className={classes.metro}>
+                            <div className={classes.logo}/>
+                            <div className={`gray-text text-16 ${classes.info}`}>в 9 метростанции</div>
+                            <a href="" className="strong base-link red-text text-14 right-align d-block">виж кои</a>
+                        </div>
+                        <div className={classes.cgm}>
+                            <div className={classes.logo}/>
+                            <div className={`gray-text text-16 ${classes.info}`}>в автобусни линии</div>
+                            <div className={`strong text-16`}>84,184,384</div>
+                            <a href="" className="strong base-link red-text text-14 right-align d-block">виж кои</a>
+                        </div>
+                        <div className={classes['how-it-works']}>
+                            <Button type="gray-bordered" label="КАК РАБОТИ" addedClass="strong"/>
+                        </div>
+                    </section>
+                    <section className={classes.partners}>
+                        <h2 className="gray-text centered strong mt-20 text-14">В партньорство с:</h2>
+                        <div className={`${classes['sofia-partners']} d-table`}>
+                            <div className={`${classes['sofia-municipality']} d-cell`}/>
+                            <div className={`${classes['cgm-text']} d-cell`}/>
+                            <div className={`${classes['metropoliten']} d-cell`}/>
+                        </div>
+                        <Stores/>
+                    </section>
+                    <section className={classes['stations-info']}>
+                        <div className={classes['metro-stations']}>
+                            <div className={classes['metro-logo']}/>
+                            <h3 className={`text-16 centered gray-text strong ${classes.title}`}>Системата на TICKEY работи пилотно
+                                в следните станции:</h3>
+                            <p className={`${classes['info-text']} text-14 gray-text centered`}>*През приложението може да закупите само
+                                единични билети + билет за багаж.</p>
+                            <ol start="1">
+                                {metroStations.map(station => <li>{station}</li>)}
+                            </ol>
+                            <p className="red-text strong centered text-16">Коя е твоята станция?</p>
+                        </div>
 
-                    <div className={classes['bus-stations']}>
-                        <div className={classes['bus-logo']}/>
-                        <h3 className={`gray-text strong ${classes.title}`}>Център за градска мобилност ЕАД</h3>
-                        <p className={`${classes['info-text']}`}>*През приложението може да закупите само
-                            единични билети + билет за багаж.</p>
-                        <p className={`${classes['info-text']}`}>*Автобусите са обозначени със стикери.
-                            Автобусите без стикери не са в обхвата
-                            на TICKEY.</p>
+                        <div className={classes['bus-stations']}>
+                            <div className={classes['bus-logo']}/>
+                            <h3 className={`text-16 centered gray-text strong ${classes.title}`}>Център за градска мобилност ЕАД</h3>
+                            <p className={`${classes['info-text']} text-14 gray-text centered`}>*През приложението може да закупите само
+                                единични билети + билет за багаж.</p>
+                            <p className={`${classes['info-text']} text-14 gray-text centered`}>*Автобусите са обозначени със стикери.
+                                Автобусите без стикери не са в обхвата
+                                на TICKEY.</p>
 
-                        <p className="big-text">Системата на TICKEY работи
-                            единствено в автобусни линии </p>
-                        <p className={classes.stations}>84,184,384</p>
+                            <p className="centered text-20">Системата на TICKEY работи
+                                единствено в автобусни линии </p>
+                            <p className={`${classes.stations} strong centered text-26`}>84,184,384</p>
 
-                        <p className="red-text">Коя е твоята станция?</p>
-                    </div>
+                            <p className="red-text strong centered text-16">Коя е твоята станция?</p>
+                        </div>
+                    </section>
+
+
+                    <section className={classes.download}>
+                        <h3 className="text-20 centered">Свали <strong>TICKEY</strong> безплатно
+                            на своя смартфон</h3>
+                        <Button type="green" label="Изтегли"/>
+                    </section>
                 </section>
 
-
-                <section className={classes.download}>
-                    <h3>Свали <strong>TICKEY</strong> безплатно
-                        на своя смартфон</h3>
-                    <Button type="green" label="Изтегли"/>
-                </section>
 
                 <section className={classes.steps}>
                     <p className="red-text">прочети за 3 мин</p>

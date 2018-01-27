@@ -1,14 +1,21 @@
 @import '../../theme/variables.scss';
-/*Campaign*/
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
-.name {
-    background: url("./img/tickey.svg") center center no-repeat;
-    background-size: 60%;
-    height: 50px;
+/*main-slogan*/
+.blue-gradient {
+    @include gradient-directional($gr-white-blue-from, $gr-white-blue-to, 135deg);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .main-slogan {
     margin-top: 40px;
+}
+
+.main-slogan .name {
+    background: url("./img/tickey.svg") center center no-repeat;
+    background-size: 60%;
+    height: 50px;
 }
 
 .main-slogan h1 {
@@ -32,11 +39,117 @@
     width: 100%;
     height: 40px;
     background: $yellow;
-    z-index: -1;
     opacity: 0.5;
 }
 
 .main-slogan h1 .thinner {
     font-weight: normal;
     display: block;
+}
+
+/*station*/
+.station {
+    margin: 0 15px;
+}
+
+.station .metro {
+    margin-bottom: 10px;
+}
+
+.station .metro,
+.station .cgm {
+    background: $white;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+.station .metro .logo {
+    background: url("./img/metro.svg") center center no-repeat;
+    background-size: 80%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+.station .cgm .logo {
+    background: url("./img/cgm_logo.svg") center center no-repeat;
+    background-size: 80%;
+    width: 42px;
+    height: 42px;
+    float: left;
+    margin-right: 10px;
+}
+
+.station .info {
+    margin-top: 10px;
+}
+
+.station .metro .info {
+    margin-bottom: 15px;
+}
+
+.how-it-works {
+    width: 60%;
+    margin: 30px auto;
+}
+
+/*partners*/
+.sofia-partners {
+    width: 100%;
+}
+
+.sofia-municipality {
+    background: url("./img/sofia_minucipality.svg") center center no-repeat;
+    background-size: 100%;
+    width: 40px;
+    height: 100px;
+}
+
+.cgm-text {
+    background: url("./img/cgm.svg") center center no-repeat;
+    background-size: 80%;
+    width: 150px;
+    height: 100px;
+}
+
+.metropoliten {
+    background: url("./img/metropoliten.svg") center center no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 100px;
+}
+
+//stations-info
+
+.metro-stations,
+.bus-stations {
+    background: $white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.metro-logo {
+    background: url("./img/metro_station.svg") center center no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.bus-logo {
+    background: url("./img/bus_station.svg") center center no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.metro-stations ol {
+    padding-left: 20px;
+}
+
+.download {
+    margin: 0 30px;
 }

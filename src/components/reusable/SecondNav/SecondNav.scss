@@ -1,7 +1,6 @@
 @import '../../../theme/variables';
 
 .second-nav {
-    padding: 10px 0;
     display: table;
     width: 100%;
 }
@@ -32,16 +31,30 @@
 
 .dots {
     background: url("./img/dots.svg") center center no-repeat;
-    background-size: 100%;
-    width: 50px;
+    background-size: 90%;
+    width: 40px;
     height: 10px;
     display: inline-block;
+    vertical-align: middle;
+
 }
 
 .network {
     background: url("./img/3G-4G.svg") center center no-repeat;
     background-size: 100%;
-    width: 45px;
+    width: 40px;
     height: 15px;
     display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.bluetooth {
+    background: url("./img/bluetooth.svg") center center no-repeat;
+    background-size: 70%;
+    width: 40px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+
 }
