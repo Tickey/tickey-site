@@ -12,6 +12,11 @@
     cursor: pointer;
 }
 
+.strong {
+    font-weight: bold;
+    border: 2px solid;
+}
+
 .button.small-text {
     font: 400 12px/1 'Open Sans', sans-serif;
 }
@@ -25,4 +30,9 @@
     background: transparent;
     color: $gray;
     border: 1px solid $gray;
+}
+
+.red {
+    background: transparent;
+    color: $red;
 }

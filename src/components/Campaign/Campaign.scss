@@ -1,9 +1,14 @@
-@import '../../theme/variables';
+@import '../../theme/variables.scss';
+/*Campaign*/
 
 .name {
     background: url("./img/tickey.svg") center center no-repeat;
-    background-size: 100%;
-    width: 80%;
+    background-size: 60%;
+    height: 50px;
+}
+
+.main-slogan {
+    margin-top: 40px;
 }
 
 .main-slogan h1 {

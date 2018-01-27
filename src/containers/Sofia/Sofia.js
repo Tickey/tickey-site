@@ -1,16 +1,15 @@
 import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
 import Helmet from 'react-helmet';
-import {SecondNav} from '../../components/reusable/';
-import {MainSlogan} from '../../components';
+import Footer from '../../components/Footer/Footer';
+import Campaign from '../../components/Campaign/Campaign';
 
-export default class Campaign extends Component {
+export default class Sofia extends Component {
 
     render() {
         return (
             <div className="container form-wrapper">
-                <SecondNav/>
-                <MainSlogan/>
+                <Campaign/>
             </div>
         );
     }

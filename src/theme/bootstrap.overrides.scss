@@ -229,12 +229,16 @@ a {
 }
 
 /*Text Colors*/
-.dark-gray-text {
-    color: $dark-gray;
+.light-gray-text {
+    color: $light-gray;
 }
 
 .gray-text {
     color: $gray;
+}
+
+.dark-gray-text {
+    color: $dark-gray;
 }
 
 .normal-gray-text {

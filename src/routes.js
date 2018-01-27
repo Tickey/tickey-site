@@ -6,7 +6,7 @@ import {
     App,
     NotFound,
     Homepage,
-    Campaign
+    Sofia
 } from 'containers';
 import getRoutesUtils from 'utils/routes';
 
@@ -40,7 +40,7 @@ export default store => {
         <Route path="/" component={App}>
             {/* Home (main) route */}
             <IndexRoute component={Homepage}/>
-            <Route path="sofia" component={Campaign}/>
+            <Route path="sofia" component={Sofia}/>
             {/* Catch all route */}
             <Route path="*" component={NotFound} status={404}/>
         </Route>
