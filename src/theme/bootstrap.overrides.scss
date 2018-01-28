@@ -550,3 +550,66 @@ Refactored texts*/
 .container {
     padding: 10px;
 }
+
+.navbar-default {
+    left: 20px;
+    right: 20px;
+    border-radius: 10px;
+    width: auto;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-brand {
+    color: transparent;
+    background: url("./images/TICKEY_logo.svg") center center no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    display: table-cell;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: transparent;
+}
+
+.text-logo {
+    background: url("./images/tickey.svg") center center no-repeat;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    display: table-cell;
+}
+
+.navbar-header {
+    display: table;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar-default .navbar-toggle {
+    display: table-cell;
+    margin: 5px 0 0 0;
+    border: none;
+    padding: 10px 0 10px 10px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background: $white;
+}
+
+.container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+    margin: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar:nth-child(3) {
+    width: 18px;
+    margin-left: 4px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: $dark-blue;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}

@@ -54,7 +54,7 @@ export default class App extends Component {
 
     componentDidMount() {
         document.addEventListener('scroll', () => {
-            const isTop = window.scrollY < 20;
+            const isTop = window.scrollY < 50;
             if (isTop !== this.state.isTop) {
                 this.setState({isTop})
             }
@@ -70,12 +70,13 @@ export default class App extends Component {
                     <Navbar.Header>
                         <Navbar.Brand>
                             <IndexLink to="/">
-                                Test
+                                Tickey
                             </IndexLink>
                         </Navbar.Brand>
+                        <div className="text-logo"/>
+
                         <Navbar.Toggle />
                     </Navbar.Header>
-
                     <Navbar.Collapse>
                         <Nav navbar pullRight>
 
