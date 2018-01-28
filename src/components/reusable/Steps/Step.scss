@@ -4,4 +4,49 @@
 .steps-wrapper {
     background: $bgr-light-gray;
     border-radius: 10px;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+}
+
+.step-name {
+    padding-left: 25px;
+}
+
+.steps-wrapper h1 {
+    display: inline;
+}
+
+.steps-wrapper h1 strong > span {
+    position: relative;
+}
+
+.steps-wrapper h1 strong > span:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    bottom: 0;
+    left: -20px;
+    right: 0;
+    height: 45px;
+    background: $green;
+    opacity: 0.5;
+    width: 115%;
+}
+
+.phone {
+    background: url("./img/phone_placeholder.png") center center no-repeat;
+    background-size: 60%;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 87%;
+}
+
+.phone img {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    width: 55%;
+    margin: auto;
 }

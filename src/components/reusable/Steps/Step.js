@@ -10,9 +10,9 @@ class Step extends Component {
         const {name, title, imgSource} = this.props;
 
         return (
-            <div className={classes['steps-wrapper']}>
-                <p>{name}</p>
-                <h1 className={classes['green-hightlight']}>{title}</h1>
+            <div className={`${classes['steps-wrapper']} mb-10`}>
+                <p className={`${classes['step-name']} text-14 uppercase left-align`}>{name}</p>
+                <h1 className={`centered uppercase`}>{title}</h1>
                 <div className={classes['step-info']}>
                     {this.props.children}
                 </div>

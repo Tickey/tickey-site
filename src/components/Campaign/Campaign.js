@@ -23,6 +23,7 @@ export default class Campaign extends Component {
             'Бизнес парк'
         ];
 
+
         return (
             <div>
                 <section className={classes['blue-gradient']}>
@@ -103,7 +104,7 @@ export default class Campaign extends Component {
                     <p className="red-text text-16 strong ml-10">прочети за 3 мин</p>
                     <p className="thinner gray-text uppercase text-20 ml-20">С ТРИ ЛЕСНИ СТЪПКИ КУПУВАШ
                         ПЪРВИЯ СИ БИЛЕТ ПРЕЗ ТЕЛЕФОНА</p>
-                    <Step name="Стъпка 1" title="РЕГИСТРАЦИЯ" imgSource={stepOneImg}>
+                    <Step name="Стъпка 1" title={<strong><span>РЕГИСТ</span>РАЦИЯ</strong>} imgSource={stepOneImg}>
                         <p className="centered text-14">
                             В приложението TICKEY регистрацията е възможна по два начина:
                         </p>
@@ -112,7 +113,7 @@ export default class Campaign extends Component {
                             <li>2. Регистрация през e-mail адрес;</li>
                         </ul>
                     </Step>
-                    <Step name="Стъпка 2" title="Метод за плащане" imgSource={stepTwoImg}>
+                    <Step name="Стъпка 2" title={<span><strong><span>Метод</span> за</strong>плащане</span>} imgSource={stepTwoImg}>
                         <p className="centered text-14">ПЛАЩАМ С КАРТА ИЛИ С PAYPAL</p>
                         <p className="centered text-14">Преди да купиш билет през TICKEY трябва да добавиш Метод за плащане в твоя TICKEY профил. Можеш да добавиш повече от един платежен инструмент.
                             Това може да бъде - дебитна
@@ -120,7 +121,7 @@ export default class Campaign extends Component {
                         <div className={classes.partners}/>
                         <p className="red-text centered strong">Как да добавя картата си?</p>
                     </Step>
-                    <Step name="Стъпка 3" title="Купи билет с един линк" imgSource={stepThreeImg}>
+                    <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong>с един линк</span>} imgSource={stepThreeImg}>
                         <p className="centered text-14">След като имаш добавен платежен инструмент, влез в автобуса или застани първи пред турникета в метрото. На екрана ще се изпише станцията или
                             автобуса, в който си. След като
                             информацията е коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</p>
