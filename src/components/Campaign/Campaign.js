@@ -99,45 +99,55 @@ export default class Campaign extends Component {
                 </section>
 
 
-                <section className={classes.steps}>
-                    <p className="red-text">прочети за 3 мин</p>
-                    <p className="thiner">С ТРИ ЛЕСНИ СТЪПКИ КУПУВАШ
+                <section className={`${classes.steps} mt-10`}>
+                    <p className="red-text text-16 strong ml-10">прочети за 3 мин</p>
+                    <p className="thinner gray-text uppercase text-20 ml-20">С ТРИ ЛЕСНИ СТЪПКИ КУПУВАШ
                         ПЪРВИЯ СИ БИЛЕТ ПРЕЗ ТЕЛЕФОНА</p>
                     <Step name="Стъпка 1" title="РЕГИСТРАЦИЯ" imgSource={stepOneImg}>
-                        <p className="centered">
+                        <p className="centered text-14">
                             В приложението TICKEY регистрацията е възможна по два начина:
                         </p>
-                        <ol start="1">
+                        <ul className="centered text-14 no-list">
                             <li>1. Регистрация през Facebook акаунт;</li>
                             <li>2. Регистрация през e-mail адрес;</li>
-                        </ol>
+                        </ul>
                     </Step>
                     <Step name="Стъпка 2" title="Метод за плащане" imgSource={stepTwoImg}>
-                        <p>ПЛАЩАМ С КАРТА ИЛИ С PAYPAL</p>
-                        <p>Преди да купиш билет през TICKEY трябва да добавиш Метод за плащане в твоя TICKEY профил. Можеш да добавиш повече от един платежен инструмент. Това може да бъде - дебитна
+                        <p className="centered text-14">ПЛАЩАМ С КАРТА ИЛИ С PAYPAL</p>
+                        <p className="centered text-14">Преди да купиш билет през TICKEY трябва да добавиш Метод за плащане в твоя TICKEY профил. Можеш да добавиш повече от един платежен инструмент.
+                            Това може да бъде - дебитна
                             карта, кредитна карта или PayPal профил. Избра ли?</p>
                         <div className={classes.partners}/>
-                        <p className="red-text">Как да добавя картата си?</p>
+                        <p className="red-text centered strong">Как да добавя картата си?</p>
                     </Step>
                     <Step name="Стъпка 3" title="Купи билет с един линк" imgSource={stepThreeImg}>
-                        <p>След като имаш добавен платежен инструмент, влез в автобуса или застани първи пред турникета в метрото. На екрана ще се изпише станцията или автобуса, в който си. След като
+                        <p className="centered text-14">След като имаш добавен платежен инструмент, влез в автобуса или застани първи пред турникета в метрото. На екрана ще се изпише станцията или
+                            автобуса, в който си. След като
                             информацията е коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</p>
-                        <p className="red-text">Какво е “Моето пътуване?</p>
-                        <p className="red-text">Как да добавя багаж към пътуването си?</p>
+                        <p className="red-text centered strong">Какво е “Моето пътуване?</p>
+                        <p className="red-text centered strong">Как да добавя багаж към пътуването си?</p>
                     </Step>
                 </section>
+
                 <section className={classes.privacy}>
-                    <p className="red-text">важно</p>
-                    <h3><strong>КОЙ ЗАЩИТАВА</strong> МОИТЕ ДАННИ <strong>И ДАННИТЕ НА МОЯТА КАРТА</strong></h3>
-                    <p>TICKEY не съхранява информация за Вашите карти на своите сървъри. Данните за вашите карти се предоставят директно на партньорите ни от Braintree. Компанията Braintree е
+                    <p className="red-text strong centered">важно</p>
+                    <h3 className="text-26 centered"><strong>КОЙ ЗАЩИТАВА</strong> МОИТЕ ДАННИ <strong>И ДАННИТЕ НА МОЯТА КАРТА</strong></h3>
+                    <p className="centered text-14">TICKEY не съхранява информация за Вашите карти на своите сървъри. Данните за вашите карти се предоставят директно на партньорите ни от Braintree.
+                        Компанията Braintree е
                         собственост на PayPal и предоставят най-високата степен на защита на чувствителната информация свързана с онлайн плащанията.</p>
-                    <Button type="gray-bordered" label="Прочети"/>
+                    <div className={`${classes['btn-wrapper']} center-block mt-10`}>
+                        <Button type="gray-bordered" label="Прочети" addedClass="strong"/>
+                    </div>
                 </section>
                 <section className={classes['another-questions']}>
-                    <h4>ИМАШ ОЩЕ ВЪПРОСИ, НА КОИТО НЕ СМЕ ОТГОВОРИЛИ?</h4>
-                    <p>Отиди към FAQ и виж какво са попитали другите или ни пиши.</p>
-                    <Button type="gray-bordered" label="FAQ"/>
-                    <Button type="gray-bordered" label="Пиши ни"/>
+                    <h4 className="text-16 centered strong">ИМАШ ОЩЕ ВЪПРОСИ, НА КОИТО НЕ СМЕ ОТГОВОРИЛИ?</h4>
+                    <p className="text-14 centered">Отиди към FAQ и виж какво са попитали другите или ни пиши.</p>
+                    <div className={`col-xs-6 col-md-6 mt-10`}>
+                        <Button type="gray-bordered" label="FAQ" addedClass="strong"/>
+                    </div>
+                    <div className={`col-xs-6 col-md-6  mt-10`}>
+                        <Button type="gray-bordered" label="Пиши ни" addedClass="strong"/>
+                    </div>
                 </section>
             </div>
         );

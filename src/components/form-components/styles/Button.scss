@@ -17,6 +17,10 @@
     border: 2px solid;
 }
 
+.gray-bordered.strong {
+    border: 2px solid $gray;
+}
+
 .button.small-text {
     font: 400 12px/1 'Open Sans', sans-serif;
 }
