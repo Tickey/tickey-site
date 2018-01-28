@@ -40,13 +40,13 @@ export default class Campaign extends Component {
                         <div className={classes.metro}>
                             <div className={classes.logo}/>
                             <div className={`gray-text text-16 ${classes.info}`}>в 9 метростанции</div>
-                            <a href="" className="strong base-link red-text text-14 right-align d-block">виж кои</a>
+                            <a href="#metro" className="strong base-link red-text text-14 right-align d-block">виж кои</a>
                         </div>
                         <div className={classes.cgm}>
                             <div className={classes.logo}/>
                             <div className={`gray-text text-16 ${classes.info}`}>в автобусни линии</div>
                             <div className={`strong text-16`}>84,184,384</div>
-                            <a href="" className="strong base-link red-text text-14 right-align d-block">виж кои</a>
+                            <a href="#bus" className="strong base-link red-text text-14 right-align d-block">виж кои</a>
                         </div>
                         <div className={classes['how-it-works']}>
                             <Button type="gray-bordered" label="КАК РАБОТИ" addedClass="strong"/>
@@ -63,7 +63,7 @@ export default class Campaign extends Component {
                     </section>
                     <section className={classes['stations-info']}>
                         <div className={classes['metro-stations']}>
-                            <div className={classes['metro-logo']}/>
+                            <div className={classes['metro-logo']} id="metro"/>
                             <h3 className={`text-16 centered gray-text strong ${classes.title}`}>Системата на TICKEY работи пилотно
                                 в следните станции:</h3>
                             <p className={`${classes['info-text']} text-14 gray-text centered`}>*През приложението може да закупите само
@@ -75,7 +75,7 @@ export default class Campaign extends Component {
                         </div>
 
                         <div className={classes['bus-stations']}>
-                            <div className={classes['bus-logo']}/>
+                            <div className={classes['bus-logo']} id="bus"/>
                             <h3 className={`text-16 centered gray-text strong ${classes.title}`}>Център за градска мобилност ЕАД</h3>
                             <p className={`${classes['info-text']} text-14 gray-text centered`}>*През приложението може да закупите само
                                 единични билети + билет за багаж.</p>
