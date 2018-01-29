@@ -50,3 +50,47 @@
     width: 55%;
     margin: auto;
 }
+
+@media (min-width: 768px) {
+
+    .phone {
+        background-size: 60%;
+        width: 40%;
+        padding-bottom: 44%;
+    }
+
+    .steps-wrapper {
+        position: relative;
+    }
+
+    .step-name {
+        position: absolute;
+        top: 25%;
+    }
+
+    .steps-wrapper h1 {
+        position: absolute;
+        top: 32%;
+        left: 5%;
+        width: 300px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1024px) {
+    .phone {
+        width: 30%;
+        padding-bottom: 33%;
+    }
+
+    .steps-wrapper h1 {
+
+        left: 10%;
+    }
+
+    .step-name {
+        left: 5%;
+    }
+}
+
+

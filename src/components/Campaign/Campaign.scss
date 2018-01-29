@@ -48,7 +48,7 @@
 
 /*station*/
 .station {
-    margin: 0 15px;
+    padding: 0 15px;
 }
 
 .station .metro {
@@ -89,7 +89,7 @@
 }
 
 .how-it-works {
-    width: 60%;
+    width: 170px;
     margin: 30px auto;
 }
 
@@ -98,25 +98,30 @@
     width: 100%;
 }
 
+.partners {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 .sofia-municipality {
     background: url("./img/sofia_minucipality.svg") center center no-repeat;
     background-size: 100%;
     width: 40px;
-    height: 100px;
+    height: 80px;
 }
 
 .cgm-text {
     background: url("./img/cgm.svg") center center no-repeat;
     background-size: 80%;
     width: 150px;
-    height: 100px;
+    height: 80px;
 }
 
 .metropoliten {
     background: url("./img/metropoliten.svg") center center no-repeat;
     background-size: 100%;
     width: 150px;
-    height: 100px;
+    height: 80px;
 }
 
 //stations-info
@@ -149,15 +154,11 @@
     padding-left: 20px;
 }
 
-.download {
-    margin: 0 30px;
-}
-
 .privacy {
     background: $bgr-light-gray;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px auto;
 }
 
 .privacy .btn-wrapper {
@@ -174,4 +175,105 @@
 .another-questions h4,
 .another-questions p {
     padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+    .stations-box {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+    .metro,
+    .cgm {
+        flex-grow: 1;
+        margin: 0 5px;
+    }
+
+    .station .metro {
+        margin-bottom: 0;
+    }
+
+    .station .metro .info {
+        margin-bottom: 20px;
+    }
+
+    .stations-info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .metro-stations,
+    .bus-stations {
+        flex: 1 100%;
+        margin: 5px;
+    }
+
+    .partners {
+        max-width: 100%;
+    }
+
+    .partners h2 {
+        text-align: left;
+    }
+
+    .sofia-partners {
+        max-width: 300px;
+        float: left;
+    }
+
+    .stores-wrapper {
+        float: right;
+    }
+
+    .sofia-municipality,
+    .cgm-text,
+    .metropoliten {
+        height: 50px;
+    }
+
+    .step-red-text {
+        position: absolute;
+        top: 60%;
+        left: 5%;
+        width: 300px;
+    }
+
+    .step-red-text p {
+        text-align: left;
+    }
+
+    .step-inner-info {
+        position: absolute;
+        top: 30%;
+        right: 0;
+        width: 300px;
+    }
+    .step-inner-info p,
+    .step-inner-info ul {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1024px) {
+    .step-inner-info {
+        right: 10%;
+    }
+
+    .step-red-text {
+        left: 10%;
+    }
+}
+
+@media (min-width: 1366px) {
+
+    .blue-gradient {
+        padding: 20px 30px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .blue-gradient {
+        padding: 30px 50px;
+    }
 }

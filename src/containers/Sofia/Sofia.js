@@ -8,7 +8,7 @@ export default class Sofia extends Component {
 
     render() {
         return (
-            <div className="container form-wrapper">
+            <div className="container">
                 <Campaign/>
             </div>
         );

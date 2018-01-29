@@ -5,7 +5,7 @@ import classes from './Stores.scss';
 class Stores extends Component {
     render() {
         return (
-            <div className={`${classes.stores}`}>
+            <div className={`${classes.stores} clearfix`}>
                 <a href="" className={`${classes['play-store']}`}/>
                 <a href="" className={`${classes['app-store']}`}/>
             </div>

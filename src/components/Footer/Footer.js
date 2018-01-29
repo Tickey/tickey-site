@@ -10,9 +10,9 @@ export default class Footer extends Component {
 
     render() {
         return (
-            <section className={`${classes.footer} clearfix mt-20`}>
+            <footer className={`${classes.footer} clearfix mt-20 container wrapper`}>
                 <div className={classes.logo}/>
-                <div className="campaing-cities centered mt-20 mb-20">
+                <div className={`${classes['campaing-cities']} centered mt-20 mb-20`}>
                     <IndexLink to="/sofia" className="base-link gray-text">София</IndexLink>
                 </div>
                 <div className={`${classes.socials} d-table`}>
@@ -21,7 +21,7 @@ export default class Footer extends Component {
                     <a href="" className={`${classes.facebook} d-cell`}/>
                 </div>
                 <Stores/>
-            </section>
+            </footer>
         );
     }
 }
