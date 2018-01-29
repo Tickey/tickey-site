@@ -84,10 +84,10 @@ export default class App extends Component {
                                 <NavItem>Sofia</NavItem>
                             </LinkContainer>
 
-
-                            <LinkContainer to="/business">
-                                <NavItem>Business</NavItem>
-                            </LinkContainer>
+                            {/*
+                             <LinkContainer to="/business">
+                             <NavItem>Business</NavItem>
+                             </LinkContainer>*/}
                         </Nav>
 
                     </Navbar.Collapse>

@@ -660,6 +660,23 @@ Refactored texts*/
         width: 100%;
         padding: 15px;
     }
+
+    .navbar-header {
+        float: left;
+        width: 55%;
+    }
+
+    .navbar-default .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+        background-color: $white;
+    }
+
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: 0;
+    }
 }
 
 @media (min-width: 1024px) {
