@@ -32,10 +32,10 @@ export default class Campaign extends Component {
                         <div className={classes.name}/>
                         <h1 className="centered uppercase">ПЛАТИ БИЛЕТА
                             <span className={classes['yellow-highlight']}>В СОФИЯ</span>
-                            <span className={classes['thinner']}>през смартфона</span>
                         </h1>
+                        <h2><span className={classes['thinner']}>през смартфона</span></h2>
                     </section>
-                    <p className="gray-text centered strong mt-20 mb-20 wrapper-middle">Системата на TICKEY работи в:</p>
+                    <h3 className="gray-text centered strong mt-20 mb-20 wrapper-middle">Системата на TICKEY работи в:</h3>
                     <section className={`${classes['station']} wrapper-middle`}>
                         <div className={classes['stations-box']}>
                             <div className={classes.metro}>
@@ -55,7 +55,7 @@ export default class Campaign extends Component {
                         </div>
                     </section>
                     <section className={`${classes.partners} clearfix`}>
-                        <h2 className="gray-text centered strong mt-20 text-14">В партньорство с:</h2>
+                        <h3 className="gray-text centered strong mt-20 text-14">В партньорство с:</h3>
                         <div className={`${classes['sofia-partners']} d-table`}>
                             <div className={`${classes['sofia-municipality']} d-cell`}/>
                             <div className={`${classes['cgm-text']} d-cell`}/>
@@ -107,14 +107,14 @@ export default class Campaign extends Component {
 
 
                 <section className={`${classes.steps} mt-10`}>
-                    <p className="red-text text-16 strong wrapper">прочети за 3 мин</p>
-                    <p className="thinner gray-text uppercase text-20 wrapper">С ТРИ ЛЕСНИ СТЪПКИ КУПУВАШ
-                        ПЪРВИЯ СИ БИЛЕТ ПРЕЗ ТЕЛЕФОНА</p>
+                    <h3 className="red-text text-16 strong wrapper">прочети за 3 мин</h3>
+                    <h6 className="thinner gray-text uppercase text-20 wrapper">С ТРИ ЛЕСНИ СТЪПКИ КУПУВАШ
+                        ПЪРВИЯ СИ БИЛЕТ ПРЕЗ ТЕЛЕФОНА</h6>
                     <Step name="Стъпка 1" title={<strong><span>РЕГИСТ</span>РАЦИЯ</strong>} imgSource={stepOneImg}>
                         <div className={classes['step-inner-info']}>
-                            <p className="centered text-14">
+                            <h3 className="centered text-14">
                                 В приложението TICKEY регистрацията е възможна по два начина:
-                            </p>
+                            </h3>
                             <ul className="centered text-14 no-list">
                                 <li>1. Регистрация през Facebook акаунт;</li>
                                 <li>2. Регистрация през e-mail адрес;</li>
@@ -123,27 +123,28 @@ export default class Campaign extends Component {
                     </Step>
                     <Step name="Стъпка 2" title={<span><strong><span>Метод</span> за</strong>плащане</span>} imgSource={stepTwoImg}>
                         <div className={classes['step-inner-info']}>
-                            <p className="centered text-14">ПЛАЩАМ С КАРТА ИЛИ С PAYPAL</p>
-                            <p className="centered text-14">Преди да купиш билет през TICKEY трябва да добавиш Метод за плащане в твоя TICKEY профил. Можеш да добавиш повече от един платежен
+                            <h4 className="centered text-14">ПЛАЩАМ С КАРТА ИЛИ С PAYPAL</h4>
+                            <h4 className="centered text-14">Преди да купиш билет през TICKEY трябва да добавиш Метод за плащане в твоя TICKEY профил. Можеш да добавиш повече от един платежен
                                 инструмент.
                                 Това може да бъде - дебитна
-                                карта, кредитна карта или PayPal профил. Избра ли?</p>
+                                карта, кредитна карта или PayPal профил. Избра ли?</h4>
                             <div className={classes.partners}/>
                         </div>
-                        <div className={classes['step-red-text'] }>
-                            < p className="red-text centered strong">Как да добавя картата си?</p>
+                        <div className={classes['step-red-text']}>
+                            <h3 className="red-text centered strong">Как да добавя картата си?</h3>
                         </div>
                     </Step>
                     <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong>с един линк</span>} imgSource={stepThreeImg}>
                         <div className={classes['step-inner-info']}>
-                            <p className="centered text-14">След като имаш добавен платежен инструмент, влез в автобуса или застани първи пред турникета в метрото. На екрана ще се изпише станцията или
+                            <h4 className="centered text-14">След като имаш добавен платежен инструмент, влез в автобуса или застани първи пред турникета в метрото. На екрана ще се изпише станцията
+                                или
                                 автобуса, в който си. След като
-                                информацията е коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</p>
+                                информацията е коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</h4>
                             <span>Гледай видеото</span>
                         </div>
-                        <div className={classes['step-red-text'] }>
-                            <p className="red-text centered strong">Какво е “Моето пътуване?</p>
-                            <p className="red-text centered strong">Как да добавя багаж към пътуването си?</p>
+                        <div className={classes['step-red-text']}>
+                            <h3 className="red-text centered strong">Какво е “Моето пътуване?</h3>
+                            <h3 className="red-text centered strong">Как да добавя багаж към пътуването си?</h3>
                         </div>
                     </Step>
                 </section>
