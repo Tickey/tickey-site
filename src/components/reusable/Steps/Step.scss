@@ -12,15 +12,15 @@
     padding-left: 25px;
 }
 
-.steps-wrapper h1 {
+.steps-wrapper h5 {
     display: inline;
 }
 
-.steps-wrapper h1 strong > span {
+.steps-wrapper h5 strong > span {
     position: relative;
 }
 
-.steps-wrapper h1 strong > span:after {
+.steps-wrapper h5 strong > span:after {
     content: '';
     position: absolute;
     top: -10px;
@@ -68,7 +68,7 @@
         top: 25%;
     }
 
-    .steps-wrapper h1 {
+    .steps-wrapper h5 {
         position: absolute;
         top: 32%;
         left: 5%;
@@ -83,7 +83,7 @@
         padding-bottom: 33%;
     }
 
-    .steps-wrapper h1 {
+    .steps-wrapper h5 {
 
         left: 10%;
     }

@@ -30,12 +30,12 @@ export default class Campaign extends Component {
                     <SecondNav/>
                     <section className={`${classes['main-slogan']} wrapper-middle`}>
                         <div className={classes.name}/>
-                        <h1 className="centered uppercase">ПЛАТИ БИЛЕТА
+                        <h1 className="h1 centered uppercase">ПЛАТИ БИЛЕТА
                             <span className={classes['yellow-highlight']}>В СОФИЯ</span>
                         </h1>
-                        <h2><span className={classes['thinner']}>през смартфона</span></h2>
+                        <h2 className="h2 centered uppercase"><span className={classes['thinner']}>през смартфона</span></h2>
                     </section>
-                    <h3 className="gray-text centered strong mt-20 mb-20 wrapper-middle">Системата на TICKEY работи в:</h3>
+                    <h3 className="h3 gray-text centered strong mt-20 mb-20 wrapper-middle">Системата на TICKEY работи в:</h3>
                     <section className={`${classes['station']} wrapper-middle`}>
                         <div className={classes['stations-box']}>
                             <div className={classes.metro}>
@@ -55,7 +55,7 @@ export default class Campaign extends Component {
                         </div>
                     </section>
                     <section className={`${classes.partners} clearfix`}>
-                        <h3 className="gray-text centered strong mt-20 text-14">В партньорство с:</h3>
+                        <h3 className="h3 gray-text centered strong mt-20">В партньорство с:</h3>
                         <div className={`${classes['sofia-partners']} d-table`}>
                             <div className={`${classes['sofia-municipality']} d-cell`}/>
                             <div className={`${classes['cgm-text']} d-cell`}/>
@@ -70,19 +70,19 @@ export default class Campaign extends Component {
                     <section className={`${classes['stations-info']} wrapper clearfix`}>
                         <div className={classes['metro-stations']}>
                             <div className={classes['metro-logo']} id="metro"/>
-                            <h3 className={`text-16 centered gray-text strong ${classes.title}`}>Системата на TICKEY работи пилотно
+                            <h3 className={`h3 centered gray-text ${classes.title}`}>Системата на TICKEY работи пилотно
                                 в следните станции:</h3>
-                            <p className={`${classes['info-text']} text-14 gray-text centered`}>*През приложението може да закупите само
+                            <p className={`${classes['info-text']} text-14 gray-text centered clearfix`}>*През приложението може да закупите само
                                 единични билети + билет за багаж.</p>
                             <ol start="1">
-                                {metroStations.map(station => <li>{station}</li>)}
+                                {metroStations.map(station => <li className="strong">{station}</li>)}
                             </ol>
-                            <p className="red-text strong centered text-16">Коя е твоята станция?</p>
+                            <p className={`${classes['bottom-red-text']} red-text strong centered text-16`}>Коя е твоята станция?</p>
                         </div>
 
                         <div className={classes['bus-stations']}>
                             <div className={classes['bus-logo']} id="bus"/>
-                            <h3 className={`text-16 centered gray-text strong ${classes.title}`}>Център за градска мобилност ЕАД</h3>
+                            <h3 className={`h3 centered gray-text ${classes.title}`}>Център за градска мобилност ЕАД</h3>
                             <p className={`${classes['info-text']} text-14 gray-text centered`}>*През приложението може да закупите само
                                 единични билети + билет за багаж.</p>
                             <p className={`${classes['info-text']} text-14 gray-text centered`}>*Автобусите са обозначени със стикери.
@@ -93,13 +93,13 @@ export default class Campaign extends Component {
                                 единствено в автобусни линии </p>
                             <p className={`${classes.stations} strong centered text-26`}>84,184,384</p>
 
-                            <p className="red-text strong centered text-16">Коя е твоята станция?</p>
+                            <p className={`${classes['bottom-red-text']} red-text strong centered text-16`}>Коя е твоята станция?</p>
                         </div>
                     </section>
 
 
-                    <section className={`${classes.download} wrapper-small`}>
-                        <h3 className="text-20 centered">Свали <strong>TICKEY</strong> безплатно
+                    <section className={`${classes.download} wrapper-small centered`}>
+                        <h3 className="h3 centered gray-text">Свали <strong>TICKEY</strong> безплатно
                             на своя смартфон</h3>
                         <Button type="green" label="Изтегли"/>
                     </section>
@@ -107,12 +107,12 @@ export default class Campaign extends Component {
 
 
                 <section className={`${classes.steps} mt-10`}>
-                    <h3 className="red-text text-16 strong wrapper">прочети за 3 мин</h3>
-                    <h6 className="thinner gray-text uppercase text-20 wrapper">С ТРИ ЛЕСНИ СТЪПКИ КУПУВАШ
+                    <h3 className="h3 red-text strong wrapper">прочети за 3 мин</h3>
+                    <h6 className="h6 thinner gray-text uppercase wrapper mb-20">С ТРИ ЛЕСНИ СТЪПКИ КУПУВАШ
                         ПЪРВИЯ СИ БИЛЕТ ПРЕЗ ТЕЛЕФОНА</h6>
                     <Step name="Стъпка 1" title={<strong><span>РЕГИСТ</span>РАЦИЯ</strong>} imgSource={stepOneImg}>
                         <div className={classes['step-inner-info']}>
-                            <h3 className="centered text-14">
+                            <h3 className="h3 centered">
                                 В приложението TICKEY регистрацията е възможна по два начина:
                             </h3>
                             <ul className="centered text-14 no-list">
@@ -123,28 +123,28 @@ export default class Campaign extends Component {
                     </Step>
                     <Step name="Стъпка 2" title={<span><strong><span>Метод</span> за</strong>плащане</span>} imgSource={stepTwoImg}>
                         <div className={classes['step-inner-info']}>
-                            <h4 className="centered text-14">ПЛАЩАМ С КАРТА ИЛИ С PAYPAL</h4>
-                            <h4 className="centered text-14">Преди да купиш билет през TICKEY трябва да добавиш Метод за плащане в твоя TICKEY профил. Можеш да добавиш повече от един платежен
+                            <h4 className="h4 centered">ПЛАЩАМ С КАРТА ИЛИ С PAYPAL</h4>
+                            <h4 className="h4 centered">Преди да купиш билет през TICKEY трябва да добавиш Метод за плащане в твоя TICKEY профил. Можеш да добавиш повече от един платежен
                                 инструмент.
                                 Това може да бъде - дебитна
                                 карта, кредитна карта или PayPal профил. Избра ли?</h4>
                             <div className={classes.partners}/>
                         </div>
                         <div className={classes['step-red-text']}>
-                            <h3 className="red-text centered strong">Как да добавя картата си?</h3>
+                            <h3 className="h3 red-text centered strong">Как да добавя картата си?</h3>
                         </div>
                     </Step>
                     <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong>с един линк</span>} imgSource={stepThreeImg}>
                         <div className={classes['step-inner-info']}>
-                            <h4 className="centered text-14">След като имаш добавен платежен инструмент, влез в автобуса или застани първи пред турникета в метрото. На екрана ще се изпише станцията
+                            <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса или застани първи пред турникета в метрото. На екрана ще се изпише станцията
                                 или
                                 автобуса, в който си. След като
                                 информацията е коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</h4>
                             <span>Гледай видеото</span>
                         </div>
                         <div className={classes['step-red-text']}>
-                            <h3 className="red-text centered strong">Какво е “Моето пътуване?</h3>
-                            <h3 className="red-text centered strong">Как да добавя багаж към пътуването си?</h3>
+                            <h3 className="h3 red-text centered strong">Какво е “Моето пътуване?</h3>
+                            <h3 className="h3 red-text centered strong">Как да добавя багаж към пътуването си?</h3>
                         </div>
                     </Step>
                 </section>
@@ -152,7 +152,7 @@ export default class Campaign extends Component {
                 <section className={`${classes.privacy}`}>
                     <div className="wrapper-middle">
                         <p className="red-text strong centered">важно</p>
-                        <h3 className="text-26 centered"><strong>КОЙ ЗАЩИТАВА</strong> МОИТЕ ДАННИ <strong>И ДАННИТЕ НА МОЯТА КАРТА</strong></h3>
+                        <h3 className="h3 centered"><strong>КОЙ ЗАЩИТАВА</strong> МОИТЕ ДАННИ <strong>И ДАННИТЕ НА МОЯТА КАРТА</strong></h3>
                         <p className="centered text-14">TICKEY не съхранява информация за Вашите карти на своите сървъри. Данните за вашите карти се предоставят директно на партньорите ни от
                             Braintree.
                             Компанията Braintree е
@@ -164,7 +164,7 @@ export default class Campaign extends Component {
                 </section>
                 <section className={`${classes['another-questions']}`}>
                     <div className="wrapper-small">
-                        <h4 className="text-16 centered strong">ИМАШ ОЩЕ ВЪПРОСИ, НА КОИТО НЕ СМЕ ОТГОВОРИЛИ?</h4>
+                        <h4 className="h4 centered strong">ИМАШ ОЩЕ ВЪПРОСИ, НА КОИТО НЕ СМЕ ОТГОВОРИЛИ?</h4>
                         <p className="text-14 centered">Отиди към FAQ и виж какво са попитали другите или ни пиши.</p>
                         <div className={`col-xs-6 col-md-6 mt-10`}>
                             <Button type="gray-bordered" label="FAQ" addedClass="strong"/>

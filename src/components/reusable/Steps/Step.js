@@ -12,7 +12,7 @@ class Step extends Component {
         return (
             <div className={`${classes['steps-wrapper']} mb-10`}>
                 <p className={`${classes['step-name']} text-14 uppercase left-align wrapper`}>{name}</p>
-                <h5 className={`centered uppercase wrapper`}>{title}</h5>
+                <h5 className={`h5 centered uppercase wrapper`}>{title}</h5>
                 <div className={`${classes['step-info']} wrapper`}>
                     {this.props.children}
                 </div>

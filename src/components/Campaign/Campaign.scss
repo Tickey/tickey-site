@@ -177,6 +177,10 @@
     padding: 0 20px;
 }
 
+.download button {
+    width: 100px;
+}
+
 @media (min-width: 768px) {
     .stations-box {
         display: flex;
@@ -207,6 +211,7 @@
     .bus-stations {
         flex: 1 100%;
         margin: 5px;
+        position: relative;
     }
 
     .partners {
@@ -239,7 +244,7 @@
         width: 300px;
     }
 
-    .step-red-text p {
+    .step-red-text h3 {
         text-align: left;
     }
 
@@ -253,9 +258,25 @@
     .step-inner-info ul {
         text-align: left;
     }
+
+    .metro-stations ol {
+        -moz-column-count: 2;
+        -moz-column-gap: 40px;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 40px;
+        column-count: 2;
+        column-gap: 40px;
+    }
+
+    .bottom-red-text {
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+    }
 }
 
 @media (min-width: 1024px) {
+
     .step-inner-info {
         right: 10%;
     }
@@ -263,6 +284,44 @@
     .step-red-text {
         left: 10%;
     }
+
+    .metro-stations,
+    .bus-stations {
+        //float: left;
+        //width: 60%;
+        padding: 10px 10px 10px 30px;
+    }
+
+    .metro-stations h3 {
+        margin-top: 5px;
+        text-align: left;
+        width: 60%;
+    }
+
+    .bus-stations h3 {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .metro-logo,
+    .bus-logo {
+        float: right;
+        height: 50px;
+    }
+
+    .metro-stations p,
+    .bus-stations p,
+    .metro-stations h3,
+    .bus-stations h3,
+    .metro-stations li {
+        text-align: left;
+    }
+
+    .partners h3 {
+        text-align: left;
+    }
+
 }
 
 @media (min-width: 1366px) {
