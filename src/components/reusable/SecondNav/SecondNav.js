@@ -4,7 +4,9 @@ import {Button} from '../../form-components';
 
 
 class SecondNav extends Component {
+
     render() {
+        const {onDownloadClick} = this.props;
         return (
             <div className={classes['second-nav']}>
                 <div className={classes['left-side']}>
@@ -14,7 +16,7 @@ class SecondNav extends Component {
                 </div>
                 <div className={classes['right-side']}>
                     <span className={classes.text}>BG</span>
-                    <Button type="green" label="Изтегли" addedClass="small-text"/>
+                    <Button type="green" label="Изтегли" addedClass="small-text" onClick={onDownloadClick}/>
                 </div>
 
             </div>

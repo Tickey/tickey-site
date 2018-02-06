@@ -9,10 +9,29 @@ import Step from '../reusable/Steps/Step';
 import stepOneImg from './img/phone_view_1.png';
 import stepTwoImg from './img/phone_view_2.png';
 import stepThreeImg from './img/phone_view_3.png';
+import * as Scroll from 'react-scroll';
+import {Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller} from 'react-scroll'
 
 export default class Campaign extends Component {
 
+    constructor(props) {
+        super(props);
+        this.scrollToSteps = this.scrollToSteps.bind(this);
+    }
+
+    scrollToSteps = () => {
+        console.log(22);
+        /*scroller.scrollTo('stepsScrollElement', {
+            duration: 1500,
+            delay: 100,
+            smooth: true,
+            containerId: 'steps',
+            offset: 50
+        })*/
+    }
+
     render() {
+        const {onDownloadClick, writeUs} = this.props;
         const metroStations = ['Люлин',
             'Константин Величков',
             'Сердика 1 и 2',
@@ -23,11 +42,10 @@ export default class Campaign extends Component {
             'Бизнес парк'
         ];
 
-
         return (
             <div>
                 <section className={classes['blue-gradient']}>
-                    <SecondNav/>
+                    <SecondNav onDownloadClick={onDownloadClick}/>
                     <section className={`${classes['main-slogan']} wrapper-middle`}>
                         <div className={classes.name}/>
                         <h1 className="h1 centered uppercase">ПЛАТИ БИЛЕТА
@@ -51,7 +69,7 @@ export default class Campaign extends Component {
                             </div>
                         </div>
                         <div className={classes['how-it-works']}>
-                            <Button type="gray-bordered" label="КАК РАБОТИ" addedClass="strong"/>
+                            <Button type="gray-bordered" label="КАК РАБОТИ" addedClass="strong" onClick={this.scrollToSteps}/>
                         </div>
                     </section>
                     <section className={`${classes.partners} clearfix`}>
@@ -101,12 +119,12 @@ export default class Campaign extends Component {
                     <section className={`${classes.download} wrapper-small centered`}>
                         <h3 className="h3 centered gray-text">Свали <strong>TICKEY</strong> безплатно
                             на своя смартфон</h3>
-                        <Button type="green" label="Изтегли"/>
+                        <Button type="green" label="Изтегли" onClick={onDownloadClick}/>
                     </section>
                 </section>
 
 
-                <section className={`${classes.steps} mt-10`}>
+                <section className={`${classes.steps} mt-10`} name="stepsScrollElement">
                     <h3 className="h3 red-text strong wrapper">прочети за 3 мин</h3>
                     <h6 className="h6 thinner gray-text uppercase wrapper mb-20">С ТРИ ЛЕСНИ СТЪПКИ КУПУВАШ
                         ПЪРВИЯ СИ БИЛЕТ ПРЕЗ ТЕЛЕФОНА</h6>
@@ -170,7 +188,7 @@ export default class Campaign extends Component {
                             <Button type="gray-bordered" label="FAQ" addedClass="strong"/>
                         </div>
                         <div className={`col-xs-6 col-md-6  mt-10`}>
-                            <Button type="gray-bordered" label="Пиши ни" addedClass="strong"/>
+                            <Button type="gray-bordered" label="Пиши ни" addedClass="strong" onClick={writeUs}/>
                         </div>
                     </div>
                 </section>
