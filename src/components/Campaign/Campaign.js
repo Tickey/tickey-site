@@ -35,7 +35,7 @@ export default class Campaign extends Component {
                         </h1>
                         <h2 className="h2 centered uppercase"><span className={classes['thinner']}>през смартфона</span></h2>
                     </section>
-                    <h3 className="h3 gray-text centered strong mt-20 mb-20 wrapper-middle">Системата на TICKEY работи в:</h3>
+                    <h3 className="h3 gray-text centered strong mt-10 mb-10 wrapper-middle">Системата на TICKEY работи в:</h3>
                     <section className={`${classes['station']} wrapper-middle`}>
                         <div className={classes['stations-box']}>
                             <div className={classes.metro}>
@@ -112,9 +112,9 @@ export default class Campaign extends Component {
                         ПЪРВИЯ СИ БИЛЕТ ПРЕЗ ТЕЛЕФОНА</h6>
                     <Step name="Стъпка 1" title={<strong><span>РЕГИСТ</span>РАЦИЯ</strong>} imgSource={stepOneImg}>
                         <div className={classes['step-inner-info']}>
-                            <h3 className="h3 centered">
+                            <h4 className="h4 centered">
                                 В приложението TICKEY регистрацията е възможна по два начина:
-                            </h3>
+                            </h4>
                             <ul className="centered text-14 no-list">
                                 <li>1. Регистрация през Facebook акаунт;</li>
                                 <li>2. Регистрация през e-mail адрес;</li>

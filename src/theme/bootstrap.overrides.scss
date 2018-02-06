@@ -3,6 +3,56 @@
  *
  */
 
+// panton-Thin
+@font-face {
+    font-family: 'panton';
+    font-weight: 100;
+    font-style: normal;
+    src: url('./font/panton-thin-webfont.eot?') format('eot'),
+    url('./font/panton-thin-webfont.woff') format('woff'),
+    url('./font/panton-thin-webfont.ttf') format('truetype');
+}
+
+// panton-Light
+@font-face {
+    font-family: 'panton';
+    font-weight: 300;
+    font-style: normal;
+    src: url('./font/panton-light-webfont.eot?') format('eot'),
+    url('./font/panton-light-webfont.woff') format('woff'),
+    url('./font/panton-light-webfont.ttf') format('truetype');
+}
+
+// panton-Regular
+@font-face {
+    font-family: 'panton';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./font/panton-regular-webfont.eot?') format('eot'),
+    url('./font/panton-regular-webfont.woff') format('woff'),
+    url('./font/panton-regular-webfont.ttf') format('truetype'),
+    url('./font/panton-regular-webfont.svg') format('svg');;
+}
+
+// panton-Medium
+@font-face {
+    font-family: 'panton';
+    font-weight: 600;
+    src: url('./font/panton-semibold-webfont.eot?') format('eot'),
+    url('./font/panton-semibold-webfont.woff') format('woff'),
+    url('./font/panton-semibold-webfont.ttf') format('truetype');
+}
+
+// panton-Bold
+@font-face {
+    font-family: 'panton';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./font/panton-bold-webfont.eot?') format('eot'),
+    url('./font/panton-bold-webfont.woff') format('woff'),
+    url('./font/panton-bold-webfont.ttf') format('truetype');
+}
+
 *:before,
 *:after {
     -webkit-box-sizing: border-box;
@@ -318,32 +368,32 @@ a {
 }
 
 .h1 {
-    font-size: 74px;
+    font-size: 3em;
     font-weight: bold;
 }
 
 .h2 {
-    font-size: 74px;
+    font-size: 3em;
     font-weight: normal;
 }
 
 .h3 {
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
 }
 
 .h4 {
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: normal;
 }
 
 .h5 {
-    font-size: 44px;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
 .h6 {
-    font-size: 26px;
+    font-size: 1.5em;
     font-weight: normal;
 }
 
@@ -552,6 +602,14 @@ Refactored texts*/
 }
 
 @media (min-width: 1024px) {
+    .h1 {
+        font-size: 4em;
+    }
+
+    .h2 {
+        font-size: 4em;
+    }
+
     .bottom-nav,
     .copyright {
         width: 70%;

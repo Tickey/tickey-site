@@ -19,12 +19,13 @@
 
 .main-slogan h1 {
     color: $gray;
-    font-weight: bold;
 }
 
 .main-slogan h1 .yellow-highlight {
     position: relative;
     padding: 0 10px;
+    display: inline-block;
+    z-index: 1;
 }
 
 .main-slogan h1 .yellow-highlight:after {
@@ -39,6 +40,7 @@
     height: 40px;
     background: $yellow;
     opacity: 0.5;
+    z-index: -1;
 }
 
 .main-slogan h1 .thinner {
@@ -100,7 +102,7 @@
 
 .partners {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
 }
 
 .sofia-municipality {
@@ -177,6 +179,10 @@
     padding: 0 20px;
 }
 
+.download {
+    margin: 20px auto;
+}
+
 .download button {
     width: 100px;
 }
@@ -237,28 +243,6 @@
         height: 50px;
     }
 
-    .step-red-text {
-        position: absolute;
-        top: 60%;
-        left: 5%;
-        width: 300px;
-    }
-
-    .step-red-text h3 {
-        text-align: left;
-    }
-
-    .step-inner-info {
-        position: absolute;
-        top: 30%;
-        right: 0;
-        width: 300px;
-    }
-    .step-inner-info p,
-    .step-inner-info ul {
-        text-align: left;
-    }
-
     .metro-stations ol {
         -moz-column-count: 2;
         -moz-column-gap: 40px;
@@ -273,6 +257,39 @@
         bottom: 0;
         right: 10px;
     }
+}
+
+@media (min-width: 980px) {
+    .step-inner-info {
+        position: absolute;
+        top: 30%;
+        right: 0;
+        width: 300px;
+    }
+    .step-inner-info h4 {
+        text-align: left;
+    }
+
+    .step-inner-info h3,
+    .step-inner-info ul {
+        text-align: left;
+    }
+
+    .step-inner-info ul {
+        padding: 0;
+    }
+
+    .step-red-text {
+        position: absolute;
+        top: 60%;
+        left: 5%;
+        width: 300px;
+    }
+
+    .step-red-text h3 {
+        text-align: left;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -320,6 +337,10 @@
 
     .partners h3 {
         text-align: left;
+    }
+
+    .main-slogan .name {
+        height: 70px;
     }
 
 }
