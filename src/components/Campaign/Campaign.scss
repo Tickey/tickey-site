@@ -106,14 +106,14 @@
 }
 
 .sofia-municipality {
-    background: url("./img/sofia_minucipality.svg") center center no-repeat;
+    background: url("img/sofia_minucipality_logo.svg") center center no-repeat;
     background-size: 100%;
     width: 40px;
     height: 80px;
 }
 
 .cgm-text {
-    background: url("./img/cgm.svg") center center no-repeat;
+    background: url("img/cgm_text.svg") center center no-repeat;
     background-size: 80%;
     width: 150px;
     height: 80px;
@@ -341,6 +341,10 @@
 
     .main-slogan .name {
         height: 70px;
+    }
+
+    .main-slogan h1 .yellow-highlight:after {
+        height: 60px;
     }
 
 }
