@@ -6,9 +6,9 @@ import classes from './Campaign.scss';
 import {Button} from '../../components/form-components';
 import Stores from '../reusable/Stores/Stores';
 import Step from '../reusable/Steps/Step';
-import stepOneImg from './img/phone_view_1.png';
-import stepTwoImg from './img/phone_view_2.png';
-import stepThreeImg from './img/phone_view_3.png';
+import stepOneImg from './img/1.gif';
+import stepTwoImg from './img/2.gif';
+import stepThreeImg from './img/3.gif';
 import * as Scroll from 'react-scroll';
 import {Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller} from 'react-scroll'
 
@@ -20,7 +20,6 @@ export default class Campaign extends Component {
     }
 
     scrollToSteps = () => {
-        console.log(22);
         /*scroller.scrollTo('stepsScrollElement', {
             duration: 1500,
             delay: 100,
@@ -31,7 +30,7 @@ export default class Campaign extends Component {
     }
 
     render() {
-        const {onDownloadClick, writeUs} = this.props;
+        const {onDownloadClick, writeUs, type} = this.props;
         const metroStations = ['Люлин',
             'Константин Величков',
             'Сердика 1 и 2',
@@ -43,18 +42,19 @@ export default class Campaign extends Component {
         ];
 
         return (
-            <div>
-                <section className={classes['blue-gradient']}>
+            <div className={classes[type]}>
+                <section className={`${classes['blue-gradient']}`}>
                     <SecondNav onDownloadClick={onDownloadClick}/>
                     <section className={`${classes['main-slogan']} wrapper-middle`}>
                         <div className={classes.name}/>
                         <h1 className="h1 centered uppercase">ПЛАТИ БИЛЕТА
-                            <span className={classes['yellow-highlight']}>В СОФИЯ</span>
+                            <span className={classes['yellow-highlight']}>{type && type === "sofia" ? "В София" : "Във Варна"}</span>
                         </h1>
                         <h2 className="h2 centered uppercase"><span className={classes['thinner']}>през смартфона</span></h2>
                     </section>
                     <h3 className="h3 gray-text centered strong mt-10 mb-10 wrapper-middle">Системата на TICKEY работи в:</h3>
                     <section className={`${classes['station']} wrapper-middle`}>
+                        {type && type === "sofia" &&
                         <div className={classes['stations-box']}>
                             <div className={classes.metro}>
                                 <div className={classes.logo}/>
@@ -68,30 +68,39 @@ export default class Campaign extends Component {
                                 <a href="#bus" className="strong base-link red-text text-14 right-align d-block">виж кои</a>
                             </div>
                         </div>
+                        }
                         <div className={classes['how-it-works']}>
                             <Button type="gray-bordered" label="КАК РАБОТИ" addedClass="strong" onClick={this.scrollToSteps}/>
                         </div>
                     </section>
                     <section className={`${classes.partners} clearfix`}>
                         <h3 className="h3 gray-text centered strong mt-20">В партньорство с:</h3>
-                        <div className={`${classes['sofia-partners']} d-table`}>
-                            <div className={`${classes['sofia-municipality']} d-cell`}/>
-                            <div className={`${classes['cgm-text']} d-cell`}/>
-                            <div className={`${classes['metropoliten']} d-cell`}/>
-                        </div>
+
+                        {type && type === "sofia" ?
+                            <div className={`${classes['sofia-partners']} d-table`}>
+                                <div className={`${classes['sofia-municipality']} d-cell`}/>
+                                <div className={`${classes['cgm-text']} d-cell`}/>
+                                <div className={`${classes['metropoliten']} d-cell`}/>
+                            </div> :
+                            <div className={`${classes['varna-partners']} d-table`}>
+                                <div className={`${classes['varna-municipality']} d-cell`}/>
+                            </div>
+                        }
+
 
                         <div className={classes['stores-wrapper']}>
                             <Stores/>
                         </div>
 
                     </section>
+                    {type && type === "sofia" &&
                     <section className={`${classes['stations-info']} wrapper clearfix`}>
                         <div className={classes['metro-stations']}>
                             <div className={classes['metro-logo']} id="metro"/>
                             <h3 className={`h3 centered gray-text ${classes.title}`}>Системата на TICKEY работи пилотно
                                 в следните станции:</h3>
                             <p className={`${classes['info-text']} text-14 gray-text centered clearfix`}>*През приложението може да закупите само
-                                единични билети + билет за багаж.</p>
+                                единични билети.</p>
                             <ol start="1">
                                 {metroStations.map(station => <li className="strong">{station}</li>)}
                             </ol>
@@ -102,7 +111,7 @@ export default class Campaign extends Component {
                             <div className={classes['bus-logo']} id="bus"/>
                             <h3 className={`h3 centered gray-text ${classes.title}`}>Център за градска мобилност ЕАД</h3>
                             <p className={`${classes['info-text']} text-14 gray-text centered`}>*През приложението може да закупите само
-                                единични билети + билет за багаж.</p>
+                                единични билети.</p>
                             <p className={`${classes['info-text']} text-14 gray-text centered`}>*Автобусите са обозначени със стикери.
                                 Автобусите без стикери не са в обхвата
                                 на TICKEY.</p>
@@ -111,10 +120,9 @@ export default class Campaign extends Component {
                                 единствено в автобусни линии </p>
                             <p className={`${classes.stations} strong centered text-26`}>84,184,384</p>
 
-                            <p className={`${classes['bottom-red-text']} red-text strong centered text-16`}>Коя е твоята станция?</p>
+                            <p className={`${classes['bottom-red-text']} red-text strong centered text-16`}>Коя е твоята линия?</p>
                         </div>
-                    </section>
-
+                    </section>}
 
                     <section className={`${classes.download} wrapper-small centered`}>
                         <h3 className="h3 centered gray-text">Свали <strong>TICKEY</strong> безплатно
@@ -152,13 +160,13 @@ export default class Campaign extends Component {
                             <h3 className="h3 red-text centered strong">Как да добавя картата си?</h3>
                         </div>
                     </Step>
-                    <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong>с един линк</span>} imgSource={stepThreeImg}>
+                    <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един линк</span>} imgSource={stepThreeImg}>
                         <div className={classes['step-inner-info']}>
                             <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса или застани първи пред турникета в метрото. На екрана ще се изпише станцията
                                 или
                                 автобуса, в който си. След като
                                 информацията е коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</h4>
-                            <span>Гледай видеото</span>
+                            {/*<span>Гледай видеото</span>*/}
                         </div>
                         <div className={classes['step-red-text']}>
                             <h3 className="h3 red-text centered strong">Какво е “Моето пътуване?</h3>

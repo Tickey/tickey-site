@@ -9,7 +9,7 @@
 }
 
 .step-name {
-    //padding-left: 100px;
+    margin-bottom: 20px;
 }
 
 .steps-wrapper h5 {
@@ -47,11 +47,41 @@
 
 .phone img {
     position: absolute;
-    top: 30px;
+    top: 40px;
     left: 0;
     right: 0;
-    width: 55%;
+    width: 50%;
     margin: auto;
+}
+
+@media (min-width: 360px) {
+    .phone img {
+        width: 52%;
+    }
+}
+
+@media (min-width: 450px) {
+    .phone img {
+        width: 54%;
+    }
+}
+
+@media (min-width: 560px) {
+    .phone img {
+        width: 55%;
+    }
+}
+
+@media (min-width: 680px) {
+    .phone img {
+        width: 56%;
+    }
+}
+
+@media (min-width: 768px) {
+    .phone img {
+        width: 57%;
+    }
 }
 
 @media (min-width: 980px) {
@@ -60,6 +90,10 @@
         background-size: 60%;
         width: 40%;
         padding-bottom: 44%;
+    }
+
+    .phone img {
+        width: 55%;
     }
 
     .steps-wrapper {
@@ -88,6 +122,10 @@
         padding-bottom: 33%;
     }
 
+    .phone img {
+        width: 53%;
+    }
+
     .steps-wrapper h5 {
         left: 10%;
     }
@@ -96,5 +134,13 @@
         left: 10%;
     }
 }
+
+@media (min-width: 1024px) {
+    .phone img {
+        width: 55%;
+    }
+}
+
+
 
 

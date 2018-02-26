@@ -91,7 +91,7 @@
 }
 
 .how-it-works {
-    width: 170px;
+    width: 180px;
     margin: 30px auto;
 }
 
@@ -124,6 +124,19 @@
     background-size: 100%;
     width: 150px;
     height: 80px;
+}
+
+.varna-partners {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.varna-municipality {
+    background: url("./img/varna_logo.svg") center center no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
 }
 
 //stations-info
@@ -346,7 +359,6 @@
     .main-slogan h1 .yellow-highlight:after {
         height: 60px;
     }
-
 }
 
 @media (min-width: 1366px) {

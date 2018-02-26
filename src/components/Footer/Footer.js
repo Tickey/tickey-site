@@ -18,7 +18,7 @@ export default class Footer extends Component {
                 <div className={classes['socials-wrapper']}>
                     <div className={`${classes.socials} d-table`}>
                         <a href="https://twitter.com/tickey_me" target="_blank" className={`${classes.twitter} d-cell`}/>
-                        <a href="" className={`${classes.instagram} d-cell`}/>
+                        <a href="https://www.instagram.com/tickey_app/" className={`${classes.instagram} d-cell`}/>
                         <a href="https://www.facebook.com/TICKEY.me/" target="_blank" className={`${classes.facebook} d-cell`}/>
                     </div>
                 </div>

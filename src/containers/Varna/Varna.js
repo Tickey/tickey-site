@@ -24,7 +24,7 @@ export default class Sofia extends Component {
     render() {
         return (
             <div className="container">
-                <Campaign onDownloadClick={this.onDownloadClick} writeUs={this.writeUs} type="sofia"/>
+                <Campaign onDownloadClick={this.onDownloadClick} writeUs={this.writeUs} type="varna"/>
             </div>
         );
     }
