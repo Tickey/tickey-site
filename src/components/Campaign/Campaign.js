@@ -11,13 +11,19 @@ import stepTwoImg from './img/2.gif';
 import stepThreeImg from './img/3.gif';
 import * as Scroll from 'react-scroll';
 import {Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller} from 'react-scroll'
+import Modal from '../Modals/Modal';
 
 export default class Campaign extends Component {
 
     constructor(props) {
         super(props);
+        this.state = {
+            videoModal: true
+        };
         this.scrollToSteps = this.scrollToSteps.bind(this);
+        this.toggleVideo = this.toggleVideo.bind(this);
     }
+
 
     scrollToSteps = () => {
         /*scroller.scrollTo('stepsScrollElement', {
@@ -27,6 +33,12 @@ export default class Campaign extends Component {
             containerId: 'steps',
             offset: 50
         })*/
+    }
+
+    toggleVideo = () => {
+        this.setState({
+            videoModal: !this.state.videoModal
+        })
     }
 
     render() {
@@ -41,8 +53,14 @@ export default class Campaign extends Component {
             'Бизнес парк'
         ];
 
+
         return (
             <div className={classes[type]}>
+                {this.state.videoModal &&
+                <Modal title="Как работи Tickey" onCloseClick={this.toggleVideo}>
+                    <iframe max-width="560" width="100%" height="315" src="https://www.youtube.com/embed/WHVLaoy1LLo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen/>
+                </Modal>
+                }
                 <section className={`${classes['blue-gradient']}`}>
                     <SecondNav onDownloadClick={onDownloadClick}/>
                     <section className={`${classes['main-slogan']} wrapper-middle`}>
@@ -70,7 +88,7 @@ export default class Campaign extends Component {
                         </div>
                         }
                         <div className={classes['how-it-works']}>
-                            <Button type="gray-bordered" label="КАК РАБОТИ" addedClass="strong" onClick={this.scrollToSteps}/>
+                            <Button type="gray-bordered" label="КАК РАБОТИ" addedClass="strong" onClick={this.toggleVideo}/>
                         </div>
                     </section>
                     <section className={`${classes.partners} clearfix`}>
