@@ -22,6 +22,8 @@
     position: relative;
 }
 
+//Step Higthlight
+/*
 .steps-wrapper h5 strong > span:after {
     content: '';
     position: absolute;
@@ -34,7 +36,7 @@
     opacity: 0.5;
     width: 115%;
     z-index: -1;
-}
+}*/
 
 .phone {
     background: url("./img/phone_placeholder.png") center center no-repeat;

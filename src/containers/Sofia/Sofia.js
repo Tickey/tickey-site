@@ -18,7 +18,7 @@ export default class Sofia extends Component {
     }
 
     writeUs = () => {
-        window.location.href = "mailto:info@tickey.me"
+        window.location.href = "mailto:support@tickey.me"
     }
 
     render() {

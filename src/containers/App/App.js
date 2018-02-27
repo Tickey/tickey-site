@@ -75,13 +75,16 @@ export default class App extends Component {
                         </Navbar.Brand>
                         <div className="text-logo"/>
 
-                        <Navbar.Toggle />
+                        <Navbar.Toggle/>
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav navbar pullRight>
 
                             <LinkContainer to="/sofia">
-                                <NavItem>Sofia</NavItem>
+                                <NavItem>София</NavItem>
+                            </LinkContainer>
+                            <LinkContainer to="/varna">
+                                <NavItem>Варна</NavItem>
                             </LinkContainer>
 
                             {/*

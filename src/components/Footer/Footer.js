@@ -14,6 +14,7 @@ export default class Footer extends Component {
                 <div className={classes.logo}/>
                 <div className={`${classes['campaing-cities']} centered mt-20 mb-20`}>
                     <IndexLink to="/sofia" className="base-link gray-text">София</IndexLink>
+                    <IndexLink to="/varna" className="base-link gray-text">Варна</IndexLink>
                 </div>
                 <div className={classes['socials-wrapper']}>
                     <div className={`${classes.socials} d-table`}>

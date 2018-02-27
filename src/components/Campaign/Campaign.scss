@@ -43,9 +43,14 @@
     z-index: -1;
 }
 
-.main-slogan h1 .thinner {
+.main-slogan .thinner {
     font-weight: normal;
     display: block;
+    color: $gray;
+}
+
+.main-slogan h2 {
+    margin-top: 10px;
 }
 
 /*station*/
@@ -147,6 +152,10 @@
     border-radius: 10px;
     padding: 10px;
     margin: 10px 0;
+}
+
+.metro-stations ol {
+    margin-bottom: 30px;
 }
 
 .metro-logo {
@@ -269,7 +278,7 @@
         -webkit-column-count: 2;
         -webkit-column-gap: 40px;
         column-count: 2;
-        column-gap: 40px;
+        column-gap: 50px;
     }
 
     .bottom-red-text {
