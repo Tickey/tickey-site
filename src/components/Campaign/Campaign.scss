@@ -96,8 +96,14 @@
 }
 
 .how-it-works {
-    width: 180px;
-    margin: 30px auto;
+    margin: 30px auto 20px auto;
+}
+
+.how-it-works button {
+    display: block;
+    margin: 10px auto;
+    width: auto;
+    line-height: 1.25em;
 }
 
 /*partners*/
@@ -210,6 +216,11 @@
 }
 
 @media (min-width: 768px) {
+
+    .how-it-works button {
+        width: 300px;
+    }
+
     .stations-box {
         display: flex;
         justify-content: space-between;
@@ -297,6 +308,7 @@
     }
     .step-inner-info h4 {
         text-align: left;
+        line-height: 1.125em;
     }
 
     .step-inner-info h3,
@@ -322,10 +334,6 @@
 }
 
 @media (min-width: 1024px) {
-
-    .step-inner-info {
-        right: 10%;
-    }
 
     .step-red-text {
         left: 10%;
@@ -378,6 +386,10 @@
 }
 
 @media (min-width: 1366px) {
+
+    .step-inner-info {
+        right: 10%;
+    }
 
     .blue-gradient {
         padding: 20px 30px;

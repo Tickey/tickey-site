@@ -39,63 +39,55 @@
 }*/
 
 .phone {
-    background: url("./img/phone_placeholder.png") center center no-repeat;
-    background-size: 60%;
-    width: 80%;
+    background: url("./img/phone.svg") center center no-repeat;
+    width: 270px;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 87%;
+    height: 480px;
 }
 
 .phone img {
     position: absolute;
-    top: 40px;
+    top: 43px;
     left: 0;
     right: 0;
-    width: 50%;
+    width: 245px;
     margin: auto;
 }
 
 @media (min-width: 360px) {
     .phone img {
-        width: 52%;
     }
 }
 
 @media (min-width: 450px) {
     .phone img {
-        width: 54%;
     }
 }
 
 @media (min-width: 560px) {
     .phone img {
-        width: 55%;
     }
 }
 
 @media (min-width: 680px) {
     .phone img {
-        width: 56%;
     }
 }
 
 @media (min-width: 768px) {
     .phone img {
-        width: 57%;
     }
 }
 
 @media (min-width: 980px) {
 
     .phone {
-        background-size: 60%;
-        width: 40%;
-        padding-bottom: 44%;
+        width: 265px;
     }
 
     .phone img {
-        width: 55%;
+        width: 245px;
     }
 
     .steps-wrapper {
@@ -119,15 +111,17 @@
 }
 
 @media (min-width: 1024px) {
-    .phone {
-        width: 30%;
-        padding-bottom: 33%;
+    /*.phone {
+        width: 265px;
     }
 
     .phone img {
-        width: 53%;
-    }
+        width: 245;
+    }*/
 
+}
+
+@media (min-width: 1366px) {
     .steps-wrapper h5 {
         left: 10%;
     }
@@ -137,11 +131,6 @@
     }
 }
 
-@media (min-width: 1024px) {
-    .phone img {
-        width: 55%;
-    }
-}
 
 
 

@@ -13,8 +13,8 @@ export default class Footer extends Component {
             <footer className={`${classes.footer} clearfix container wrapper`}>
                 <div className={classes.logo}/>
                 <div className={`${classes['campaing-cities']} centered mt-20 mb-20`}>
-                    <IndexLink to="/sofia" className="base-link gray-text">София</IndexLink>
-                    <IndexLink to="/varna" className="base-link gray-text">Варна</IndexLink>
+                    <a href="/sofia" className="base-link gray-text">София</a>
+                    <a href="/varna" className="base-link gray-text">Варна</a>
                 </div>
                 <div className={classes['socials-wrapper']}>
                     <div className={`${classes.socials} d-table`}>

@@ -18,10 +18,13 @@ export default class Campaign extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            videoModal: false
+            videoMetroModal: false,
+            videoBusModal: false
+
         };
         this.scrollToSteps = this.scrollToSteps.bind(this);
-        this.toggleVideo = this.toggleVideo.bind(this);
+        this.toggleMetroVideo = this.toggleMetroVideo.bind(this);
+        this.toggleBusVideo = this.toggleBusVideo.bind(this);
     }
 
 
@@ -35,9 +38,15 @@ export default class Campaign extends Component {
         })*/
     }
 
-    toggleVideo = () => {
+    toggleMetroVideo = () => {
         this.setState({
-            videoModal: !this.state.videoModal
+            videoMetroModal: !this.state.videoMetroModal
+        })
+    }
+
+    toggleBusVideo = () => {
+        this.setState({
+            videoBusModal: !this.state.videoBusModal
         })
     }
 
@@ -52,7 +61,7 @@ export default class Campaign extends Component {
             'НДК',
             'Витоша',
             'Бизнес парк',
-            'ст. "Васил Левски"',
+            'стадион "Васил Левски"',
             'Опълченска',
             'Лъвов мост',
             'Младост 1',
@@ -62,9 +71,15 @@ export default class Campaign extends Component {
 
         return (
             <div className={classes[type]}>
-                {this.state.videoModal &&
-                <Modal title="Как работи Tickey" onCloseClick={this.toggleVideo}>
+                {this.state.videoMetroModal &&
+                <Modal title="Как работи Tickey в метрото" onCloseClick={this.toggleMetroVideo}>
                     <iframe max-width="560" width="100%" height="315" src="https://www.youtube.com/embed/WHVLaoy1LLo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen/>
+                </Modal>
+                }
+
+                {this.state.videoBusModal &&
+                <Modal title="Как работи Tickey в автобусите" onCloseClick={this.toggleBusVideo}>
+                    <iframe max-width="560" width="100%" height="315" src="https://www.youtube.com/embed/mMyOyE_dZm4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen/>
                 </Modal>
                 }
                 <section className={`${classes['blue-gradient']}`}>
@@ -93,7 +108,8 @@ export default class Campaign extends Component {
                         </div>
                         }
                         <div className={classes['how-it-works']}>
-                            <Button type="gray-bordered" label="КАК РАБОТИ" addedClass="strong" onClick={this.toggleVideo}/>
+                            {type && type === "sofia" && <Button type="gray-bordered" label="КАК РАБОТИ В МЕТРОТО" addedClass="strong" onClick={this.toggleMetroVideo}/>}
+                            <Button type="gray-bordered" label="КАК РАБОТИ В АВТОБУСИТЕ" addedClass="strong" onClick={this.toggleBusVideo}/>
                         </div>
                     </section>
                     <section className={`${classes.partners} clearfix`}>
@@ -154,7 +170,7 @@ export default class Campaign extends Component {
 
                 <section className={`${classes.steps} mt-10`} name="stepsScrollElement">
                     <h3 className="h3 red-text strong wrapper">прочети за 3 мин</h3>
-                    <h6 className="h6 thinner gray-text uppercase wrapper mb-20">KУПИ ПЪРВИЯТ СИ БИЛЕТ ПРЕЗ СМАРТФОНА В ТРИ ЛЕСНИ СТЪПКИ, А ВСЕКИ СЛЕДВАЩ САМО С ЕДИН КЛИК</h6>
+                    <h6 className="h6 thinner gray-text uppercase wrapper mb-20">KУПИ ПЪРВИЯ СИ БИЛЕТ ПРЕЗ СМАРТФОНА В ТРИ ЛЕСНИ СТЪПКИ, А ВСЕКИ СЛЕДВАЩ САМО С ЕДИН КЛИК</h6>
                     <Step name="Стъпка 1" title={<strong><span>РЕГИСТ</span>РАЦИЯ</strong>} imgSource={stepOneImg}>
                         <div className={classes['step-inner-info']}>
                             <h4 className="h4 centered">
@@ -187,7 +203,7 @@ export default class Campaign extends Component {
                             {/*<span>Гледай видеото</span>*/}
                         </div>
                         <div className={classes['step-red-text']}>
-                            <h3 className="h3 red-text centered strong">Какво е “Моето пътуване?</h3>
+                            <h3 className="h3 red-text centered strong">В метрото</h3>
                         </div>
                     </Step>
                 </section>
