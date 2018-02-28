@@ -12,6 +12,7 @@ import stepThreeImg from './img/3.gif';
 import * as Scroll from 'react-scroll';
 import {Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller} from 'react-scroll'
 import Modal from '../Modals/Modal';
+import Slider from 'react-slick';
 
 export default class Campaign extends Component {
 
@@ -51,6 +52,16 @@ export default class Campaign extends Component {
     }
 
     render() {
+        const settings = {
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            fade: true
+        };
         const {onDownloadClick, writeUs, type} = this.props;
         const metroStations = ['Люлин',
             'Константин Величков',
@@ -194,18 +205,33 @@ export default class Campaign extends Component {
                             <h3 className="h3 red-text centered strong">Как да добавя картата си?</h3>
                         </div>
                     </Step>
-                    <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeImg}>
-                        <div className={classes['step-inner-info']}>
-                            <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса или застани първи пред турникета в метрото. На екрана ще се изпише станцията
-                                или
-                                автобуса, в който си. След като
-                                информацията е коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</h4>
-                            {/*<span>Гледай видеото</span>*/}
+                    <Slider {...settings}>
+                        <div>
+                            <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeImg}>
+                                <div className={classes['step-inner-info']}>
+                                    <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса или застани първи пред турникета в метрото. На екрана ще се изпише станцията
+                                        или
+                                        автобуса, в който си. След като
+                                        информацията е коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</h4>
+                                    {/*<span>Гледай видеото</span>*/}
+                                </div>
+                                <div className={classes['step-red-text']}>
+                                    <h3 className="h3 red-text centered strong">В метрото</h3>
+                                </div>
+                            </Step>
                         </div>
-                        <div className={classes['step-red-text']}>
-                            <h3 className="h3 red-text centered strong">В метрото</h3>
+                        <div>
+                            <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeImg}>
+                                <div className={classes['step-inner-info']}>
+                                    <h4 className="h4 centered">dasdasdaddната на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</h4>
+                                    {/*<span>Гледай видеото</span>*/}
+                                </div>
+                                <div className={classes['step-red-text']}>
+                                    <h3 className="h3 red-text centered strong">В автобуса</h3>
+                                </div>
+                            </Step>
                         </div>
-                    </Step>
+                    </Slider>
                 </section>
 
                 <section className={`${classes.privacy}`}>
