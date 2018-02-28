@@ -1,7 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 import classes from './Accordion.scss';
 import AccordeonItem from './AccordeonItem';
-import {Scrollbars} from 'react-custom-scrollbars';
 
 class AccordeonWrapper extends Component {
     constructor(props) {
@@ -27,37 +26,37 @@ class AccordeonWrapper extends Component {
                     {
                         id: 11,
                         description: 'User name:',
-                        value: data && data.name
+                        value: "test"
                     },
                     {
                         id: 12,
                         description: 'User place of birth:',
-                        value: data && data.birthplace
+                        value: "test"
                     },
                     {
                         id: 10,
                         description: 'Born date:',
-                        value: data && data.birthday
+                        value: "test"
                     },
                     {
                         id: 1,
                         description: 'Type:',
-                        value: data && data.type
+                        value: "test"
                     },
                     {
                         id: 2,
                         description: 'Profile:',
-                        value: data && data.profile
+                        value: "test"
                     },
                     {
                         id: 3,
                         description: 'Authority:',
-                        value: data && data.authority
+                        value: "test"
                     },
                     {
                         id: 4,
                         description: 'Definition:',
-                        value: data && data.definition
+                        value: "test"
                     },
                     {
                         id: 5,
@@ -72,44 +71,21 @@ class AccordeonWrapper extends Component {
                     {
                         id: 7,
                         description: 'Incarnation Cross:',
-                        value: data && data.cross
+                        value: "test"
                     }
                 ]
             }
         ];
 
-        const channelsInfo = [
-            {
-                name: 'Channels',
-                info: data.channels
-            }
-        ]
-
-        const gatesInfo = [
-            {
-                name: 'Gates',
-                info: data.activations
-            }
-        ]
 
         return (
-            <Scrollbars style={{height: this.state.infoPanelHeight}} autoHide={true} autoHideDuration={200} autoHideTimeout={1000} universal>
-                <div className="accordion-wrapper" ref={(wrapper) => {
-                    this.wrapper = wrapper;
-                }}>
-                    {accordionInfo.map(accordeonRow => {
-                        return <AccordeonItem data={accordeonRow} type="chartProps" key={accordeonRow.id} accordionChange={this.accordionChange}/>
-                    })}
-
-                    {channelsInfo.map(accordeonRow => {
-                        return <AccordeonItem data={accordeonRow} type="Channels" accordionChange={this.accordionChange}/>
-                    })}
-
-                    {gatesInfo.map(accordeonRow => {
-                        return <AccordeonItem data={accordeonRow} type="Gates" accordionChange={this.accordionChange}/>
-                    })}
-                </div>
-            </Scrollbars>
+            <div className="accordion-wrapper" ref={(wrapper) => {
+                this.wrapper = wrapper;
+            }}>
+                {accordionInfo.map(accordeonRow => {
+                    return <AccordeonItem data={accordeonRow} type="chartProps" key={accordeonRow.id} accordionChange={this.accordionChange}/>
+                })}
+            </div>
         )
             ;
     }

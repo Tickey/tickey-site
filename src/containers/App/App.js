@@ -69,9 +69,9 @@ export default class App extends Component {
                 <Navbar fixedTop className={this.state.isTop ? 'up' : 'down'}>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <IndexLink to="/">
+                            <a href="/">
                                 Tickey
-                            </IndexLink>
+                            </a>
                         </Navbar.Brand>
                         <div className="text-logo"/>
 
@@ -85,6 +85,9 @@ export default class App extends Component {
                             </LinkContainer>
                             <LinkContainer to="/varna">
                                 <NavItem>Варна</NavItem>
+                            </LinkContainer>
+                            <LinkContainer to="/faq">
+                                <NavItem>FAQ</NavItem>
                             </LinkContainer>
 
                             {/*

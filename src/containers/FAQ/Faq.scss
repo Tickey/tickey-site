@@ -1,0 +1,80 @@
+@import '../../theme/variables.scss';
+/*FAQ*/
+.faq {
+    margin: 50px auto;
+}
+
+.faq h1 {
+    text-align: center;
+    color: $dark-blue;
+    text-transform: uppercase;
+}
+
+.faq .red-text {
+    color: $red;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.accordion {
+    border-bottom: 1px solid $light-gray;
+}
+
+.accordion .accordion-btn {
+    width: 100%;
+    text-align: left;
+}
+
+.accordion .accordion-btn:active {
+    border: none;
+}
+
+.accordion.first {
+    border-top: 1px solid $light-gray;
+}
+
+.accordion-title {
+    position: relative;
+    cursor: pointer;
+    line-height: 30px;
+    padding-right: 100px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.accordion-title:after {
+    content: 'отвори';
+    color: $green;
+    font-size: 0.85em;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    margin: auto 0;
+}
+
+.accordion .accordion-text {
+    position: relative;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-height: 0;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.accordion.active h4:after {
+    content: 'затвори';
+    color: $red;
+
+}
+
+.accordion.active .accordion-text {
+    max-height: 400px;
+    padding-bottom: 25px;
+}

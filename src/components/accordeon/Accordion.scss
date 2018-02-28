@@ -23,7 +23,7 @@
 }
 
 .accordion.active .accordion-title {
-    box-shadow: 3px 2px 5px $double-light-gray;
+    box-shadow: 3px 2px 5px $bgr-light-gray;
 }
 
 .accordion-title:after {
@@ -68,7 +68,7 @@
 
 .accordion-text .row {
     display: flex;
-    border-bottom: 1px solid $middle-gray;
+    border-bottom: 1px solid $gray;
 }
 
 .accordion-text .row:last-child {
@@ -76,7 +76,7 @@
 }
 
 .accordion-text .description {
-    border-left: 1px solid $middle-gray;
+    border-left: 1px solid $gray;
 }
 
 .accordion-text .description,
