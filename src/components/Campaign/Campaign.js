@@ -207,43 +207,55 @@ export default class Campaign extends Component {
                             <h3 className="h3 red-text centered strong">Как да добавя картата си?</h3>
                         </div>
                     </Step>
-                    <Carousel showArrows={false}
-                              autoPlay={true}
-                              showStatus={false}
-                              showIndicators={false}
-                              showThumbs={false}
-                              infiniteLoop={true}
-                              interval={2000}
-                    >
-                        <div>
-                            <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeImg}>
-                                <div className={classes['step-inner-info']}>
-                                    <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса или застани първи пред турникета в метрото. На екрана ще се изпише станцията
-                                        или
-                                        автобуса, в който си. След като
-                                        информацията е коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</h4>
-                                    {/*<span>Гледай видеото</span>*/}
-                                </div>
-                                <div className={classes['step-red-text']}>
-                                    <h3 className="h3 red-text centered strong">В метрото</h3>
-                                </div>
-                            </Step>
-                        </div>
-                        <div>
-                            <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeBusImg}>
-                                <div className={classes['step-inner-info']}>
-                                    <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса. На екрана ще се изпише линията, на която си. След като информацията е
-                                        коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.
-                                        В този архив е и кондукторското гифче, което трябва да е в карта след стъпка 3. Headline-a на картата трябва да е "Проверка", текста "стъпка" го махаме, а
-                                        текста в дясно трябва да е: Отвори приложението и покажи билета си на екрана.</h4>
-                                    {/*<span>Гледай видеото</span>*/}
-                                </div>
-                                <div className={classes['step-red-text']}>
-                                    <h3 className="h3 red-text centered strong">В автобуса</h3>
-                                </div>
-                            </Step>
-                        </div>
-                    </Carousel>
+                    {type && type === "sofia" ? <Carousel showArrows={false}
+                                                          autoPlay={true}
+                                                          showStatus={false}
+                                                          showIndicators={false}
+                                                          showThumbs={false}
+                                                          infiniteLoop={true}
+                                                          interval={2000}
+                        >
+                            <div>
+                                <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeImg}>
+                                    <div className={classes['step-inner-info']}>
+                                        <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса или застани първи пред турникета в метрото. На екрана ще се изпише станцията
+                                            или
+                                            автобуса, в който си. След като
+                                            информацията е коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</h4>
+                                        {/*<span>Гледай видеото</span>*/}
+                                    </div>
+                                    <div className={classes['step-red-text']}>
+                                        <h3 className="h3 red-text centered strong">В метрото</h3>
+                                    </div>
+                                </Step>
+                            </div>
+                            <div>
+                                <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeBusImg}>
+                                    <div className={classes['step-inner-info']}>
+                                        <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса. На екрана ще се изпише линията, на която си. След като информацията е
+                                            коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.
+                                            В този архив е и кондукторското гифче, което трябва да е в карта след стъпка 3. Headline-a на картата трябва да е "Проверка", текста "стъпка" го махаме, а
+                                            текста в дясно трябва да е: Отвори приложението и покажи билета си на екрана.</h4>
+                                        {/*<span>Гледай видеото</span>*/}
+                                    </div>
+                                    <div className={classes['step-red-text']}>
+                                        <h3 className="h3 red-text centered strong">В автобуса</h3>
+                                    </div>
+                                </Step>
+                            </div>
+                        </Carousel> :
+                        <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeBusImg}>
+                            <div className={classes['step-inner-info']}>
+                                <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса. На екрана ще се изпише линията, на която си. След като информацията е
+                                    коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.
+                                    В този архив е и кондукторското гифче, което трябва да е в карта след стъпка 3. Headline-a на картата трябва да е "Проверка", текста "стъпка" го махаме, а
+                                    текста в дясно трябва да е: Отвори приложението и покажи билета си на екрана.</h4>
+                                {/*<span>Гледай видеото</span>*/}
+                            </div>
+                            <div className={classes['step-red-text']}>
+                                <h3 className="h3 red-text centered strong">В автобуса</h3>
+                            </div>
+                        </Step>}
                 </section>
 
                 <section className={`${classes.privacy}`}>
