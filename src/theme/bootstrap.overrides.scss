@@ -1,5 +1,12 @@
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
+@import "~react-responsive-carousel/lib/styles/carousel.css";
+
+.carousel .slide {
+    background: none;
+}
+
+.carousel .slide img {
+    width: 245px;
+}
 
 /**
  * Override Bootstrap styles that you can't modify via variables here.

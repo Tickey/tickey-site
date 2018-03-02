@@ -9,10 +9,12 @@ import Step from '../reusable/Steps/Step';
 import stepOneImg from './img/1.gif';
 import stepTwoImg from './img/2.gif';
 import stepThreeImg from './img/3.gif';
+import stepThreeBusImg from './img/3_bus.gif';
 import * as Scroll from 'react-scroll';
 import {Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller} from 'react-scroll'
 import Modal from '../Modals/Modal';
-import Slider from 'react-slick';
+import {Carousel} from 'react-responsive-carousel';
+
 
 export default class Campaign extends Component {
 
@@ -57,7 +59,7 @@ export default class Campaign extends Component {
             infinite: true,
             speed: 500,
             slidesToShow: 1,
-            slidesToScroll: 1,
+            slidesToScroll: 10,
             autoplay: true,
             autoplaySpeed: 1000,
             fade: true
@@ -205,7 +207,14 @@ export default class Campaign extends Component {
                             <h3 className="h3 red-text centered strong">Как да добавя картата си?</h3>
                         </div>
                     </Step>
-                    <Slider {...settings}>
+                    <Carousel showArrows={false}
+                              autoPlay={true}
+                              showStatus={false}
+                              showIndicators={false}
+                              showThumbs={false}
+                              infiniteLoop={true}
+                              interval={2000}
+                    >
                         <div>
                             <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeImg}>
                                 <div className={classes['step-inner-info']}>
@@ -221,9 +230,12 @@ export default class Campaign extends Component {
                             </Step>
                         </div>
                         <div>
-                            <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeImg}>
+                            <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeBusImg}>
                                 <div className={classes['step-inner-info']}>
-                                    <h4 className="h4 centered">dasdasdaddната на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</h4>
+                                    <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса. На екрана ще се изпише линията, на която си. След като информацията е
+                                        коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.
+                                        В този архив е и кондукторското гифче, което трябва да е в карта след стъпка 3. Headline-a на картата трябва да е "Проверка", текста "стъпка" го махаме, а
+                                        текста в дясно трябва да е: Отвори приложението и покажи билета си на екрана.</h4>
                                     {/*<span>Гледай видеото</span>*/}
                                 </div>
                                 <div className={classes['step-red-text']}>
@@ -231,7 +243,7 @@ export default class Campaign extends Component {
                                 </div>
                             </Step>
                         </div>
-                    </Slider>
+                    </Carousel>
                 </section>
 
                 <section className={`${classes.privacy}`}>
