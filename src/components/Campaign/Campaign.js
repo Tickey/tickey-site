@@ -10,7 +10,10 @@ import stepOneImg from './img/1.gif';
 import stepTwoImg from './img/2.gif';
 import stepThreeImg from './img/3.gif';
 import stepFourImg from './img/Conductor_check.gif';
+import stepFourImgVarna from './img/Conductor_check_varna.gif';
 import stepThreeBusImg from './img/3_bus.gif';
+import stepThreeVarna from './img/3_varna.gif';
+
 import * as Scroll from 'react-scroll';
 import {Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller} from 'react-scroll'
 import Modal from '../Modals/Modal';
@@ -247,7 +250,7 @@ export default class Campaign extends Component {
                                 </Step>
                             </div>
                         </Carousel> :
-                        <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeBusImg}>
+                        <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeVarna}>
                             <div className={classes['step-inner-info']}>
                                 <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса или тролея. На екрана ще се изпише регистрационния номер на превозното средство,
                                     на която си. След като информацията е коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</h4>
@@ -255,7 +258,7 @@ export default class Campaign extends Component {
                             </div>
                         </Step>}
 
-                    <Step name="" title={<strong>ПРОВЕРКА</strong>} imgSource={stepFourImg}>
+                    <Step name="Стъпка 4" title={<strong>ПРОВЕРКА</strong>} imgSource={type && type === "sofia" ? stepFourImg : stepFourImgVarna}>
                         <div className={classes['step-inner-info']}>
                             <h4 className="h4 centered">
                                 Отвори приложението и покажи билета си на екрана.
