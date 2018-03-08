@@ -9,6 +9,7 @@ import Step from '../reusable/Steps/Step';
 import stepOneImg from './img/1.gif';
 import stepTwoImg from './img/2.gif';
 import stepThreeImg from './img/3.gif';
+import stepFourImg from './img/Conductor_check.gif';
 import stepThreeBusImg from './img/3_bus.gif';
 import * as Scroll from 'react-scroll';
 import {Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller} from 'react-scroll'
@@ -51,6 +52,10 @@ export default class Campaign extends Component {
         this.setState({
             videoBusModal: !this.state.videoBusModal
         })
+    }
+
+    ofFaqClick = () => {
+        this.pushState("")
     }
 
     render() {
@@ -213,7 +218,7 @@ export default class Campaign extends Component {
                                                           showIndicators={false}
                                                           showThumbs={false}
                                                           infiniteLoop={true}
-                                                          interval={2000}
+                                                          interval={5000}
                         >
                             <div>
                                 <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeImg}>
@@ -233,9 +238,7 @@ export default class Campaign extends Component {
                                 <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeBusImg}>
                                     <div className={classes['step-inner-info']}>
                                         <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса. На екрана ще се изпише линията, на която си. След като информацията е
-                                            коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.
-                                            В този архив е и кондукторското гифче, което трябва да е в карта след стъпка 3. Headline-a на картата трябва да е "Проверка", текста "стъпка" го махаме, а
-                                            текста в дясно трябва да е: Отвори приложението и покажи билета си на екрана.</h4>
+                                            коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</h4>
                                         {/*<span>Гледай видеото</span>*/}
                                     </div>
                                     <div className={classes['step-red-text']}>
@@ -246,16 +249,19 @@ export default class Campaign extends Component {
                         </Carousel> :
                         <Step name="Стъпка 3" title={<span><strong><span>Купи б</span>илет</strong> с един клик</span>} imgSource={stepThreeBusImg}>
                             <div className={classes['step-inner-info']}>
-                                <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса. На екрана ще се изпише линията, на която си. След като информацията е
-                                    коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.
-                                    В този архив е и кондукторското гифче, което трябва да е в карта след стъпка 3. Headline-a на картата трябва да е "Проверка", текста "стъпка" го махаме, а
-                                    текста в дясно трябва да е: Отвори приложението и покажи билета си на екрана.</h4>
+                                <h4 className="h4 centered">След като имаш добавен платежен инструмент, влез в автобуса или тролея. На екрана ще се изпише регистрационния номер на превозното средство,
+                                    на която си. След като информацията е коректна, виждаш цената на билета в големия зелен бутон и го натискаш, за да потвърдиш плащането на билета.</h4>
                                 {/*<span>Гледай видеото</span>*/}
                             </div>
-                            <div className={classes['step-red-text']}>
-                                <h3 className="h3 red-text centered strong">В автобуса</h3>
-                            </div>
                         </Step>}
+
+                    <Step name="" title={<strong>ПРОВЕРКА</strong>} imgSource={stepFourImg}>
+                        <div className={classes['step-inner-info']}>
+                            <h4 className="h4 centered">
+                                Отвори приложението и покажи билета си на екрана.
+                            </h4>
+                        </div>
+                    </Step>
                 </section>
 
                 <section className={`${classes.privacy}`}>
@@ -278,7 +284,7 @@ export default class Campaign extends Component {
                         <h4 className="h4 centered strong">ИМАШ ОЩЕ ВЪПРОСИ, НА КОИТО НЕ СМЕ ОТГОВОРИЛИ?</h4>
                         <p className="text-14 centered">Отиди към FAQ и виж какво са попитали другите или ни пиши.</p>
                         <div className={`col-xs-6 col-md-6 mt-10`}>
-                            <Button type="gray-bordered" label="FAQ" addedClass="strong"/>
+                            <a href="/faq" type="gray-bordered" className={classes['link-btn']}>FAQ</a>
                         </div>
                         <div className={`col-xs-6 col-md-6  mt-10`}>
                             <Button type="gray-bordered" label="Пиши ни" addedClass="strong" onClick={writeUs}/>

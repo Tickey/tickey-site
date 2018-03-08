@@ -215,6 +215,25 @@
     width: 100px;
 }
 
+.link-btn {
+    display: inline-block;
+    min-width: 70px;
+    width: 100%;
+    padding: 10px;
+    font: 400 16px/1 'Open Sans', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    color: $dark-gray;
+    border: 2px solid $dark-gray;
+    font-weight: bold;
+}
+
+.link-btn:hover {
+    text-decoration: none;
+}
+
 @media (min-width: 768px) {
 
     .how-it-works button {
