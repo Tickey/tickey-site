@@ -2,6 +2,8 @@ import React, {Component, PropTypes} from 'react';
 import ReactDOM from 'react-dom/server';
 import serialize from 'serialize-javascript';
 import Helmet from 'react-helmet';
+import ReactPixel from 'react-facebook-pixel';
+
 
 /**
  * Wrapper component containing HTML metadata and boilerplate tags.
@@ -23,6 +25,12 @@ export default class Html extends Component {
         assets: {}
     };
 
+    componentDidMount() {
+        ReactPixel.init('177058916249553');
+        React.pageView();
+    }
+
+
     render() {
         const {assets, component, store} = this.props;
         const content = component ? ReactDOM.renderToString(component) : '';
@@ -42,9 +50,9 @@ export default class Html extends Component {
                 <link rel="manifest" href="manifest.json"/>
                 <meta name="mobile-web-app-capable" content="yes"/>
                 <meta name="apple-mobile-web-app-capable" content="yes"/>
-                <meta name="application-name" content="Zdravei"/>
+                <meta name="application-name" content="Tickey"/>
                 <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-                <meta name="apple-mobile-web-app-title" content="Zdravei"/>
+                <meta name="apple-mobile-web-app-title" content="Tickey"/>
                 <meta name="theme-color" content="#3677dd"/>
                 {/* styles (will be present only in production with webpack extract text plugin) */}
                 {assets.styles && Object.keys(assets.styles).map(style =>
@@ -70,6 +78,7 @@ export default class Html extends Component {
             {/* (will be present only in development mode) */}
             {assets.styles && Object.keys(assets.styles).length === 0 ? <script
                 dangerouslySetInnerHTML={{__html: 'document.getElementById("content").style.display="block";'}}/> : null}
+            {<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61495195-1"/>}
 
             </body>
             <script type="text/javascript"

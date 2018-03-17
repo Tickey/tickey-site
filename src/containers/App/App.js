@@ -79,13 +79,24 @@ export default class App extends Component {
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav navbar pullRight>
+                            <li>
+                                <a href="/sofia">
+                                    София
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/varna">
+                                    Варна
+                                </a>
+                            </li>
 
-                            <LinkContainer to="/sofia">
+
+                            {/*                            <LinkContainer to="/sofia">
                                 <NavItem>София</NavItem>
                             </LinkContainer>
                             <LinkContainer to="/varna">
                                 <NavItem>Варна</NavItem>
-                            </LinkContainer>
+                            </LinkContainer>*/}
                             <LinkContainer to="/faq">
                                 <NavItem>FAQ</NavItem>
                             </LinkContainer>

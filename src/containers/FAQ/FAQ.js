@@ -15,6 +15,7 @@ export default class FAQ extends Component {
     render() {
         return (
             <div className={`container wrapper-middle ${classes.faq}`}>
+                <Helmet title="- Често задавани въпроси"/>
                 <h1>Често задавани <strong>въпроси</strong></h1>
                 <p className={classes['red-text']}>задай въпрос</p>
                 {questions.map(item =>

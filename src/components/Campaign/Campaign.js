@@ -62,16 +62,6 @@ export default class Campaign extends Component {
     }
 
     render() {
-        const settings = {
-            dots: false,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 10,
-            autoplay: true,
-            autoplaySpeed: 1000,
-            fade: true
-        };
         const {onDownloadClick, writeUs, type} = this.props;
         const metroStations = ['Люлин',
             'Константин Величков',
@@ -92,6 +82,11 @@ export default class Campaign extends Component {
 
         return (
             <div className={classes[type]}>
+                {type && type === "sofia" ?
+                    <Helmet title="- София"
+                            meta={[{name: "keywords", content: "градски транспорт, летище София, билет, транспорт, трансферт, парк, смартфон, нощен транспорт, метро София, Метрополитен, ЦГМ"}]}/> :
+                    <Helmet title="- Варна" meta={[{name: "keywords", content: "градски транспорт, летище Варна, билет, транспорт, трансферт, морска градина, смартфон."}]}/>}
+
                 {this.state.videoMetroModal &&
                 <Modal title="Как работи Tickey в метрото" onCloseClick={this.toggleMetroVideo}>
                     <iframe max-width="560" width="100%" height="315" src="https://www.youtube.com/embed/WHVLaoy1LLo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen/>
@@ -160,7 +155,7 @@ export default class Campaign extends Component {
                             <p className={`${classes['info-text']} text-14 gray-text centered clearfix`}>*През приложението може да закупите само
                                 по една карта за екнократно пътуване.</p>
                             <ol start="1">
-                                {metroStations.map(station => <li className="strong">{station}</li>)}
+                                {metroStations.map((station, index) => <li className="strong" key={index}>{station}</li>)}
                             </ol>
                             <p className={`${classes['bottom-red-text']} red-text strong centered text-16`}>Виж на картата</p>
                         </div>
@@ -218,7 +213,6 @@ export default class Campaign extends Component {
                     {type && type === "sofia" ? <Carousel showArrows={false}
                                                           autoPlay={true}
                                                           showStatus={false}
-                                                          showIndicators={false}
                                                           showThumbs={false}
                                                           infiniteLoop={true}
                                                           interval={5000}
